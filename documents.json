@@ -42,17 +42,29 @@
       "categoryName": "Requirements Engineering",
       "status": "Baseline",
       "author": "Dhamdhawach Horsuwan",
-      "latestVersion": "v1.0",
-      "latestFile": "docs/latest/MARS-REQ-001_v1.0.pdf",
+      "latestVersion": "v1.1",
+      "latestFile": "docs/latest/MARS-REQ-001_v1.1.pdf",
       "sourceFile": "docs/source/MARS-REQ-001_Stakeholder-Needs-and-Requirements.md",
-      "summary": "Identifies the 8 core stakeholder and research needs (RN-01 to RN-08) for a mobile robot platform supporting multi-agent experiments based on practical experience operating a four-robot team: fleet scalability, decentralized coordination, behavioral consistency, hardware/software adaptability, fleet-level endurance, environmental interaction, centralized telemetry/logging, and usability/reproducibility.",
+      "summary": "Identifies the 6 intended stakeholder groups (SH-01 to SH-06), defines a 3-tier stakeholder priority classification (Essential, Important, Desirable), and distinguishes researcher-perspective Research Needs (RN-01 to RN-08) from derived platform Stakeholder Requirements (SR-01 to SR-08).",
       "versions": [
+        {
+          "version": "v1.1",
+          "date": "2026-11-12",
+          "author": "Dhamdhawach Horsuwan",
+          "file": "docs/latest/MARS-REQ-001_v1.1.pdf",
+          "isLatest": true,
+          "changes": [
+            "A. Distinguished Research Needs (RN-01..RN-08, expressed from the researcher/stakeholder outcome perspective) from derived Stakeholder Requirements (SR-01..SR-08, expressing expected platform capabilities)",
+            "B. Added Section 1: Identified Stakeholders (SH-01 MARS Researchers, SH-02 Robotics & Hardware Developers, SH-03 Software & Algorithm Developers, SH-04 Experimental Operators, SH-05 Laboratory Technicians, SH-06 External Research Collaborators)",
+            "C. Added Section 2: Stakeholder Priority Classification (Essential, Important, Desirable) and tagged all 8 Need/Requirement pairs with priorities and primary stakeholders"
+          ]
+        },
         {
           "version": "v1.0",
           "date": "2026-11-12",
           "author": "Dhamdhawach Horsuwan",
-          "file": "docs/latest/MARS-REQ-001_v1.0.pdf",
-          "isLatest": true,
+          "file": "docs/archive/MARS-REQ-001_v1.0.pdf",
+          "isLatest": false,
           "changes": [
             "Initial baseline release of Stakeholder Needs and Requirements specification (RN-01 through RN-08)",
             "RN-01 & RN-02: Defined fleet scalability, cost-effectiveness, and decentralized inter-robot communication needs",

@@ -1,0 +1,556 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 7 0 R >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> /Contents 8 0 R >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Length 12611 >>
+stream
+0.010 0.520 0.780 rg
+BT /F2 7.80 Tf 40.00 805.89 Td (MULTI-AGENT ROBOTIC SYSTEMS \(MARS\)  |  HARDWARE PLATFORM DEVELOPMENT) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.20 Tf 447.28 805.89 Td (DOC ID: MARS-REQ-001) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 16.50 Tf 40.00 787.89 Td (Stakeholder Needs and Requirements) Tj ET
+0.280 0.330 0.410 rg
+BT /F1 8.20 Tf 447.28 789.89 Td (VERSION: v1.1  |  Page 1/2) Tj ET
+0.010 0.520 0.780 RG
+1.60 w 40.00 779.89 m 555.28 779.89 l S
+0.960 0.970 0.990 rg
+0.790 0.840 0.880 RG
+0.65 w
+40.00 743.89 515.28 30.00 re B
+0.55 w 40.00 758.89 m 555.28 758.89 l S
+0.55 w 297.64 743.89 m 297.64 773.89 l S
+0.200 0.250 0.330 rg
+BT /F2 8.20 Tf 48.00 762.39 Td (Author:) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 8.50 Tf 92.00 762.39 Td (Dhamdhawach Horsuwan) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.20 Tf 305.64 762.39 Td (Document ID:) Tj ET
+0.060 0.090 0.160 rg
+BT /F1 8.20 Tf 369.64 762.39 Td (MARS-REQ-001 \(v1.1\)) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.20 Tf 48.00 748.39 Td (Phase:) Tj ET
+0.060 0.090 0.160 rg
+BT /F1 8.20 Tf 92.00 748.39 Td (Requirements Engineering) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.20 Tf 305.64 748.39 Td (Release Date:) Tj ET
+0.060 0.090 0.160 rg
+BT /F1 8.20 Tf 369.64 748.39 Td (2026-11-12 \(Supersedes v1.0\)) Tj ET
+0.970 0.980 1.000 rg
+0.850 0.900 0.950 RG
+0.60 w
+40.00 681.09 515.28 54.80 re B
+0.010 0.520 0.780 rg
+1.00 w
+40.00 681.09 3.00 54.80 re f
+0.120 0.160 0.230 rg
+BT /F1 8.60 Tf 50.00 724.39 Td (Multi-Agent Robotic Systems \(MARS\) research requires a mobile robot platform capable of supporting experiments) Tj ET
+0.120 0.160 0.230 rg
+BT /F1 8.60 Tf 50.00 713.19 Td (involving multiple autonomous agents operating and interacting within a shared environment. Based on practical) Tj ET
+0.120 0.160 0.230 rg
+BT /F1 8.60 Tf 50.00 701.99 Td (experience operating a four-robot team, this specification identifies key stakeholders, defines priority tiers, and) Tj ET
+0.120 0.160 0.230 rg
+BT /F1 8.60 Tf 50.00 690.79 Td (distinguishes stakeholder Research Needs \(RN-01 to RN-08\) from derived Stakeholder Requirements \(SR-01 to SR-08\).) Tj ET
+0.010 0.410 0.630 rg
+BT /F2 11.00 Tf 40.00 665.09 Td (1. Identified Stakeholders) Tj ET
+1.000 1.000 1.000 rg
+0.800 0.850 0.900 RG
+0.60 w
+40.00 557.59 515.28 101.50 re B
+0.930 0.960 0.990 rg
+1.00 w
+40.50 644.59 514.28 14.00 re f
+0.150 0.200 0.280 rg
+BT /F2 8.00 Tf 46.00 648.59 Td (ID) Tj ET
+0.150 0.200 0.280 rg
+BT /F2 8.00 Tf 88.00 648.59 Td (Stakeholder Group) Tj ET
+0.150 0.200 0.280 rg
+BT /F2 8.00 Tf 235.00 648.59 Td (Primary Role & Engineering Interest) Tj ET
+0.880 0.910 0.940 RG
+0.50 w 40.00 644.59 m 555.28 644.59 l S
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 46.00 634.09 Td (SH-01) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 7.80 Tf 85.00 634.09 Td (MARS Researchers) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 7.40 Tf 228.00 634.09 Td (Formulate hypotheses, conduct multi-agent experiments, and publish reproducible findings.) Tj ET
+0.880 0.910 0.940 RG
+0.50 w 40.00 630.09 m 555.28 630.09 l S
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 46.00 619.59 Td (SH-02) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 7.80 Tf 85.00 619.59 Td (Robotics & Hardware Developers) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 7.40 Tf 228.00 619.59 Td (Design, fabricate, extend, and integrate mechanical, power, sensor, and actuator modules.) Tj ET
+0.880 0.910 0.940 RG
+0.50 w 40.00 615.59 m 555.28 615.59 l S
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 46.00 605.09 Td (SH-03) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 7.80 Tf 85.00 605.09 Td (Software & Algorithm Developers) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 7.40 Tf 228.00 605.09 Td (Implement and test decentralized control, perception, estimation, and communication software.) Tj ET
+0.880 0.910 0.940 RG
+0.50 w 40.00 601.09 m 555.28 601.09 l S
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 46.00 590.59 Td (SH-04) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 7.80 Tf 85.00 590.59 Td (Experimental Operators) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 7.40 Tf 228.00 590.59 Td (Configure, deploy, monitor, and supervise robot fleets safely during experimental runs.) Tj ET
+0.880 0.910 0.940 RG
+0.50 w 40.00 586.59 m 555.28 586.59 l S
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 46.00 576.09 Td (SH-05) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 7.80 Tf 85.00 576.09 Td (Laboratory Technicians) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 7.40 Tf 228.00 576.09 Td (Perform fleet charging, battery replacement, calibration, maintenance, and repairs.) Tj ET
+0.880 0.910 0.940 RG
+0.50 w 40.00 572.09 m 555.28 572.09 l S
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 46.00 561.59 Td (SH-06) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 7.80 Tf 85.00 561.59 Td (External Research Collaborators) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 7.40 Tf 228.00 561.59 Td (Reproduce experiments, share modules, and adopt or adapt the platform across laboratories.) Tj ET
+0.010 0.410 0.630 rg
+BT /F2 11.00 Tf 40.00 541.59 Td (2. Stakeholder Priority Classification) Tj ET
+0.980 0.990 1.000 rg
+0.820 0.860 0.910 RG
+0.60 w
+40.00 499.59 515.28 37.00 re B
+0.990 0.910 0.910 rg
+1.00 w
+48.00 521.59 50.00 11.50 re f
+0.720 0.110 0.110 rg
+BT /F2 7.40 Tf 52.50 524.09 Td (Essential) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.20 Tf 106.00 524.09 Td (Fundamental to core multi-agent experimentation; mandatory for the baseline platform.) Tj ET
+0.990 0.950 0.860 rg
+1.00 w
+48.00 510.59 52.00 11.50 re f
+0.700 0.400 0.020 rg
+BT /F2 7.40 Tf 52.50 513.09 Td (Important) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.20 Tf 106.00 513.09 Td (Significantly enhances experimental versatility and fleet efficiency; strongly targeted for inclusion.) Tj ET
+0.900 0.960 0.930 rg
+1.00 w
+48.00 499.59 50.00 11.50 re f
+0.050 0.470 0.300 rg
+BT /F2 7.40 Tf 52.50 502.09 Td (Desirable) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.20 Tf 106.00 502.09 Td (Adds advanced interaction, convenience, or cross-lab transferability within cost/complexity margins.) Tj ET
+0.010 0.410 0.630 rg
+BT /F2 11.00 Tf 40.00 483.59 Td (3. Research Needs \(RN\) and Derived Stakeholder Requirements \(SR\)) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 388.59 515.28 90.00 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 461.09 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 461.09 m 555.28 461.09 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 464.59 Td (1. Scalability of Multi-Agent Experiments) Tj ET
+0.990 0.910 0.910 rg
+1.00 w
+497.28 462.09 50.00 11.50 re f
+0.720 0.110 0.110 rg
+BT /F2 7.40 Tf 501.78 464.59 Td (Essential) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 365.03 464.59 Td (Stakeholders: SH-01, SH-02, SH-04) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 447.39 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 449.59 Td (RN-01 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 449.59 Td (Researchers need to conduct experiments involving different numbers of autonomous robots to investigate) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 438.99 Td (how fleet size affects coordination performance, communication, task allocation, and overall multi-agent) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 428.39 Td (system behavior without prohibitive per-unit costs.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 421.79 m 547.28 421.79 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 412.09 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 414.29 Td (SR-01 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 414.29 Td (The platform shall support scalable multi-robot deployments across varying fleet sizes and maintain a) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 403.69 Td (cost-effective unit design that enables the acquisition and operation of larger robot teams.) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 281.99 515.28 100.60 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 365.09 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 365.09 m 555.28 365.09 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 368.59 Td (2. Decentralized Coordination and Communication) Tj ET
+0.990 0.910 0.910 rg
+1.00 w
+497.28 366.09 50.00 11.50 re f
+0.720 0.110 0.110 rg
+BT /F2 7.40 Tf 501.78 368.59 Td (Essential) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 391.01 368.59 Td (Stakeholders: SH-01, SH-03) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 351.39 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 353.59 Td (RN-02 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 353.59 Td (Researchers and algorithm developers need to investigate decentralized multi-agent architectures in which) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 342.99 Td (robots exchange information directly and make autonomous decisions under dynamic network topologies) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 332.39 Td (without relying on a central server.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 325.79 m 547.28 325.79 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 316.09 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 318.29 Td (SR-02 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 318.29 Td (The platform shall provide onboard computation and peer-to-peer wireless communication interfaces that) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 307.69 Td (support decentralized decision-making and dynamic network topologies without requiring a centralized control) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 297.09 Td (server.) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 185.99 515.28 90.00 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 258.49 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 258.49 m 555.28 258.49 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 261.99 Td (3. Consistent and Predictable Robot Behavior) Tj ET
+0.990 0.910 0.910 rg
+1.00 w
+497.28 259.49 50.00 11.50 re f
+0.720 0.110 0.110 rg
+BT /F2 7.40 Tf 501.78 261.99 Td (Essential) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 365.03 261.99 Td (Stakeholders: SH-01, SH-03, SH-05) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 244.79 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 246.99 Td (RN-03 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 246.99 Td (Researchers need individual robots within a team to exhibit consistent locomotion, sensing, and state) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 236.39 Td (estimation so that experimental outcomes reflect algorithmic performance rather than hardware-induced) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 225.79 Td (unit-to-unit variations.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 219.19 m 547.28 219.19 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 209.49 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 211.69 Td (SR-03 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 211.69 Td (The platform shall deliver repeatable and uniform motor response, odometry, localization accuracy, and) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 201.09 Td (sensor performance across all robot units in the fleet.) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 89.99 515.28 90.00 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 162.49 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 162.49 m 555.28 162.49 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 165.99 Td (4. Adaptability to Different Research Problems) Tj ET
+0.990 0.950 0.860 rg
+1.00 w
+497.28 163.49 52.00 11.50 re f
+0.700 0.400 0.020 rg
+BT /F2 7.40 Tf 501.78 165.99 Td (Important) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 365.03 165.99 Td (Stakeholders: SH-01, SH-02, SH-03) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 148.79 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 150.99 Td (RN-04 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 150.99 Td (Researchers and developers need to evaluate diverse algorithms, sensors, actuators, and experimental) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 140.39 Td (payloads across multiple projects without redesigning the core robot platform for each study.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 133.79 m 547.28 133.79 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 124.09 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 126.29 Td (SR-04 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 126.29 Td (The platform shall feature modular mechanical mounting, standardized electrical/communication interfaces,) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 115.69 Td (and extensible software architecture to allow adding or swapping sensors, actuators, and compute modules) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 105.09 Td (without full-system redesign.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 40.00 34.00 m 555.28 34.00 l S
+0.390 0.450 0.550 rg
+BT /F1 7.80 Tf 40.00 24.00 Td (MARS-Hardware-dev  |  Requirements Engineering Specification \(MARS-REQ-001 v1.1\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 7.80 Tf 360.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 1 of 2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Length 8315 >>
+stream
+0.010 0.520 0.780 rg
+BT /F2 7.80 Tf 40.00 805.89 Td (MULTI-AGENT ROBOTIC SYSTEMS \(MARS\)  |  HARDWARE PLATFORM DEVELOPMENT) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.20 Tf 447.28 805.89 Td (DOC ID: MARS-REQ-001) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 16.50 Tf 40.00 787.89 Td (Stakeholder Needs and Requirements) Tj ET
+0.280 0.330 0.410 rg
+BT /F1 8.20 Tf 447.28 789.89 Td (VERSION: v1.1  |  Page 2/2) Tj ET
+0.010 0.520 0.780 RG
+1.60 w 40.00 779.89 m 555.28 779.89 l S
+0.010 0.410 0.630 rg
+BT /F2 11.00 Tf 40.00 763.89 Td (3. Research Needs \(RN\) and Derived Stakeholder Requirements \(SR\) \(Continued\)) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 668.89 515.28 90.00 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 741.39 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 741.39 m 555.28 741.39 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 744.89 Td (5. Reliable Long-Term and Fleet-Level Operation) Tj ET
+0.990 0.910 0.910 rg
+1.00 w
+497.28 742.39 50.00 11.50 re f
+0.720 0.110 0.110 rg
+BT /F2 7.40 Tf 501.78 744.89 Td (Essential) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 365.03 744.89 Td (Stakeholders: SH-01, SH-04, SH-05) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 727.69 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 729.89 Td (RN-05 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 729.89 Td (Experimental operators and technicians need to run multiple robots concurrently over extended experimental) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 719.29 Td (sessions with minimal downtime for recharging, battery swaps, routine maintenance, or fault recovery.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 712.69 m 547.28 712.69 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 702.99 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 705.19 Td (SR-05 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 705.19 Td (The platform shall incorporate reliable power management, integrated battery protection, accessible battery) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 694.59 Td (replacement, efficient fleet charging, and modular serviceability to minimize operational downtime as fleet) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 683.99 Td (size scales.) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 562.29 515.28 100.60 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 645.39 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 645.39 m 555.28 645.39 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 648.89 Td (6. Environmental Awareness and Physical Interaction) Tj ET
+0.990 0.950 0.860 rg
+1.00 w
+457.28 646.39 94.00 11.50 re f
+0.700 0.400 0.020 rg
+BT /F2 7.40 Tf 461.78 648.89 Td (Important / Desirable) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 325.03 648.89 Td (Stakeholders: SH-01, SH-02, SH-03) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 631.69 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 633.89 Td (RN-06 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 633.89 Td (Researchers need robots to perceive and navigate cluttered shared environments safely, avoid inter-robot) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 623.29 Td (and obstacle collisions, and-when required by specific studies-physically interact with objects or perform) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 612.69 Td (cooperative transport.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 606.09 m 547.28 606.09 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 596.39 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 598.59 Td (SR-06 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 598.59 Td (The platform shall provide onboard environmental sensing for navigation and collision avoidance \(Important\),) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 587.99 Td (and shall accommodate optional mechanical attachments or payloads for physical interaction and cooperative) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 577.39 Td (object transport \(Desirable\).) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 455.69 515.28 100.60 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 538.79 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 538.79 m 555.28 538.79 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 542.29 Td (7. Experimental Monitoring and Data Collection) Tj ET
+0.990 0.950 0.860 rg
+1.00 w
+497.28 539.79 52.00 11.50 re f
+0.700 0.400 0.020 rg
+BT /F2 7.40 Tf 501.78 542.29 Td (Important) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 365.03 542.29 Td (Stakeholders: SH-01, SH-03, SH-04) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 525.09 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 527.29 Td (RN-07 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 527.29 Td (Researchers and operators need to observe, record, and analyze the real-time state and historical behavior) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 516.69 Td (of both individual robots and the collective fleet without interfering with the robots' decentralized) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 506.09 Td (autonomy.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 499.49 m 547.28 499.49 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 489.79 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 491.99 Td (SR-07 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 491.99 Td (The platform shall support non-intrusive centralized fleet monitoring, real-time telemetry streaming,) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 481.39 Td (synchronized experimental data logging, and visualization tools while preserving decentralized onboard) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 470.79 Td (execution.) Tj ET
+1.000 1.000 1.000 rg
+0.830 0.870 0.920 RG
+0.65 w
+40.00 349.09 515.28 100.60 re B
+0.960 0.980 1.000 rg
+1.00 w
+40.50 432.19 514.28 17.00 re f
+0.880 0.910 0.950 RG
+0.50 w 40.00 432.19 m 555.28 432.19 l S
+0.060 0.090 0.160 rg
+BT /F2 9.40 Tf 48.00 435.69 Td (8. Usability, Reproducibility, and Technology Transfer) Tj ET
+0.900 0.960 0.930 rg
+1.00 w
+497.28 433.19 50.00 11.50 re f
+0.050 0.470 0.300 rg
+BT /F2 7.40 Tf 501.78 435.69 Td (Desirable) Tj ET
+0.350 0.410 0.500 rg
+BT /F1 7.40 Tf 339.06 435.69 Td (Stakeholders: SH-01, SH-04, SH-05, SH-06) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+48.00 418.49 44.00 11.00 re f
+0.010 0.410 0.630 rg
+BT /F2 7.30 Tf 51.50 420.69 Td (RN-08 Need) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 420.69 Td (Researchers, students, and external collaborators from varied engineering and software backgrounds need to) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 410.09 Td (onboard quickly, reproduce experimental setups reliably, and replicate or adopt the platform across different) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 399.49 Td (research groups.) Tj ET
+0.910 0.930 0.960 RG
+0.40 w 48.00 392.89 m 547.28 392.89 l S
+0.910 0.900 0.990 rg
+1.00 w
+48.00 383.19 44.00 11.00 re f
+0.360 0.180 0.680 rg
+BT /F2 7.30 Tf 51.50 385.39 Td (SR-08 Req) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 385.39 Td (The platform shall provide intuitive user interfaces, standardized configuration workflows, built-in) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 374.79 Td (diagnostic indicators, and comprehensive documentation to reduce the learning curve and facilitate) Tj ET
+0.150 0.200 0.280 rg
+BT /F1 8.50 Tf 100.00 364.19 Td (reproducibility and technology transfer.) Tj ET
+0.010 0.410 0.630 rg
+BT /F2 11.00 Tf 40.00 331.09 Td (4. Revision History & Traceability Log) Tj ET
+0.980 0.990 1.000 rg
+0.800 0.850 0.900 RG
+0.60 w
+40.00 281.09 515.28 44.00 re B
+0.50 w 40.00 303.09 m 555.28 303.09 l S
+0.010 0.410 0.630 rg
+BT /F2 8.00 Tf 48.00 309.59 Td (v1.1 \(2026-11-12\)) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 7.80 Tf 122.00 309.59 Td (Separated Research Needs \(RN-01..08\) & Stakeholder Requirements \(SR-01..08\); added Stakeholders & Priorities.) Tj ET
+0.010 0.410 0.630 rg
+BT /F2 8.00 Tf 48.00 287.59 Td (v1.0 \(2026-11-12\)) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 7.80 Tf 122.00 287.59 Td (Initial baseline release defining the 8 core multi-agent robotic system needs \(RN-01..08\). Archived in docs/archive/.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 40.00 34.00 m 555.28 34.00 l S
+0.390 0.450 0.550 rg
+BT /F1 7.80 Tf 40.00 24.00 Td (MARS-Hardware-dev  |  Requirements Engineering Specification \(MARS-REQ-001 v1.1\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 7.80 Tf 360.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 2 of 2) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Title (MARS-REQ-001: Stakeholder Needs and Requirements v1.1) /Author (Dhamdhawach Horsuwan) /Subject (Multi-Agent Robotic Systems Requirements Engineering) >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000127 00000 n 
+0000000269 00000 n 
+0000000411 00000 n 
+0000000508 00000 n 
+0000000610 00000 n 
+0000013274 00000 n 
+0000021641 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R /Info 9 0 R >>
+startxref
+21820
+%%EOF

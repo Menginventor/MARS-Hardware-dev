@@ -973,8 +973,8 @@
           <a href="docs/latest/MARS-REQ-002_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
             Open CONOPS PDF (MARS-REQ-002 v1.0)
           </a>
-          <a href="docs/latest/MARS-REQ-001_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-safety">
-            Open Stakeholder Needs PDF (MARS-REQ-001 v1.0)
+          <a href="docs/latest/MARS-REQ-001_v1.1.pdf" target="_blank" rel="noopener" class="btn btn-safety">
+            Open Stakeholder Needs PDF (MARS-REQ-001 v1.1)
           </a>
           <a href="#document-registry" class="btn">Version History &amp; Registry</a>
         </div>
@@ -1157,64 +1157,72 @@
       </div>
     </section>
 
-    <!-- Active Specification Overview 2: Stakeholder Needs and Requirements (MARS-REQ-001) -->
+    <!-- Active Specification Overview 2: Stakeholder Needs and Requirements (MARS-REQ-001 v1.1) -->
     <section class="spec-preview-card" aria-label="Stakeholder Needs and Requirements Summary">
       <div class="spec-preview-header">
         <div>
           <div class="doc-meta-top">
             <span class="doc-id">MARS-REQ-001</span>
-            <span class="badge badge-cat">Version v1.0 (1 Page)</span>
+            <span class="badge badge-cat">Version v1.1 (2 Pages)</span>
             <span class="badge badge-status">Baseline Release</span>
             <span class="badge badge-cat">Author: Dhamdhawach Horsuwan</span>
           </div>
           <h3 style="font-size: 1.32rem; font-weight: 800; margin-top: 0.35rem;">Stakeholder Needs and Requirements</h3>
         </div>
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-          <button class="btn" type="button" onclick="openPdfModal('MARS-REQ-001: Stakeholder Needs and Requirements (v1.0)', 'docs/latest/MARS-REQ-001_v1.0.pdf')">
-            Preview PDF
+          <button class="btn" type="button" onclick="openPdfModal('MARS-REQ-001: Stakeholder Needs and Requirements (v1.1)', 'docs/latest/MARS-REQ-001_v1.1.pdf')">
+            Preview PDF (v1.1)
           </button>
-          <a class="btn btn-primary" href="docs/latest/MARS-REQ-001_v1.0.pdf" target="_blank" rel="noopener">
-            Download PDF (v1.0)
+          <a class="btn btn-primary" href="docs/latest/MARS-REQ-001_v1.1.pdf" target="_blank" rel="noopener">
+            Download PDF (v1.1)
           </a>
         </div>
       </div>
 
-      <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 0.65rem;">
-        Based on practical experience operating a four-robot team, eight high-level stakeholder and research needs have been identified for the MARS platform:
+      <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 0.85rem;">
+        Identifies the six intended stakeholder groups (<code>SH-01</code> MARS Researchers, <code>SH-02</code> Robotics &amp; Hardware Developers, <code>SH-03</code> Software &amp; Algorithm Developers, <code>SH-04</code> Experimental Operators, <code>SH-05</code> Laboratory Technicians, <code>SH-06</code> External Research Collaborators), defines a three-tier priority scheme (<strong>Essential</strong>, <strong>Important</strong>, <strong>Desirable</strong>), and distinguishes researcher-perspective <strong>Research Needs (<code>RN-01</code> – <code>RN-08</code>)</strong> from derived platform <strong>Stakeholder Requirements (<code>SR-01</code> – <code>SR-08</code>)</strong>:
       </p>
 
       <div class="needs-grid">
         <div class="need-box">
-          <h4><span class="need-code">RN-01</span> 1. Scalability of Multi-Agent Experiments</h4>
-          <p>Support different fleet sizes and cost-effective deployment of larger robot teams to study how agent count impacts coordination and task allocation.</p>
+          <h4><span class="need-code">RN-01 / SR-01</span> 1. Scalability of Multi-Agent Experiments</h4>
+          <p><strong>Need (RN-01):</strong> Researchers need to conduct experiments involving different numbers of autonomous robots to investigate how fleet size affects coordination, communication, and task allocation.<br/><strong>Req (SR-01):</strong> Scalable, cost-effective unit design supporting varying fleet sizes.</p>
+          <span class="usecase-tag">Priority: Essential · Stakeholders: SH-01, SH-02, SH-04</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-02</span> 2. Decentralized Coordination and Communication</h4>
-          <p>Support direct inter-robot communication and dynamic network topologies without requiring a centralized decision-making server.</p>
+          <h4><span class="need-code">RN-02 / SR-02</span> 2. Decentralized Coordination &amp; Comms</h4>
+          <p><strong>Need (RN-02):</strong> Researchers need to investigate decentralized architectures where robots exchange information directly and make autonomous decisions without a central server.<br/><strong>Req (SR-02):</strong> Onboard compute and peer-to-peer wireless communication supporting dynamic topologies.</p>
+          <span class="usecase-tag">Priority: Essential · Stakeholders: SH-01, SH-03</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-03</span> 3. Consistent and Predictable Robot Behavior</h4>
-          <p>Provide repeatable locomotion, sensing, and state estimation across all units in the fleet to preserve experimental validity.</p>
+          <h4><span class="need-code">RN-03 / SR-03</span> 3. Consistent &amp; Predictable Robot Behavior</h4>
+          <p><strong>Need (RN-03):</strong> Researchers need consistent locomotion, sensing, and state estimation across units so outcomes reflect algorithmic performance rather than hardware variance.<br/><strong>Req (SR-03):</strong> Uniform motor response, odometry, localization, and sensor performance across the fleet.</p>
+          <span class="usecase-tag">Priority: Essential · Stakeholders: SH-01, SH-03, SH-05</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-04</span> 4. Adaptability to Different Research Problems</h4>
-          <p>Allow modification and extension of sensors, actuators, and compute without redesigning the entire robot platform.</p>
+          <h4><span class="need-code">RN-04 / SR-04</span> 4. Adaptability to Different Research Problems</h4>
+          <p><strong>Need (RN-04):</strong> Researchers and developers need to evaluate diverse algorithms, sensors, and actuators across studies without redesigning the core robot.<br/><strong>Req (SR-04):</strong> Modular mechanical mounting and standardized electrical/software expansion interfaces.</p>
+          <span class="usecase-tag">Priority: Important · Stakeholders: SH-01, SH-02, SH-03</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-05</span> 5. Reliable Long-Term and Fleet-Level Operation</h4>
-          <p>Minimize downtime through reliable power regulation, battery protection, rapid battery swap, and centralized fleet charging.</p>
+          <h4><span class="need-code">RN-05 / SR-05</span> 5. Reliable Long-Term &amp; Fleet-Level Operation</h4>
+          <p><strong>Need (RN-05):</strong> Operators and technicians need to run multiple robots concurrently over extended sessions with minimal downtime for charging or maintenance.<br/><strong>Req (SR-05):</strong> Integrated battery protection, rapid battery replacement, fleet charging, and modular serviceability.</p>
+          <span class="usecase-tag">Priority: Essential · Stakeholders: SH-01, SH-04, SH-05</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-06</span> 6. Environmental Awareness and Physical Interaction</h4>
-          <p>Support obstacle/collision avoidance, cooperative payload transport, and interchangeable manipulation attachments.</p>
+          <h4><span class="need-code">RN-06 / SR-06</span> 6. Environmental Awareness &amp; Interaction</h4>
+          <p><strong>Need (RN-06):</strong> Researchers need robots to navigate shared environments safely, avoid collisions, and optionally transport or manipulate objects.<br/><strong>Req (SR-06):</strong> Onboard perception for collision avoidance (Important) and optional manipulation attachments (Desirable).</p>
+          <span class="usecase-tag">Priority: Important / Desirable · Stakeholders: SH-01, SH-02, SH-03</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-07</span> 7. Experimental Monitoring and Data Collection</h4>
-          <p>Provide centralized monitoring, telemetry logging, and visualization while keeping agent decision-making decentralized.</p>
+          <h4><span class="need-code">RN-07 / SR-07</span> 7. Experimental Monitoring &amp; Data Collection</h4>
+          <p><strong>Need (RN-07):</strong> Researchers and operators need to observe and record individual and fleet behavior without interfering with decentralized autonomy.<br/><strong>Req (SR-07):</strong> Non-intrusive centralized fleet monitoring, telemetry streaming, and synchronized logging.</p>
+          <span class="usecase-tag">Priority: Important · Stakeholders: SH-01, SH-03, SH-04</span>
         </div>
         <div class="need-box">
-          <h4><span class="need-code">RN-08</span> 8. Usability, Reproducibility, and Technology Transfer</h4>
-          <p>Offer intuitive interfaces, accessible diagnostics, and straightforward maintenance for cross-disciplinary adoption and reproducibility.</p>
+          <h4><span class="need-code">RN-08 / SR-08</span> 8. Usability, Reproducibility &amp; Tech Transfer</h4>
+          <p><strong>Need (RN-08):</strong> Collaborators and students from varied backgrounds need to onboard quickly, reproduce experiments, and adopt the platform across labs.<br/><strong>Req (SR-08):</strong> Intuitive interfaces, accessible diagnostics, and comprehensive documentation.</p>
+          <span class="usecase-tag">Priority: Desirable · Stakeholders: SH-01, SH-04, SH-05, SH-06</span>
         </div>
       </div>
     </section>
@@ -1288,17 +1296,29 @@
           categoryName: "Requirements Engineering",
           status: "Baseline",
           author: "Dhamdhawach Horsuwan",
-          latestVersion: "v1.0",
-          latestFile: "docs/latest/MARS-REQ-001_v1.0.pdf",
+          latestVersion: "v1.1",
+          latestFile: "docs/latest/MARS-REQ-001_v1.1.pdf",
           sourceFile: "docs/source/MARS-REQ-001_Stakeholder-Needs-and-Requirements.md",
-          summary: "Identifies the 8 core stakeholder and research needs (RN-01 to RN-08) for a mobile robot platform supporting multi-agent experiments based on practical experience operating a four-robot team: fleet scalability, decentralized coordination, behavioral consistency, hardware/software adaptability, fleet-level endurance, environmental interaction, centralized telemetry/logging, and usability/reproducibility.",
+          summary: "Identifies the 6 intended stakeholder groups (SH-01 to SH-06), defines a 3-tier stakeholder priority classification (Essential, Important, Desirable), and distinguishes researcher-perspective Research Needs (RN-01 to RN-08) from derived platform Stakeholder Requirements (SR-01 to SR-08).",
           versions: [
+            {
+              version: "v1.1",
+              date: "2026-11-12",
+              author: "Dhamdhawach Horsuwan",
+              file: "docs/latest/MARS-REQ-001_v1.1.pdf",
+              isLatest: true,
+              changes: [
+                "A. Distinguished Research Needs (RN-01..RN-08, expressed from the researcher/stakeholder outcome perspective) from derived Stakeholder Requirements (SR-01..SR-08, expressing expected platform capabilities)",
+                "B. Added Section 1: Identified Stakeholders (SH-01 MARS Researchers, SH-02 Robotics & Hardware Developers, SH-03 Software & Algorithm Developers, SH-04 Experimental Operators, SH-05 Laboratory Technicians, SH-06 External Research Collaborators)",
+                "C. Added Section 2: Stakeholder Priority Classification (Essential, Important, Desirable) and tagged all 8 Need/Requirement pairs with priorities and primary stakeholders"
+              ]
+            },
             {
               version: "v1.0",
               date: "2026-11-12",
               author: "Dhamdhawach Horsuwan",
-              file: "docs/latest/MARS-REQ-001_v1.0.pdf",
-              isLatest: true,
+              file: "docs/archive/MARS-REQ-001_v1.0.pdf",
+              isLatest: false,
               changes: [
                 "Initial baseline release of Stakeholder Needs and Requirements specification (RN-01 through RN-08)",
                 "RN-01 & RN-02: Defined fleet scalability, cost-effectiveness, and decentralized inter-robot communication needs",
