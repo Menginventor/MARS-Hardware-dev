@@ -25,7 +25,8 @@ When new specification or design documents are committed, the **GitHub Pages Lau
 
 | Document ID | Title | Latest Version | Author | Files |
 | :--- | :--- | :--- | :--- | :--- |
-| **`MARS-REQ-001`** | **Research Needs — Multi-Agent Robotic Systems (MARS) Platform** | `v1.0` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.0)](./docs/latest/MARS-REQ-001_v1.0.pdf) · [Markdown Source](./docs/source/MARS-REQ-001_Research-Needs.md) |
+| **`MARS-REQ-001`** | **Stakeholder Needs and Requirements** | `v1.0` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.0)](./docs/latest/MARS-REQ-001_v1.0.pdf) · [Markdown Source](./docs/source/MARS-REQ-001_Stakeholder-Needs-and-Requirements.md) |
+| **`MARS-REQ-002`** | **Concept of Operations (CONOPS): Requirements for a Mobile Robot Platform in MARS Research** | `v1.0` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.0)](./docs/latest/MARS-REQ-002_v1.0.pdf) · [Markdown Source](./docs/source/MARS-REQ-002_CONOPS.md) |
 
 ---
 
@@ -33,7 +34,7 @@ When new specification or design documents are committed, the **GitHub Pages Lau
 
 | Phase | Milestone | Status | Primary Deliverable |
 | :--- | :--- | :--- | :--- |
-| **01** | **Requirements Engineering** | **In Progress** | Research Needs (`MARS-REQ-001`) & System Requirements Specification |
+| **01** | **Requirements Engineering** | **In Progress** | Stakeholder Needs (`MARS-REQ-001`), CONOPS (`MARS-REQ-002`) & System Requirements |
 | **02** | Conceptual & Architecture Design | Planned | System Architecture & Interface Control (ICD) |
 | **03** | Detailed Hardware Design | Planned | Mechanical CAD, Schematics, PCB Layout, BOM |
 | **04** | Integration & Verification | Planned | Prototype Bring-up & Fleet Verification Reports |
@@ -45,14 +46,16 @@ When new specification or design documents are committed, the **GitHub Pages Lau
 ```text
 MARS-Hardware-dev/
 ├── docs/
-│   ├── latest/                                 # Latest active PDF specifications
-│   │   └── MARS-REQ-001_v1.0.pdf               # Research Needs (v1.0 PDF)
-│   ├── archive/                                # Historical PDF versions kept for traceability
-│   └── source/                                 # Editable Markdown source documents
-│       └── MARS-REQ-001_Research-Needs.md
-├── index.html                                  # GitHub Pages Launch Page & Document Portal
-├── documents.json                              # Document registry, version history & changelogs
-└── README.md                                   # Repository overview and workflow guide
+│   ├── latest/                                             # Latest active PDF specifications
+│   │   ├── MARS-REQ-001_v1.0.pdf                           # Stakeholder Needs and Requirements (v1.0 PDF)
+│   │   └── MARS-REQ-002_v1.0.pdf                           # Concept of Operations - CONOPS (v1.0 PDF)
+│   ├── archive/                                            # Historical PDF versions kept for traceability
+│   └── source/                                             # Editable Markdown source documents
+│       ├── MARS-REQ-001_Stakeholder-Needs-and-Requirements.md
+│       └── MARS-REQ-002_CONOPS.md
+├── index.html                                              # GitHub Pages Launch Page & Document Portal
+├── documents.json                                          # Document registry, version history & changelogs
+└── README.md                                               # Repository overview and workflow guide
 ```
 
 ---

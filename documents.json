@@ -8,16 +8,44 @@
   },
   "documents": [
     {
+      "id": "MARS-REQ-002",
+      "title": "Concept of Operations (CONOPS): Requirements for a Mobile Robot Platform in MARS Research",
+      "category": "REQ",
+      "categoryName": "Requirements Engineering",
+      "status": "Baseline",
+      "author": "Dhamdhawach Horsuwan",
+      "latestVersion": "v1.0",
+      "latestFile": "docs/latest/MARS-REQ-002_v1.0.pdf",
+      "sourceFile": "docs/source/MARS-REQ-002_CONOPS.md",
+      "summary": "Defines the Concept of Operations (CONOPS) and operational use-case scenarios across 7 key platform areas: (1) Modularity and Extensibility, (2) Power Management, (3) Mobility and Manipulation, (4) Perception and Sensing, (5) Localization and State Estimation, (6) Multi-Agent Coordination and Communication, and (7) User Interface and Fleet Management.",
+      "versions": [
+        {
+          "version": "v1.0",
+          "date": "2026-11-12",
+          "author": "Dhamdhawach Horsuwan",
+          "file": "docs/latest/MARS-REQ-002_v1.0.pdf",
+          "isLatest": true,
+          "changes": [
+            "Initial baseline release of Concept of Operations (CONOPS) specification (5-page PDF)",
+            "Established operational context and commercial-grade usability/accessibility objectives for MARS fleets",
+            "Defined Section 1 (Modularity & Extensibility) and Section 2 (Power Regulation, BMS Protection, Exchangeable Battery Module, Fleet Charging, Power On/Off Control)",
+            "Defined Section 3 (Holonomic/Closed-Loop Locomotion & Collaborative Manipulation), Section 4 (Environmental Perception & Reciprocal Collision Avoidance), and Section 5 (Pose Estimation)",
+            "Defined Section 6 (Peer-to-Peer Inter-Robot Communication & Decentralized Network Topology) and Section 7 (Fleet Monitoring, Onboard Display/Button UI, Status LEDs, Telemetry Logging)"
+          ]
+        }
+      ]
+    },
+    {
       "id": "MARS-REQ-001",
-      "title": "Research Needs — Multi-Agent Robotic Systems (MARS) Platform",
+      "title": "Stakeholder Needs and Requirements",
       "category": "REQ",
       "categoryName": "Requirements Engineering",
       "status": "Baseline",
       "author": "Dhamdhawach Horsuwan",
       "latestVersion": "v1.0",
       "latestFile": "docs/latest/MARS-REQ-001_v1.0.pdf",
-      "sourceFile": "docs/source/MARS-REQ-001_Research-Needs.md",
-      "summary": "Identifies the 8 core research needs (RN-01 to RN-08) for a mobile robot platform supporting multi-agent experiments based on practical experience operating a four-robot team: fleet scalability, decentralized coordination, behavioral consistency, hardware/software adaptability, fleet-level endurance, environmental interaction, centralized telemetry/logging, and usability/reproducibility.",
+      "sourceFile": "docs/source/MARS-REQ-001_Stakeholder-Needs-and-Requirements.md",
+      "summary": "Identifies the 8 core stakeholder and research needs (RN-01 to RN-08) for a mobile robot platform supporting multi-agent experiments based on practical experience operating a four-robot team: fleet scalability, decentralized coordination, behavioral consistency, hardware/software adaptability, fleet-level endurance, environmental interaction, centralized telemetry/logging, and usability/reproducibility.",
       "versions": [
         {
           "version": "v1.0",
@@ -26,7 +54,7 @@
           "file": "docs/latest/MARS-REQ-001_v1.0.pdf",
           "isLatest": true,
           "changes": [
-            "Initial baseline release of MARS Research Needs specification (RN-01 through RN-08)",
+            "Initial baseline release of Stakeholder Needs and Requirements specification (RN-01 through RN-08)",
             "RN-01 & RN-02: Defined fleet scalability, cost-effectiveness, and decentralized inter-robot communication needs",
             "RN-03 & RN-04: Established locomotion/sensing consistency and modular hardware/software extensibility needs",
             "RN-05 & RN-06: Specified fleet-level power/charging operations, obstacle avoidance, and cooperative transport needs",

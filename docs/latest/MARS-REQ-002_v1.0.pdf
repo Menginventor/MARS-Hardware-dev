@@ -1,0 +1,842 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R 14 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Title (MARS-REQ-002: Concept of Operations - CONOPS) /Author (Dhamdhawach Horsuwan) /Subject (Requirements for a Mobile Robot Platform in MARS Research) >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 8408 >>
+stream
+0.010 0.520 0.780 rg
+BT /F2 8.00 Tf 42.00 799.89 Td (MULTI-AGENT ROBOTIC SYSTEMS \(MARS\)  |  HARDWARE PLATFORM DEVELOPMENT) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.50 Tf 445.28 799.89 Td (DOC ID: MARS-REQ-002) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 18.00 Tf 42.00 779.89 Td (Concept of Operations \(CONOPS\)) Tj ET
+0.280 0.330 0.410 rg
+BT /F1 8.50 Tf 445.28 781.89 Td (VERSION: v1.0 \(Baseline\)) Tj ET
+0.200 0.270 0.360 rg
+BT /F2 10.80 Tf 42.00 765.89 Td (Requirements for a Mobile Robot Platform in MARS Research) Tj ET
+0.010 0.520 0.780 RG
+1.80 w 42.00 757.89 m 553.28 757.89 l S
+0.960 0.970 0.990 rg
+0.790 0.840 0.880 RG
+0.70 w
+42.00 717.89 511.28 34.00 re B
+0.60 w 42.00 734.89 m 553.28 734.89 l S
+0.60 w 297.64 717.89 m 297.64 751.89 l S
+0.200 0.250 0.330 rg
+BT /F2 8.50 Tf 50.00 738.89 Td (Author:) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 8.80 Tf 94.00 738.89 Td (Dhamdhawach Horsuwan) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.50 Tf 305.64 738.89 Td (Document ID:) Tj ET
+0.060 0.090 0.160 rg
+BT /F1 8.50 Tf 369.64 738.89 Td (MARS-REQ-002 \(v1.0\)) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.50 Tf 50.00 722.89 Td (Phase:) Tj ET
+0.060 0.090 0.160 rg
+BT /F1 8.50 Tf 94.00 722.89 Td (Requirements Engineering) Tj ET
+0.200 0.250 0.330 rg
+BT /F2 8.50 Tf 305.64 722.89 Td (Release Date:) Tj ET
+0.060 0.090 0.160 rg
+BT /F1 8.50 Tf 369.64 722.89 Td (2026-11-12) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 679.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 679.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 685.89 Td (Introduction & Operational Context) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 659.89 Td (In Multi-Agent Robotic Systems \(MARS\) research, investigators must develop, deploy, and operate multiple robots) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 647.89 Td (concurrently. Compared with single-robot research, this introduces additional challenges associated with hardware) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 635.89 Td (maintenance, software development, system integration, and coordination among multiple agents.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 619.39 Td (Based on practical experience operating a four-robot team, several platform requirements have been identified as) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 607.39 Td (particularly important for MARS research. These requirements extend beyond the fundamental capabilities of an) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 595.39 Td (individual mobile robot, addressing the additional complexity introduced by multi-agent interactions and fleet-level) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 583.39 Td (operations.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 566.89 Td (A suitable research platform should prioritize reliability, modularity, ease of maintenance, and cost-effectiveness.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 554.89 Td (These characteristics are essential for supporting long-term experiments, simplifying hardware and software) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 542.89 Td (development, and enabling researchers to scale their experiments by deploying larger numbers of robots within) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 530.89 Td (limited budgets.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 514.39 Td (Furthermore, the platform should support both centralized monitoring and decentralized agent operation, allowing) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 502.39 Td (researchers to investigate different multi-agent architectures without being constrained by the underlying) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 490.39 Td (hardware infrastructure.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 473.89 Td (Usability and accessibility should also be considered fundamental design objectives. Even in research laboratories) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 461.89 Td (with professional engineers and software developers, users should not be assumed to possess specialized knowledge) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 449.89 Td (across every discipline involved in robotics. Since robotics integrates multiple fields of engineering and computer) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 437.89 Td (science, operating and maintaining the platform should not require expertise in all of these areas. Therefore,) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 425.89 Td (adopting usability principles commonly found in commercial products, such as intuitive interfaces, straightforward) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 413.89 Td (configuration, accessible diagnostics, and simplified maintenance procedures, can significantly reduce the learning) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 401.89 Td (curve. This approach also makes the platform easier to transfer to other researchers and users, promoting) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 389.89 Td (reproducibility, collaboration, and long-term adoption.) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 359.39 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 359.39 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 365.39 Td (Robot Requirements Overview) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 339.39 Td (The requirements and operational concepts are organized into seven key areas, each accompanied by practical) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 327.39 Td (use-case scenarios to illustrate its relevance to MARS research:) Tj ET
+0.970 0.980 1.000 rg
+0.830 0.880 0.940 RG
+0.60 w
+42.00 260.89 511.28 62.00 re B
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 54.00 308.89 Td (1. Modularity and Extensibility) Tj ET
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 54.00 295.39 Td (2. Power Management) Tj ET
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 54.00 281.89 Td (3. Mobility and Manipulation) Tj ET
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 54.00 268.39 Td (4. Perception and Sensing) Tj ET
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 309.64 308.89 Td (5. Localization and State Estimation) Tj ET
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 309.64 295.39 Td (6. Multi-Agent Coordination & Communication) Tj ET
+0.080 0.150 0.260 rg
+BT /F2 8.80 Tf 309.64 281.89 Td (7. User Interface and Fleet Management) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 226.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 226.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 232.89 Td (1. Modularity and Extensibility) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 206.89 Td (Research objectives and interdisciplinary collaborations frequently introduce evolving hardware and software) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 194.89 Td (requirements. Therefore, the robot platform should adopt a modular architecture that accommodates) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 182.89 Td (modifications, component replacements, and the integration of additional hardware.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 166.39 Td (A modular design promotes hardware and software reuse across different research projects, reducing) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 154.39 Td (development time and costs when establishing new experimental configurations. Furthermore, standardized) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 142.39 Td (mechanical interfaces, electrical connections, and communication protocols simplify system integration and) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 130.39 Td (maintenance as the fleet expands.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 67.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 67.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 113.39 Td (Use Case Scenario: Research Adaptability) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 101.39 Td (Researchers may need to integrate different sensors, actuators, or communication modules to investigate new) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 89.89 Td (research problems. A modular platform allows these components to be added or replaced without redesigning the) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 78.39 Td (entire robot.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 42.00 36.00 m 553.28 36.00 l S
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Concept of Operations \(CONOPS\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 343.28 26.00 Td (Author: Dhamdhawach Horsuwan  |  Page 1 of 5) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 7968 >>
+stream
+0.350 0.420 0.520 rg
+BT /F2 8.00 Tf 42.00 799.89 Td (MARS-REQ-002  |  Concept of Operations \(CONOPS\): Mobile Robot Platform in MARS Research) Tj ET
+0.350 0.420 0.520 rg
+BT /F1 8.00 Tf 495.28 799.89 Td (Version v1.0) Tj ET
+0.820 0.860 0.900 RG
+0.80 w 42.00 793.89 m 553.28 793.89 l S
+0.060 0.120 0.220 rg
+1.00 w
+42.00 753.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 753.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 759.89 Td (2. Power Management) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 728.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 730.89 Td (CONOPS-2.1) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 730.89 Td (2.1 Power Regulation) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 712.89 Td (Lithium-based batteries are preferred because of their compact form factor and high energy density. However,) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 700.89 Td (battery voltage varies with the state of charge and instantaneous load conditions. Therefore, dedicated voltage) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 688.89 Td (regulation should provide stable supply voltages to critical electronic components and drive motors.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 672.39 Td (Maintaining consistent motor supply voltage helps minimize variations in motor performance and preserve) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 660.39 Td (predictable motion characteristics across all agents.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 597.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 597.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 643.39 Td (Use Case Scenario: Consistent Motor Performance) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 631.39 Td (During prolonged swarm experiments, dedicated voltage regulation helps maintain consistent motor response) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 619.89 Td (across the fleet. Proper power regulation also prevents controller resets caused by voltage fluctuations during) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 608.39 Td (sudden motor load changes.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 573.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 575.89 Td (CONOPS-2.2) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 575.89 Td (2.2 Battery Management and Protection) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 557.89 Td (Lithium-based batteries introduce operational hazards associated with overcharge, overdischarge, excessive) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 545.89 Td (current, and abnormal temperature conditions. An appropriate Battery Management System \(BMS\) should) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 533.89 Td (incorporate protection mechanisms to mitigate these risks.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 517.39 Td (As the fleet size increases, the number of individual battery systems and associated failure points also increases.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 505.39 Td (Therefore, integrated battery protection is essential for maintaining operational safety and reducing the risk of) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 493.39 Td (battery-related failures during experiments.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 441.89 507.28 47.00 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 441.89 3.00 47.00 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 476.39 Td (Use Case Scenario: Battery Protection) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 464.39 Td (When deploying multiple robots simultaneously, individual battery protection systems help prevent overdischarge,) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 452.89 Td (excessive current draw, and unsafe operating temperatures during extended field experiments.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 417.89 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 420.39 Td (CONOPS-2.3) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 420.39 Td (2.3 Exchangeable Battery or Power Module) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 402.39 Td (The robot should support an exchangeable battery or power module to minimize downtime during experiments and) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 390.39 Td (simplify fleet maintenance. A modular power system allows researchers to replace depleted batteries quickly) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 378.39 Td (without waiting for individual units to recharge.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 361.89 Td (The power module should incorporate standardized mechanical mounting and electrical interfaces to ensure) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 349.89 Td (compatibility across all robots in the fleet. Furthermore, the connection mechanism should provide secure) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 337.89 Td (attachment, correct polarity, and reliable electrical contact while allowing convenient removal and replacement. The) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 325.89 Td (design should also consider integrated battery protection and safe disconnection procedures to prevent electrical) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 313.89 Td (hazards during module replacement.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 250.89 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 250.89 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 296.89 Td (Use Case Scenario: Rapid Battery Replacement) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 284.89 Td (During prolonged multi-agent experiments, robots with depleted batteries can be quickly returned to operation by) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 273.39 Td (replacing their power modules with fully charged units. This allows experiments to continue with minimal) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 261.89 Td (interruption while depleted batteries are recharged separately.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 226.89 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 229.39 Td (CONOPS-2.4) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 229.39 Td (2.4 Fleet Charging Infrastructure) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 211.39 Td (Charging a large fleet using individual battery chargers introduces considerable operational overhead and occupies) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 199.39 Td (valuable laboratory workspace. Therefore, the platform should support efficient fleet charging through centralized) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 187.39 Td (multi-port charging stations, shared power distribution systems, or automated docking stations.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 170.89 Td (A standardized charging interface also simplifies battery maintenance and reduces the time required to prepare) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 158.89 Td (robots for subsequent experimental runs.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 95.89 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 95.89 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 141.89 Td (Use Case Scenario: Fleet Power Maintenance) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 129.89 Td (When operating a fleet of ten robots, centralized charging stations allow researchers to recharge multiple units) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 118.39 Td (simultaneously. Alternatively, automated docking stations can support autonomous battery replenishment, reducing) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 106.89 Td (manual intervention between experimental runs.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 42.00 36.00 m 553.28 36.00 l S
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Concept of Operations \(CONOPS\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 343.28 26.00 Td (Author: Dhamdhawach Horsuwan  |  Page 2 of 5) Tj ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 8125 >>
+stream
+0.350 0.420 0.520 rg
+BT /F2 8.00 Tf 42.00 799.89 Td (MARS-REQ-002  |  Concept of Operations \(CONOPS\): Mobile Robot Platform in MARS Research) Tj ET
+0.350 0.420 0.520 rg
+BT /F1 8.00 Tf 495.28 799.89 Td (Version v1.0) Tj ET
+0.820 0.860 0.900 RG
+0.80 w 42.00 793.89 m 553.28 793.89 l S
+0.880 0.950 0.990 rg
+1.00 w
+42.00 762.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 764.89 Td (CONOPS-2.5) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 764.89 Td (2.5 Power On/Off Control) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 746.89 Td (The robot should incorporate an easily accessible physical power switch to allow operators to safely turn the) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 734.89 Td (system on and off. The power control mechanism should provide convenient access without requiring researchers to) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 722.89 Td (remove the enclosure to access, disconnect the battery, or remove the power module.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 706.39 Td (The power switch should be appropriately rated for the system's maximum operating voltage and current.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 694.39 Td (Furthermore, the power architecture should distinguish between the main power supply and controlled shutdown of) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 682.39 Td (electronic subsystems to prevent unexpected system behavior or data loss. An additional consideration is the) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 670.39 Td (implementation of an emergency power-disconnection mechanism that allows operators to quickly isolate the power) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 658.39 Td (supply when necessary.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 595.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 595.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 641.39 Td (Use Case Scenario: Operational Power Control) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 629.39 Td (During multi-robot experiments, operators can quickly power individual robots on or off during deployment,) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 617.89 Td (maintenance, and troubleshooting. An accessible power switch also simplifies fleet preparation and reduces the) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 606.39 Td (risk of accidental electrical disconnection.) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 562.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 562.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 568.89 Td (3. Mobility and Manipulation) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 537.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 539.89 Td (CONOPS-3.1) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 539.89 Td (3.1 Locomotion and Motor Control) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 521.89 Td (The robot should support reliable and predictable locomotion suitable for multi-agent navigation and coordination.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 509.89 Td (An omnidirectional or holonomic drive system is preferred because it decouples translational motion from robot) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 497.89 Td (orientation, simplifying trajectory planning and control algorithms.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 481.39 Td (Furthermore, closed-loop motor control using position feedback encoders is desirable for achieving consistent) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 469.39 Td (motion characteristics and reducing trajectory errors.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 406.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 406.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 452.39 Td (Use Case Scenario: Formation Control) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 440.39 Td (During formation control experiments, low-cost DC motors equipped with reliable position feedback encoders) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 428.89 Td (provide sufficient motion control capabilities for executing predefined trajectories and maintaining relative) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 417.39 Td (positions among agents.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 382.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 384.89 Td (CONOPS-3.2) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 384.89 Td (3.2 Object Transportation and Manipulation) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 366.89 Td (The platform should provide a modular mechanical interface that supports physical interaction with the) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 354.89 Td (environment. Basic manipulation capabilities may include directly pushing lightweight objects or transporting) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 342.89 Td (payloads using interchangeable attachments, such as U-shaped claws designed to secure cylindrical objects.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 326.39 Td (Furthermore, the chassis should accommodate auxiliary actuators and specialized end-effectors, including) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 314.39 Td (electromagnets, heating elements, and vacuum suction systems, to support diverse research applications.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 251.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 251.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 297.39 Td (Use Case Scenario: Collaborative Object Transportation) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 285.39 Td (Multiple robots can cooperate to transport objects that exceed the payload capacity of an individual robot.) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 273.89 Td (Interchangeable mechanical attachments allow researchers to investigate different object transportation and) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 262.39 Td (manipulation strategies without redesigning the entire platform.) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 218.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 218.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 224.89 Td (4. Perception and Sensing) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 193.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 195.89 Td (CONOPS-4.1) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 195.89 Td (4.1 Environmental Perception) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 177.89 Td (The robot should incorporate onboard sensors capable of providing low-latency spatial measurements and reliable) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 165.89 Td (obstacle detection. These measurements support local environmental awareness, real-time path planning, and) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 153.89 Td (collision avoidance.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 137.39 Td (The sensing system should provide sufficient update rates and detection ranges to accommodate the robot's) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 125.39 Td (maximum operating speed and the expected density of surrounding obstacles.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 62.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 62.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 108.39 Td (Use Case Scenario: Obstacle Avoidance) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 96.39 Td (When navigating dynamic environments, robots must continuously detect obstacles and adjust their trajectories) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 84.89 Td (accordingly. High-frequency sensor measurements enable immediate local motion adjustments and reduce the) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 73.39 Td (likelihood of collisions.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 42.00 36.00 m 553.28 36.00 l S
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Concept of Operations \(CONOPS\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 343.28 26.00 Td (Author: Dhamdhawach Horsuwan  |  Page 3 of 5) Tj ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 7683 >>
+stream
+0.350 0.420 0.520 rg
+BT /F2 8.00 Tf 42.00 799.89 Td (MARS-REQ-002  |  Concept of Operations \(CONOPS\): Mobile Robot Platform in MARS Research) Tj ET
+0.350 0.420 0.520 rg
+BT /F1 8.00 Tf 495.28 799.89 Td (Version v1.0) Tj ET
+0.820 0.860 0.900 RG
+0.80 w 42.00 793.89 m 553.28 793.89 l S
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 721.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 721.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 767.39 Td (Use Case Scenario: Reciprocal Collision Avoidance) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 755.39 Td (In high-density multi-agent deployments, onboard perception allows robots to detect nearby agents and estimate) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 743.89 Td (their relative positions and movements. This information supports reciprocal collision avoidance strategies,) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 732.39 Td (enabling agents to adjust their trajectories cooperatively while minimizing unnecessary stops and deadlocks.) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 688.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 688.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 694.89 Td (5. Localization and State Estimation) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 663.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 665.89 Td (CONOPS-5.1) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 665.89 Td (5.1 Pose Estimation) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 647.89 Td (Each robot requires a reliable state estimation system to determine its position and orientation within the) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 635.89 Td (operating environment. This can be achieved by combining onboard wheel odometry and inertial measurement unit) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 623.89 Td (\(IMU\) data with external tracking systems or vision-based localization methods.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 607.39 Td (Sensor fusion helps compensate for the limitations of individual sensors, improving the accuracy and robustness of) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 595.39 Td (pose estimation.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 532.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 532.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 578.39 Td (Use Case Scenario: Coordinate Alignment) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 566.39 Td (Consistent pose estimation allows individual robots to express their positions within a shared global coordinate) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 554.89 Td (frame. This enables agents to interpret spatial information consistently and coordinate their movements within a) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 543.39 Td (common map reference.) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 499.89 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 499.89 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 505.89 Td (6. Multi-Agent Coordination and Communication) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 474.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 476.89 Td (CONOPS-6.1) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 476.89 Td (6.1 Inter-Robot Communication) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 458.89 Td (Reliable wireless communication is essential for information exchange and coordination among agents. The) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 446.89 Td (communication system should provide sufficiently low latency, adequate throughput, and reliable data transmission) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 434.89 Td (to support decentralized coordination and state synchronization.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 418.39 Td (Furthermore, the communication architecture should support direct information exchange between neighboring) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 406.39 Td (agents without requiring every communication transaction to pass through a central server.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 354.89 507.28 47.00 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 354.89 3.00 47.00 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 389.39 Td (Use Case Scenario: Distributed Task Allocation) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 377.39 Td (Participating agents exchange relevant state information and negotiate task assignments autonomously. This) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 365.89 Td (enables distributed task allocation and coordination without relying on a centralized decision-making server.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 330.89 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 333.39 Td (CONOPS-6.2) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 333.39 Td (6.2 Decentralized Network Architecture) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 315.39 Td (The communication architecture should support decentralized network topologies, allowing robots to establish) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 303.39 Td (direct peer-to-peer connections with neighboring agents.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 286.89 Td (Unlike conventional infrastructure-based wireless networks that depend on a centralized access point,) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 274.89 Td (decentralized communication architectures can reduce dependence on fixed infrastructure and eliminate certain) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 262.89 Td (single points of failure. The network should also accommodate changes in connectivity as robots move throughout) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 250.89 Td (the environment, supporting dynamic network topologies and scalable multi-agent deployments.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 187.89 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 187.89 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 233.89 Td (Use Case Scenario: Infrastructure-Independent Operation) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 221.89 Td (When deploying robots in environments without existing wireless infrastructure, agents can communicate directly) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 210.39 Td (with one another through peer-to-peer connections. This allows the fleet to operate without depending on a) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 198.89 Td (dedicated wireless access point.) Tj ET
+0.060 0.120 0.220 rg
+1.00 w
+42.00 155.39 511.28 20.00 re f
+0.010 0.520 0.780 rg
+1.00 w
+42.00 155.39 4.00 20.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 53.00 161.39 Td (7. User Interface and Fleet Management) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 129.89 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 132.39 Td (CONOPS-7.1) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 132.39 Td (7.1 Fleet Monitoring and Control) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 114.39 Td (A centralized monitoring interface should provide operators with an overview of individual robot states and overall) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 102.39 Td (fleet performance. Essential capabilities include monitoring battery levels, communication status, operational) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 90.39 Td (states, and sensor information.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 42.00 36.00 m 553.28 36.00 l S
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Concept of Operations \(CONOPS\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 343.28 26.00 Td (Author: Dhamdhawach Horsuwan  |  Page 4 of 5) Tj ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 6653 >>
+stream
+0.350 0.420 0.520 rg
+BT /F2 8.00 Tf 42.00 799.89 Td (MARS-REQ-002  |  Concept of Operations \(CONOPS\): Mobile Robot Platform in MARS Research) Tj ET
+0.350 0.420 0.520 rg
+BT /F1 8.00 Tf 495.28 799.89 Td (Version v1.0) Tj ET
+0.820 0.860 0.900 RG
+0.80 w 42.00 793.89 m 553.28 793.89 l S
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 767.89 Td (The interface should also support fleet-level commands, such as starting, pausing, and stopping experiments, as well) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 755.89 Td (as distributing software updates when required. Importantly, centralized monitoring and command interfaces should) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 743.89 Td (remain independent of the agents' internal decision-making processes, allowing decentralized algorithms to operate) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 731.89 Td (without relying on a central controller.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 680.39 507.28 47.00 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 680.39 3.00 47.00 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 714.89 Td (Use Case Scenario: Experiment Management) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 702.89 Td (During experimental trials, operators use monitoring software to inspect individual robot statuses, record system) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 691.39 Td (telemetry, and issue fleet-wide pause or emergency-stop commands when necessary.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 656.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 658.89 Td (CONOPS-7.2) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 658.89 Td (7.2 Onboard User Interface) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 640.89 Td (An onboard user interface should provide convenient access to essential robot information and configuration) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 628.89 Td (parameters. A small graphical display can be particularly useful during hardware development, firmware updates,) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 616.89 Td (and system debugging.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 600.39 Td (The display may provide information such as the robot's identification number, network configuration, MAC address,) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 588.39 Td (battery voltage, and operational status. At least one button should be provided to cycle display data, enter) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 576.39 Td (calibration, configuration, or pairing mode, and start or stop onboard data recording.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 524.89 507.28 47.00 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 524.89 3.00 47.00 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 559.39 Td (Use Case Scenario: Onboard Diagnostics) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 547.39 Td (During firmware development, researchers can quickly inspect network configurations and runtime parameters) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 535.89 Td (directly on the robot without connecting an external computer or accessing serial debugging interfaces.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 500.89 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 503.39 Td (CONOPS-7.3) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 503.39 Td (7.3 Visual Status Indicators) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 485.39 Td (The robot should incorporate multi-color signal LEDs to communicate its operational status through simple visual) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 473.39 Td (indications. These indicators provide immediate feedback and simplify diagnostics when multiple robots are) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 461.39 Td (operating simultaneously.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 444.89 Td (Possible status indications include normal operation, low battery, communication loss, initialization, and system) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 432.89 Td (errors.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 381.39 507.28 47.00 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 381.39 3.00 47.00 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 415.89 Td (Use Case Scenario: Fleet Diagnostics) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 403.89 Td (When monitoring multiple robots in a laboratory or field environment, visual indicators allow researchers to) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 392.39 Td (identify malfunctioning or disconnected units quickly without inspecting each robot individually.) Tj ET
+0.880 0.950 0.990 rg
+1.00 w
+42.00 357.39 58.73 12.50 re f
+0.010 0.410 0.630 rg
+BT /F2 7.80 Tf 47.00 359.89 Td (CONOPS-7.4) Tj ET
+0.060 0.090 0.160 rg
+BT /F2 10.00 Tf 106.73 359.89 Td (7.4 Experimental Data Acquisition and Monitoring Software) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 341.89 Td (Dedicated monitoring software should support experimental data acquisition, visualization, and performance) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 329.89 Td (analysis across the entire fleet.) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 313.39 Td (The software should collect relevant telemetry from individual agents, maintain experimental logs, and provide tools) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 301.39 Td (for analyzing system behavior over time. This enables researchers to evaluate algorithm performance, investigate) Tj ET
+0.180 0.230 0.300 rg
+BT /F1 9.20 Tf 44.00 289.39 Td (unexpected behaviors, and compare experimental results across different configurations.) Tj ET
+0.960 0.980 1.000 rg
+0.780 0.870 0.950 RG
+0.60 w
+46.00 226.39 507.28 58.50 re B
+0.020 0.520 0.780 rg
+1.00 w
+46.00 226.39 3.00 58.50 re f
+0.010 0.410 0.630 rg
+BT /F2 8.90 Tf 55.00 272.39 Td (Use Case Scenario: Multi-Agent Performance Evaluation) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 260.39 Td (During scalability experiments, monitoring software collects information such as robot trajectories,) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 248.89 Td (communication statistics, task completion times, and individual agent states. Researchers can subsequently analyze) Tj ET
+0.180 0.240 0.330 rg
+BT /F1 8.90 Tf 55.00 237.39 Td (these datasets to evaluate the performance and scalability of different multi-agent coordination algorithms.) Tj ET
+0.790 0.840 0.880 RG
+0.70 w 42.00 36.00 m 553.28 36.00 l S
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Concept of Operations \(CONOPS\)) Tj ET
+0.390 0.450 0.550 rg
+BT /F1 8.00 Tf 343.28 26.00 Td (Author: Dhamdhawach Horsuwan  |  Page 5 of 5) Tj ET
+endstream
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000148 00000 n 
+0000000245 00000 n 
+0000000347 00000 n 
+0000000522 00000 n 
+0000000664 00000 n 
+0000009124 00000 n 
+0000009266 00000 n 
+0000017286 00000 n 
+0000017430 00000 n 
+0000025608 00000 n 
+0000025752 00000 n 
+0000033488 00000 n 
+0000033632 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R /Info 5 0 R >>
+startxref
+40338
+%%EOF
