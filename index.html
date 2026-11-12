@@ -973,8 +973,11 @@
           <a href="docs/latest/MARS-OPS-001_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
             Open ConOps PDF (MARS-OPS-001 v1.0)
           </a>
-          <a href="docs/latest/MARS-REQ-001_v1.1.pdf" target="_blank" rel="noopener" class="btn btn-safety">
-            Open Stakeholder Needs PDF (MARS-REQ-001 v1.1)
+          <a href="docs/latest/MARS-OPS-002_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-safety">
+            Open OpsCon PDF (MARS-OPS-002 v1.0)
+          </a>
+          <a href="docs/latest/MARS-REQ-001_v1.1.pdf" target="_blank" rel="noopener" class="btn">
+            Stakeholder Needs (MARS-REQ-001 v1.1)
           </a>
           <a href="#document-registry" class="btn">Version History &amp; Registry</a>
         </div>
@@ -982,12 +985,12 @@
 
       <div class="hero-stats">
         <div class="stat-box">
-          <span class="stat-value" id="stat-total-docs">3</span>
+          <span class="stat-value" id="stat-total-docs">4</span>
           <span class="stat-label">Active Specifications</span>
         </div>
         <div class="stat-box">
-          <span class="stat-value">15</span>
-          <span class="stat-label">ConOps Sections</span>
+          <span class="stat-value">17</span>
+          <span class="stat-label">OpsCon Sections</span>
         </div>
         <div class="stat-box">
           <span class="stat-value">PDF</span>
@@ -1139,6 +1142,58 @@
           <h4><span class="need-code">SEC 8–15</span> 7 Scenarios (A–G), Safety &amp; 16 Open Issues</h4>
           <p>Details step-by-step operational sequences for Scenarios A–G, Human-System Interaction, Safety &amp; Risk Considerations, Maintenance/Recovery, and 16 Open Issues (<code>OI-01</code> to <code>OI-16</code>).</p>
           <span class="usecase-tag">Traceability: Links StRS, OpsCon, PRD &amp; SyRS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Active Specification Overview 0B: System Operational Concept (MARS-OPS-002) -->
+    <section class="spec-preview-card" aria-label="MARS-OPS-002 System Operational Concept Summary">
+      <div class="spec-preview-header">
+        <div>
+          <div class="doc-meta-top">
+            <span class="doc-id">MARS-OPS-002</span>
+            <span class="badge badge-cat">Version v1.0 (15 Pages)</span>
+            <span class="badge badge-status">ISO/IEC/IEEE 29148:2018</span>
+            <span class="badge badge-cat">Author: Dhamdhawach Horsuwan</span>
+          </div>
+          <h3 style="font-size: 1.32rem; font-weight: 800; margin-top: 0.35rem;">
+            System Operational Concept (OpsCon): General-Purpose Research-Class Lightweight Mobile Robot Platform for MARS
+          </h3>
+        </div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn" type="button" onclick="openPdfModal('MARS-OPS-002: System Operational Concept (v1.0)', 'docs/latest/MARS-OPS-002_v1.0.pdf')">
+            Preview PDF (15 Pages)
+          </button>
+          <a class="btn btn-primary" href="docs/latest/MARS-OPS-002_v1.0.pdf" target="_blank" rel="noopener">
+            Download PDF (v1.0)
+          </a>
+        </div>
+      </div>
+
+      <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 0.65rem;">
+        Translates <code>MARS-OPS-001</code> into a system-specific operational concept for a <strong>Research-Class Lightweight Mobile Robot (RCLMR, &lt;1 kg)</strong> platform across 17 sections: system boundary, 6 functional elements, 4-dimensional configuration model, 11 operational modes, user authority hierarchy, 9-phase experiment execution, composite robot operations, ISO 12100 inherent low-risk safety, and 15 open issues (<code>OI-01</code> – <code>OI-15</code>).
+      </p>
+
+      <div class="needs-grid">
+        <div class="need-box">
+          <h4><span class="need-code">SEC 1–3</span> System Boundary, 6 Elements &amp; RCLMR (&lt;1 kg)</h4>
+          <p>Defines internal/external system boundaries, 6 functional elements, and the RCLMR (&lt;1 kg) lightweight classification enabling desktop-to-laboratory multi-robot deployment.</p>
+          <span class="usecase-tag">Related Doc: MARS-OPS-001 · Standard: ISO/IEC/IEEE 29148:2018</span>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">SEC 4–6</span> 4D Configuration Model &amp; 11 Operational Modes</h4>
+          <p>Specifies Physical (Single/Multi/Composite/Reconfigurable), Hardware, Control, and Network configuration dimensions alongside 11 operational modes and mode-transition triggers.</p>
+          <span class="usecase-tag">Modes: Off · Init · Idle · Manual · Auto · Coop · Composite · Fault</span>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">SEC 7–10</span> Authority Hierarchy, Comms &amp; 9-Phase Execution</h4>
+          <p>Establishes the Control Authority Hierarchy (Safety Stop &gt; Operator Override &gt; Manual Control &gt; Autonomous/Coordinator), 4 comms patterns, 9 experiment phases, and physical docking/undocking.</p>
+          <span class="usecase-tag">Workflow: Setup · Init · Verify · Calibrate · Execute · Log · Recover</span>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">SEC 11–17</span> Abnormal Recovery, ISO 12100 Safety &amp; 15 Open Issues</h4>
+          <p>Details abnormal event handling, ISO 12100 inherent low-kinetic-energy safety philosophy, battery/maintenance lifecycle, constraints, and 15 open engineering items (<code>OI-01</code> to <code>OI-15</code>).</p>
+          <span class="usecase-tag">Safety: Inherently Safe RCLMR Design (ISO 12100)</span>
         </div>
       </div>
     </section>
@@ -1338,6 +1393,34 @@
                 "Established 5 System Configurations (Independent, Cooperative, Composite, Reconfigurable, Mixed) & 6 Research Application Domains (Self-Reconfigurable, Object Transport, Navigation, SAR, Region Sweeping, Cross-Application)",
                 "Specified 8 Experiment Workflow Phases, 11 Operational Modes (including Manual Wireless Control & Composite Operation), and 7 Representative Operational Scenarios (Scenarios A–G)",
                 "Documented Human-System Interaction, Constraints/Assumptions, Safety & Risk Considerations, Support/Maintenance, 16 Open Issues (OI-01..OI-16), and Engineering Document Relationships"
+              ]
+            }
+          ]
+        },
+        {
+          id: "MARS-OPS-002",
+          title: "System Operational Concept (OpsCon) — General-Purpose Research-Class Lightweight Mobile Robot Platform for Multi-Agent Robotic Systems",
+          category: "OPS",
+          categoryName: "System Operational Concept (ISO/IEC/IEEE 29148:2018)",
+          status: "Baseline",
+          author: "Dhamdhawach Horsuwan",
+          latestVersion: "v1.0",
+          latestFile: "docs/latest/MARS-OPS-002_v1.0.pdf",
+          sourceFile: "docs/source/MARS-OPS-002_OpsCon.md",
+          summary: "System-level operational concept (17 sections, 15 pages) translating MARS-OPS-001 into concrete RCLMR (<1 kg) platform behavior: 6 functional elements, 4-dimensional configuration model (Physical, Hardware, Control, Network), 11 operational modes & transition logic, user interaction model, 9-phase experiment workflow, multi-robot connection/composite procedures, abnormal recovery, ISO 12100 inherent safety philosophy, and 15 open engineering items (OI-01 to OI-15).",
+          versions: [
+            {
+              version: "v1.0",
+              date: "2026-11-12",
+              author: "Dhamdhawach Horsuwan",
+              file: "docs/latest/MARS-OPS-002_v1.0.pdf",
+              isLatest: true,
+              changes: [
+                "Initial baseline release of MARS-OPS-002 System Operational Concept (OpsCon) aligned with ISO/IEC/IEEE 29148:2018 and linked to MARS-OPS-001 (15-page PDF)",
+                "Defined System Boundary, 6 Functional Elements (Mobile Robot Unit, Modular Payload/Tool, Connection Interface, Wireless Comms, Fleet Monitoring, Charging/Support), and RCLMR (<1 kg) Platform Classification",
+                "Specified 4-Dimensional Operational Configuration Model (Physical: Single/Multi/Composite/Reconfigurable; Hardware: Base/Sensor/Manipulation/Mixed; Control: Manual/Autonomous/Centralized/Decentralized/Hybrid; Network: Infra/Peer-to-Peer/Hybrid/Disconnected)",
+                "Detailed 11 Operational Modes & Mode Transition Logic, User Roles & Control Authority Hierarchy, 4 Communication Patterns, and 9-Phase Experiment Execution Workflow",
+                "Documented Physical Connection/Disconnection & Composite Operation, Abnormal Event Recovery, ISO 12100 Inherent Low-Risk Safety Philosophy, Support/Maintenance, and 15 Open Issues (OI-01..OI-15)"
               ]
             }
           ]

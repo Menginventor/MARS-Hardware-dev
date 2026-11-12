@@ -1,0 +1,3627 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R 19 0 R 21 0 R 23 0 R 25 0 R 27 0 R 29 0 R 31 0 R 33 0 R] /Count 15 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 10588 >>
+stream
+0.161 0.224 0.322 rg
+1.00 w
+42.00 755.89 511.28 56.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 755.89 511.28 3.20 re f
+0.680 0.850 0.940 rg
+BT /F2 7.60 Tf 54.00 794.89 Td (MULTI-AGENT ROBOTIC SYSTEMS \(MARS\)  |  SYSTEM OPERATIONAL CONCEPT \(ISO/IEC/IEEE 29148:2018\)) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 14.60 Tf 54.00 776.89 Td (MARS-OPS-002: System Operational Concept \(OpsCon\)) Tj ET
+0.880 0.910 0.950 rg
+BT /F1 8.50 Tf 54.00 764.39 Td (General-Purpose Research-Class Lightweight Mobile Robot Platform for Multi-Agent Robotic Systems) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 729.89 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 734.39 Td (Document Information) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 193.00 734.39 Td (Description) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 713.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 719.89 Td (Document ID) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 713.69 m 187.00 729.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 719.89 Td (MARS-OPS-002) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 697.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 703.69 Td (Document Title) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 697.49 m 187.00 713.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 703.69 Td (System Operational Concept \(OpsCon\)) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 681.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 687.49 Td (System) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 681.29 m 187.00 697.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 687.49 Td (MARS Research-Class Lightweight Mobile Robot Platform) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 665.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 671.29 Td (Author) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 665.09 m 187.00 681.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 671.29 Td (Dhamdhawach Horsuwan) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 648.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 655.09 Td (Version) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 648.89 m 187.00 665.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 655.09 Td (v1.0) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 632.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 638.89 Td (Release Date) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 632.69 m 187.00 648.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 638.89 Td (2026-11-12) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 616.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 622.69 Td (Document Type) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 616.49 m 187.00 632.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 622.69 Td (System Operational Concept \(OpsCon\)) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 600.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 606.49 Td (Related Document) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 600.29 m 187.00 616.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 606.49 Td (MARS-OPS-001  -  Concept of Operations) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 584.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 590.29 Td (Reference Standard) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 584.09 m 187.00 600.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 590.29 Td (ISO/IEC/IEEE 29148:2018) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 550.09 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 550.09 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 555.09 Td (1. Introduction) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 528.09 Td (1.1 Purpose) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 525.09 m 553.28 525.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 511.59 Td (This System Operational Concept \(OpsCon\) describes how the Multi-Agent Robotic Systems \(MARS\) platform is intended) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 500.39 Td (to operate and interact with its users, supporting systems, and operational environment.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 486.19 Td (It establishes the system-level operational concept, including robot configurations, operational modes, human-system) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 474.99 Td (interaction, communication, experiment execution, and system lifecycle activities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 460.79 Td (The document provides a common understanding of how individual robotic agents and multi-robot configurations are) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 449.59 Td (prepared, operated, monitored, and maintained.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 435.39 Td (It also establishes the expected interactions between the robotic platform, researchers, operators, and external systems) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 424.19 Td (throughout the operational lifecycle.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 404.49 Td (1.2 Scope) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 401.49 m 553.28 401.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 387.99 Td (This document covers the system-level operation of a general-purpose Research-Class Lightweight Mobile Robot) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 376.79 Td (\(RCLMR\) platform intended for Multi-Agent Robotic Systems research.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 362.59 Td (The operational scope includes:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 348.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 348.69 Td (Individual mobile robot operation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 336.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 336.69 Td (Multi-robot cooperative operation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 324.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 324.69 Td (Physical robot-to-robot connection and disconnection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 312.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 312.69 Td (Composite robotic system operation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 300.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 300.69 Td (Manual wireless robot control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 288.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 288.69 Td (Autonomous robot operation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 276.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 276.69 Td (Centralized fleet supervision.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 264.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 264.69 Td (Decentralized robot coordination.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 252.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 252.69 Td (Integration of sensors and small manipulation mechanisms.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 240.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 240.69 Td (Experiment preparation, configuration, execution, and evaluation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 228.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 228.69 Td (Operational monitoring and recovery.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 216.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 216.69 Td (Battery management, maintenance, and system updates.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 204.39 Td (This document describes expected system behavior and interactions rather than prescribing detailed implementation) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 193.19 Td (technologies.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 173.49 Td (1.3 Relationship to ConOps) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 170.49 m 553.28 170.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 156.99 Td (The ConOps establishes the broader research mission and operational context.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 142.79 Td (This OpsCon translates that concept into a system-specific operational perspective.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 121.09 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 125.59 Td (Aspect) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 158.00 125.59 Td (ConOps) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 353.00 125.59 Td (OpsCon) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 104.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 111.09 Td (Primary perspective) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 104.89 m 152.00 121.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 111.09 Td (Research laboratory) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 347.00 104.89 m 347.00 121.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 353.00 111.09 Td (Robotic platform) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 88.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 94.89 Td (Main question) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 88.69 m 152.00 104.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 94.89 Td (Why and where is the platform used?) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 347.00 88.69 m 347.00 104.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 353.00 94.89 Td (How does the platform operate?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 62.29 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 78.69 Td (Focus) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 62.29 m 152.00 88.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 78.69 Td (Research applications and operational scenarios) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 347.00 62.29 m 347.00 88.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 353.00 78.69 Td (System configurations, modes, interactions, and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 353.00 68.49 Td (procedures) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 46.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 52.29 Td (Users) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 46.09 m 152.00 62.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 52.29 Td (Research stakeholders) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 347.00 46.09 m 347.00 62.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 353.00 52.29 Td (System users and operators) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 1 of 15) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 9615 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.161 0.224 0.322 rg
+1.00 w
+42.00 773.89 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 778.39 Td (Aspect) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 158.00 778.39 Td (ConOps) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 353.00 778.39 Td (OpsCon) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 757.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 763.89 Td (Outputs) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 757.69 m 152.00 773.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 763.89 Td (Operational objectives and scenarios) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 347.00 757.69 m 347.00 773.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 353.00 763.89 Td (System operational behavior and interfaces) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 735.69 Td (1.4 System Boundary) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 732.69 m 553.28 732.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 719.19 Td (The MARS platform consists of individual robotic agents and the supporting infrastructure required to configure,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 707.99 Td (operate, and monitor them.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 693.79 Td (The system boundary includes:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 679.89 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 679.89 Td (Individual robotic agents.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 667.89 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 667.89 Td (Mechanical interfaces for robot-to-robot connection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 655.89 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 655.89 Td (Onboard sensing and actuation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 643.89 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 643.89 Td (Onboard computation and control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 631.89 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 631.89 Td (Robot-to-robot communication.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 619.89 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 619.89 Td (Wireless operator-control interfaces.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 607.89 Td (7.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 607.89 Td (External monitoring and fleet-management interfaces.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 595.89 Td (8.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 595.89 Td (Supporting power and charging infrastructure.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 583.89 Td (9.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 583.89 Td (Experiment configuration and data-management facilities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 571.59 Td (External research algorithms, experimental objects, laboratory infrastructure, and development computers may interact) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 560.39 Td (with the platform but are not necessarily part of the core robotic system.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 528.69 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 528.69 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 533.69 Td (2. System Overview) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 506.69 Td (2.1 System Description) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 503.69 m 553.28 503.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 490.19 Td (The MARS platform is a collection of lightweight mobile robotic agents intended to support research and experimentation) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 478.99 Td (in multi-agent robotic systems.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 464.79 Td (Each robot is an independent physical unit with its own onboard computational, sensing, actuation, and communication) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 453.59 Td (capabilities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 439.39 Td (Robots may operate individually or cooperate with other robots to accomplish shared objectives.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 425.19 Td (The platform additionally supports physical robot-to-robot connection, allowing multiple independent robotic agents to) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 413.99 Td (form a larger composite robotic configuration.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 399.79 Td (Depending on the experiment, connected robots may coordinate their actions while retaining their individual computational) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 388.59 Td (identities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 374.39 Td (The platform is intended to support both manually controlled and autonomous operation, with centralized supervision and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 363.19 Td (decentralized coordination available according to the experimental requirements.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 343.49 Td (2.2 Robot Classification) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 340.49 m 553.28 340.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 326.99 Td (The platform is provisionally classified as a:) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.80 Tf 44.00 312.79 Td (Research-Class Lightweight Mobile Robot \(RCLMR\).) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 300.29 Td (This is a project-specific engineering classification describing the intended physical characteristics and application of the) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 289.09 Td (platform. It is not an established international safety classification.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 274.89 Td (The preliminary design envelope is:) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 253.19 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 257.69 Td (Parameter) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 193.00 257.69 Td (Preliminary Characteristic) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 236.99 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 243.19 Td (Individual robot mass) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 236.99 m 187.00 253.19 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 243.19 Td (Less than 1 kg) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 220.79 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 226.99 Td (Normal operating speed) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 220.79 m 187.00 236.99 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 226.99 Td (Up to 0.5 m/s) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 204.59 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 210.79 Td (Extended operating speed) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 204.59 m 187.00 220.79 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 210.79 Td (Up to 1.0 m/s) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 188.39 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 194.59 Td (Mobility) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 188.39 m 187.00 204.59 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 194.59 Td (Compact wheeled mobile robot) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 172.19 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 178.39 Td (Manipulation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 172.19 m 187.00 188.39 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 178.39 Td (Optional small servo-actuated gripper) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 155.99 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 162.19 Td (Power) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 155.99 m 187.00 172.19 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 162.19 Td (Battery-powered) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 139.79 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 145.99 Td (Control) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 139.79 m 187.00 155.99 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 145.99 Td (Manual wireless and autonomous) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 123.59 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 129.79 Td (Communication) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 123.59 m 187.00 139.79 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 129.79 Td (Robot-to-robot and robot-to-operator) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 107.39 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 113.59 Td (Intended environment) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 107.39 m 187.00 123.59 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 113.59 Td (Primarily controlled research environments) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 91.19 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 97.39 Td (Handling) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 91.19 m 187.00 107.39 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 97.39 Td (Manually liftable by one person) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 74.69 Td (These values are preliminary design targets, not demonstrated safety thresholds.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 2 of 15) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 11456 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 781.39 Td (The operating envelope of composite configurations must be assessed separately because connecting multiple robots) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 770.19 Td (changes the total moving mass and mechanical interaction characteristics.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 750.49 Td (2.3 System Composition) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 747.49 m 553.28 747.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 733.99 Td (The platform is conceptually composed of the following subsystems.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 712.29 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 716.79 Td (Subsystem) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 193.00 716.79 Td (Operational Responsibility) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 696.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 702.29 Td (Mobility) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 696.09 m 187.00 712.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 702.29 Td (Provides robot movement and locomotion.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 679.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 686.09 Td (Power Management) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 679.89 m 187.00 696.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 686.09 Td (Supplies and manages electrical power.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 663.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 669.89 Td (Computation and Control) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 663.69 m 187.00 679.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 669.89 Td (Executes onboard software, control algorithms, and research applications.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 647.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 653.69 Td (Perception and Sensing) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 647.49 m 187.00 663.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 653.69 Td (Acquires information about the robot and its environment.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 631.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 637.49 Td (Localization) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 631.29 m 187.00 647.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 637.49 Td (Estimates the robot's position and movement.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 615.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 621.29 Td (Communication) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 615.09 m 187.00 631.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 621.29 Td (Exchanges information between robots and external systems.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 598.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 605.09 Td (Manipulation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 598.89 m 187.00 615.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 605.09 Td (Performs physical interaction with objects through optional mechanisms.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 582.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 588.89 Td (Mechanical Reconfiguration) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 582.69 m 187.00 598.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 588.89 Td (Enables physical connection and disconnection between robotic agents.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 566.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 572.69 Td (User Interface) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 566.49 m 187.00 582.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 572.69 Td (Provides onboard status information and basic user interaction.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 550.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 556.49 Td (Fleet Management) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 550.29 m 187.00 566.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 556.49 Td (Supports external monitoring, configuration, and supervision of multiple robots.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 533.79 Td (The specific implementation and allocation of these functions are addressed in subsequent system architecture and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 522.59 Td (requirements engineering activities.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 490.89 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 490.89 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 495.89 Td (3. System Actors and External Entities) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 468.89 Td (3.1 Human Actors) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 465.89 m 553.28 465.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 452.39 Td (The platform interacts with several categories of users.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 430.69 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 435.19 Td (Actor) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 193.00 435.19 Td (Operational Responsibilities) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 414.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 420.69 Td (Researcher) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 414.49 m 187.00 430.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 420.69 Td (Defines experiments, develops algorithms, configures robots, and evaluates results.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 398.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 404.49 Td (Experiment Operator) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 398.29 m 187.00 414.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 404.49 Td (Prepares robots, deploys the team, monitors operation, and performs intervention.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 382.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 388.29 Td (Robot Developer) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 382.09 m 187.00 398.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 388.29 Td (Develops and integrates hardware, firmware, and software.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 365.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 372.09 Td (Laboratory Technician) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 365.89 m 187.00 382.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 372.09 Td (Performs inspection, charging, maintenance, and equipment management.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 349.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 355.89 Td (Principal Investigator) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 349.69 m 187.00 365.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 355.89 Td (Supervises research activities and evaluates experimental outcomes.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 333.19 Td (A person may perform multiple roles during an experiment.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 313.49 Td (3.2 External Entities) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 310.49 m 553.28 310.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 296.99 Td (The platform may interact with the following external entities.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 275.29 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 279.79 Td (External Entity) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 193.00 279.79 Td (Interaction) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 259.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 265.29 Td (Wireless Controller) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 259.09 m 187.00 275.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 265.29 Td (Sends manual movement and operational commands.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 242.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 249.09 Td (Monitoring Computer) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 242.89 m 187.00 259.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 249.09 Td (Displays robot and fleet information.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 226.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 232.89 Td (Experiment Computer) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 226.69 m 187.00 242.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 232.89 Td (Configures and executes research algorithms.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 210.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 216.69 Td (External Sensors) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 210.49 m 187.00 226.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 216.69 Td (Provides additional environmental or experimental information.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 194.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 200.49 Td (Experimental Objects) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 194.29 m 187.00 210.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 200.49 Td (Objects used in transportation, manipulation, or interaction experiments.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 178.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 184.29 Td (Charging Equipment) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 178.09 m 187.00 194.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 184.29 Td (Supplies electrical energy to robotic agents.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 161.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 168.09 Td (Simulation Environment) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 161.89 m 187.00 178.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 168.09 Td (Supports simulation-based experimentation and algorithm development.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 145.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 151.89 Td (Laboratory Infrastructure) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 145.69 m 187.00 161.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 151.89 Td (Provides the physical operating environment and supporting facilities.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 111.69 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 111.69 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 116.69 Td (4. System Operational Configurations) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 95.19 Td (The platform supports different physical configurations and operational arrangements.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 80.99 Td (Physical configuration, control authority, and coordination architecture are treated as separate dimensions.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 61.29 Td (4.1 Physical Configurations) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 58.29 m 553.28 58.29 l S
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 3 of 15) Tj ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 10024 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 778.39 Td (4.1.1 Independent Robot) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 765.39 Td (Each robot operates as an independent physical and computational agent.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 751.19 Td (The robot may perform an individual task, navigate independently, or participate in a multi-robot experiment.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 733.99 Td (4.1.2 Cooperative Multi-Robot Team) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 720.99 Td (Multiple independent robots cooperate to accomplish a shared objective.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 706.79 Td (Each robot retains its own physical structure and computational identity.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 692.59 Td (Robots may exchange information and coordinate their actions.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 675.39 Td (4.1.3 Composite Robot) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 662.39 Td (Two or more robots physically connect to form a larger robotic configuration.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 648.19 Td (The connected robots operate as a coordinated physical system.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 633.99 Td (The individual agents may retain their onboard computational capabilities and communicate internally or externally.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 616.79 Td (4.1.4 Mixed Configuration) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 603.79 Td (A team may contain independent robots and one or more composite robotic systems.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 589.59 Td (This configuration supports experiments involving interactions between individual agents and connected groups.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 569.89 Td (4.2 Control Authority) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 566.89 m 553.28 566.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 553.39 Td (The platform is intended to support two primary control arrangements.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.80 Tf 44.00 539.19 Td (Manual Control) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 526.69 Td (A human operator directly controls a robot through a wireless interface.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.80 Tf 44.00 512.49 Td (Autonomous Control) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 499.99 Td (The robot executes an assigned task using onboard algorithms without requiring continuous human movement commands.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 485.79 Td (Manual and autonomous control may coexist within the same multi-robot experiment, subject to defined control-authority) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 474.59 Td (rules.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 454.89 Td (4.3 Coordination Architecture) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 451.89 m 553.28 451.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 438.39 Td (The platform supports different approaches to multi-robot coordination.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 416.69 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 421.19 Td (Architecture) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 158.00 421.19 Td (Description) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 400.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 406.69 Td (Centralized) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 400.49 m 152.00 416.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 406.69 Td (A central system coordinates robot decisions or assigns tasks.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 384.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 390.49 Td (Decentralized) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 384.29 m 152.00 400.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 390.49 Td (Individual robots make local decisions and coordinate through information exchange.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 368.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 374.29 Td (Hybrid) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 152.00 368.09 m 152.00 384.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 158.00 374.29 Td (Centralized supervision or task assignment coexists with decentralized robot decision-making.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 351.59 Td (The selected architecture depends on the research objective.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 337.39 Td (Centralized monitoring does not necessarily imply centralized autonomous control.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 317.69 Td (4.4 Configuration Matrix) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 314.69 m 553.28 314.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 301.19 Td (The three operational dimensions can be combined.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 279.49 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 283.99 Td (Physical Configuration) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 173.00 283.99 Td (Manual Control) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 303.00 283.99 Td (Autonomous Control) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 403.00 283.99 Td (Coordination) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 263.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 269.49 Td (Independent robot) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 167.00 263.29 m 167.00 279.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 173.00 269.49 Td (Supported) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 297.00 263.29 m 297.00 279.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 303.00 269.49 Td (Supported) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 397.00 263.29 m 397.00 279.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 403.00 269.49 Td (Individual or externally coordinated) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 247.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 253.29 Td (Cooperative team) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 167.00 247.09 m 167.00 263.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 173.00 253.29 Td (Individual robot control) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 297.00 247.09 m 297.00 263.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 303.00 253.29 Td (Supported) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 397.00 247.09 m 397.00 263.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 403.00 253.29 Td (Centralized, decentralized, or hybrid) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 220.69 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 237.09 Td (Composite robot) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 167.00 220.69 m 167.00 247.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 173.00 237.09 Td (Subject to control-interface) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 173.00 226.89 Td (availability) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 297.00 220.69 m 297.00 247.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 303.00 237.09 Td (Supported) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 397.00 220.69 m 397.00 247.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 403.00 237.09 Td (Centralized or distributed) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 204.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 210.69 Td (Mixed configuration) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 167.00 204.49 m 167.00 220.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 173.00 210.69 Td (Supported) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 297.00 204.49 m 297.00 220.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 303.00 210.69 Td (Supported) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 397.00 204.49 m 397.00 220.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 403.00 210.69 Td (Centralized, decentralized, or hybrid) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 187.99 Td (Not every combination must be implemented simultaneously. The matrix defines the intended operational flexibility.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 156.29 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 156.29 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 161.29 Td (5. System Operational Modes) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 134.29 Td (5.1 Overview) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 131.29 m 553.28 131.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 117.79 Td (The platform supports several operational modes corresponding to its lifecycle and operational functions.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 96.09 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 100.59 Td (Mode) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 208.00 100.59 Td (Description) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 79.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 86.09 Td (Power-Off) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 79.89 m 202.00 96.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 86.09 Td (Robot is electrically switched off.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 63.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 69.89 Td (Initialization) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 63.69 m 202.00 79.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 69.89 Td (Robot starts and initializes its onboard systems.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 47.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 53.69 Td (Standby) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 47.49 m 202.00 63.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 53.69 Td (Robot is initialized and waiting for commands or experiment execution.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 4 of 15) Tj ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 9376 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.161 0.224 0.322 rg
+1.00 w
+42.00 773.89 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 778.39 Td (Mode) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 208.00 778.39 Td (Description) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 757.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 763.89 Td (Manual Wireless Control) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 757.69 m 202.00 773.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 763.89 Td (Operator directly controls robot movement and selected functions.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 741.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 747.69 Td (Independent Autonomous Operation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 741.49 m 202.00 757.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 747.69 Td (Individual robot autonomously executes its assigned task.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 725.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 731.49 Td (Cooperative Autonomous Operation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 725.29 m 202.00 741.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 731.49 Td (Multiple robots coordinate to execute a shared task.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 709.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 715.29 Td (Composite Operation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 709.09 m 202.00 725.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 715.29 Td (Physically connected robots operate as a composite system.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 692.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 699.09 Td (Reconfiguration) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 692.89 m 202.00 709.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 699.09 Td (Robots establish or release physical connections.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 676.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 682.89 Td (Monitoring) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 676.69 m 202.00 692.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 682.89 Td (Robot or fleet information is made available to users.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 660.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 666.69 Td (Recovery) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 660.49 m 202.00 676.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 666.69 Td (Robot or team performs recovery activities after an interruption or fault.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 644.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 650.49 Td (Maintenance) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 202.00 644.29 m 202.00 660.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 208.00 650.49 Td (Robot is placed in a condition suitable for inspection and maintenance.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 622.29 Td (5.2 Power-Off Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 619.29 m 553.28 619.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 605.79 Td (The robot is electrically switched off.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 591.59 Td (In this condition, normal onboard computation, communication, and actuation are unavailable.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 577.39 Td (The robot may be transported, stored, charged, or prepared for subsequent operation according to its power-system) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 566.19 Td (design.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 546.49 Td (5.3 Initialization Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 543.49 m 553.28 543.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 529.99 Td (The robot starts its onboard systems and performs necessary initialization activities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 515.79 Td (These may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 501.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 501.89 Td (Hardware initialization.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 489.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 489.89 Td (Sensor initialization.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 477.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 477.89 Td (Communication initialization.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 465.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 465.89 Td (Battery and power-system checks.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 453.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 453.89 Td (Software initialization.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 441.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 441.89 Td (Configuration loading.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 429.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 429.89 Td (System diagnostics.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 417.59 Td (After successful initialization, the robot transitions to Standby.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 403.39 Td (If a critical initialization failure occurs, the robot should enter a defined fault or recovery condition.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 383.69 Td (5.4 Standby Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 380.69 m 553.28 380.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 367.19 Td (The robot is operationally ready but is not performing a movement or manipulation task.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 352.99 Td (In this mode, the robot may:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 339.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 339.09 Td (Receive configuration parameters.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 327.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 327.09 Td (Establish communication connections.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 315.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 315.09 Td (Receive experiment commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 303.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 303.09 Td (Report operational status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 291.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 291.09 Td (Wait for manual control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 279.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 279.09 Td (Wait for autonomous task execution.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 261.29 Td (5.5 Manual Wireless Control Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 258.29 m 553.28 258.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 244.79 Td (An operator remotely controls an individual robot using a wireless controller or computer-based interface.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 230.59 Td (Available functions may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 216.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 216.69 Td (Forward and backward movement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 204.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 204.69 Td (Turning and rotational movement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 192.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 192.69 Td (Movement speed adjustment.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 180.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 180.69 Td (Gripper opening and closing, where available.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 168.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 168.69 Td (Selected operational commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 156.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 156.69 Td (Manual positioning and recovery.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 144.39 Td (The robot receives operator commands and executes the corresponding actions.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 130.19 Td (The control interface should provide sufficient feedback for the operator to understand the robot's operational condition.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 115.99 Td (Loss of the wireless control connection must result in a defined response appropriate to the operating context.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 101.79 Td (Manual control does not replace emergency-stop or other required safety functions.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 82.09 Td (5.6 Independent Autonomous Operation Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 79.09 m 553.28 79.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 65.59 Td (An individual robot autonomously performs an assigned task.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 5 of 15) Tj ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 7736 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 781.39 Td (The robot uses its onboard sensing, computation, and control capabilities to determine and execute its actions.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 767.19 Td (The operator may monitor its status and intervene when necessary.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 747.49 Td (5.7 Cooperative Autonomous Operation Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 744.49 m 553.28 744.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 730.99 Td (Multiple robots cooperate to accomplish a shared objective.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 716.79 Td (Robots may exchange information, allocate tasks, coordinate movement, and update their decisions according to the) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 705.59 Td (selected research algorithm.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 691.39 Td (The coordination mechanism may be centralized, decentralized, or hybrid.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 671.69 Td (5.8 Composite Operation Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 668.69 m 553.28 668.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 655.19 Td (Multiple physically connected robots operate as a composite robotic system.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 640.99 Td (The connected agents coordinate their actions to achieve a shared physical objective.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 626.79 Td (The composite configuration may perform movement, transportation, or other tasks according to the experiment.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 612.59 Td (The control arrangement may involve a shared control process or distributed control among the connected agents.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 592.89 Td (5.9 Reconfiguration Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 589.89 m 553.28 589.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 576.39 Td (Robots establish or release physical connections to change their overall configuration.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 562.19 Td (The reconfiguration process may be initiated by:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 548.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 548.29 Td (An autonomous algorithm.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 536.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 536.29 Td (An operator command.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 524.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 524.29 Td (An experimental procedure.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 511.99 Td (The system should establish the resulting physical and operational configuration before proceeding with the next task.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 492.29 Td (5.10 Monitoring Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 489.29 m 553.28 489.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 475.79 Td (Robot and fleet information is presented to researchers or operators.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 461.59 Td (Information may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 447.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 447.69 Td (Robot identity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 435.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 435.69 Td (Operational mode.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 423.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 423.69 Td (Position and movement status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 411.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 411.69 Td (Battery condition.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 399.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 399.69 Td (Communication connectivity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 387.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 387.69 Td (Sensor and subsystem status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 375.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 375.69 Td (Task progress.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 363.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 363.69 Td (Fault and warning information.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 351.39 Td (Monitoring may be performed through onboard interfaces or external software.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 331.69 Td (5.11 Recovery Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 328.69 m 553.28 328.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 315.19 Td (The robot or team performs recovery activities following an interruption or abnormal condition.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 300.99 Td (Recovery may involve:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 287.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 287.09 Td (Returning to a safe or stationary condition.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 275.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 275.09 Td (Manual wireless control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 263.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 263.09 Td (Reinitialization.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 251.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 251.09 Td (Communication reconnection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 239.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 239.09 Td (Physical retrieval.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 227.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 227.09 Td (Battery replacement or charging.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 215.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 215.09 Td (Operator intervention.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 202.79 Td (The appropriate recovery procedure depends on the nature of the fault and operating environment.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 183.09 Td (5.12 Maintenance Mode) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 180.09 m 553.28 180.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 166.59 Td (The robot is placed in a condition suitable for inspection, servicing, repair, or component replacement.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 152.39 Td (Normal autonomous task execution is not expected during maintenance.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 138.19 Td (Maintenance personnel should be able to identify the operational condition of the robot and prevent unintended movement) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 126.99 Td (during maintenance activities.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 95.29 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 95.29 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 100.29 Td (6. System Operational Procedures) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 73.29 Td (6.1 General Experiment Lifecycle) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 70.29 m 553.28 70.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 56.79 Td (A typical experiment follows the operational sequence below.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 6 of 15) Tj ET
+endstream
+endobj
+17 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 18 0 R >>
+endobj
+18 0 obj
+<< /Length 7828 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 778.39 Td (Phase 1  -  Preparation) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 765.39 Td (The researcher defines the experiment objective and prepares the experimental environment.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 751.19 Td (The required robots, accessories, sensors, and software are selected.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 733.99 Td (Phase 2  -  Inspection and Initialization) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 720.99 Td (The operator inspects the robots and verifies their readiness.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 706.79 Td (The robots are powered on and initialized.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 689.59 Td (Phase 3  -  Configuration) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 676.59 Td (The researcher configures:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 662.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 662.69 Td (Robot identities.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 650.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 650.69 Td (Number of participating agents.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 638.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 638.69 Td (Robot roles.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 626.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 626.69 Td (Initial positions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 614.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 614.69 Td (Experimental parameters.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 602.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 602.69 Td (Coordination algorithms.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 590.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 590.69 Td (Communication settings.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 578.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 578.69 Td (Required operational configuration.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 563.39 Td (Phase 4  -  Deployment) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 550.39 Td (Robots are placed in the experimental environment.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 536.19 Td (The operator verifies that the participating robots are ready for operation.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 518.99 Td (Phase 5  -  Execution) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 505.99 Td (The experiment begins.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 491.79 Td (Robots perform their assigned tasks using manual or autonomous control as defined by the experiment.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 474.59 Td (Phase 6  -  Monitoring) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 461.59 Td (Researchers observe robot status, task progress, and overall system behavior.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 447.39 Td (The operator may intervene when necessary.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 430.19 Td (Phase 7  -  Data Collection) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 417.19 Td (Experimental information is collected for subsequent analysis.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 399.99 Td (Phase 8  -  Termination) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 386.99 Td (The experiment is terminated.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 372.79 Td (Robots stop their assigned tasks and transition to an appropriate operational condition.) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 9.00 Tf 44.00 355.59 Td (Phase 9  -  Reset and Maintenance) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 342.59 Td (Robots are inspected, recharged, reconfigured, or maintained as necessary before subsequent experiments.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 322.89 Td (6.2 Manual Wireless Operation Procedure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 319.89 m 553.28 319.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 306.69 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 306.69 Td (Operator prepares the robot and wireless controller.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 294.69 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 294.69 Td (Robot is powered on and initialized.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 282.69 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 282.69 Td (Operator establishes a wireless control connection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 270.69 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 270.69 Td (Operator verifies robot identity and control availability.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 258.69 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 258.69 Td (Operator issues movement or selected function commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 246.69 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 246.69 Td (Robot executes the commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 234.69 Td (7.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 234.69 Td (Operator observes robot response.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 222.69 Td (8.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 222.69 Td (Operator terminates manual control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 210.69 Td (9.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 210.69 Td (Robot returns to Standby or another permitted mode.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 192.89 Td (6.3 Autonomous Experiment Procedure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 189.89 m 553.28 189.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 176.69 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 176.69 Td (Researcher prepares the experimental algorithm.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 164.69 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 164.69 Td (Robot or team is initialized.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 152.69 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 152.69 Td (Experiment parameters and task objectives are configured.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 140.69 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 140.69 Td (Robots receive their assigned tasks.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 128.69 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 128.69 Td (Autonomous execution begins.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 116.69 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 116.69 Td (Robots perform their assigned activities.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 104.69 Td (7.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 104.69 Td (Researchers monitor operational progress.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 92.69 Td (8.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 92.69 Td (The experiment terminates or is interrupted.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 80.69 Td (9.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 80.69 Td (Robots return to an appropriate operational condition.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 62.89 Td (6.4 Multi-Robot Configuration Procedure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 59.89 m 553.28 59.89 l S
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 7 of 15) Tj ET
+endstream
+endobj
+19 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 20 0 R >>
+endobj
+20 0 obj
+<< /Length 8640 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 781.69 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 781.69 Td (Researchers determine the required number of robots.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 769.69 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 769.69 Td (Robots are individually prepared and initialized.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 757.69 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 757.69 Td (Robot identities and communication relationships are established.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 745.69 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 745.69 Td (The desired team configuration is selected.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 733.69 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 733.69 Td (Robots are deployed.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 721.69 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 721.69 Td (The team begins the assigned experiment.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 709.69 Td (7.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 709.69 Td (Robot interactions and team performance are monitored.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 697.69 Td (8.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 697.69 Td (The experiment is terminated or reconfigured.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 679.89 Td (6.5 Composite Robot Formation Procedure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 676.89 m 553.28 676.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 663.69 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 663.69 Td (Individual robots are prepared for physical connection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 651.69 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 651.69 Td (Robots approach their designated connection positions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 639.69 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 639.69 Td (The docking process is initiated.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 627.69 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 627.69 Td (Physical connections are established.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 615.69 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 615.69 Td (The resulting configuration is checked.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 603.69 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 603.69 Td (The connected agents establish the required operational coordination.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 591.69 Td (7.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 591.69 Td (The composite system performs its assigned task.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 579.69 Td (8.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 579.69 Td (The composite system stops or prepares for disconnection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 567.69 Td (9.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 567.69 Td (Robots disconnect when required.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 555.69 Td (10.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 555.69 Td (Individual agents return to independent operation.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 543.39 Td (The detailed docking mechanism and connection-verification method remain subject to system design.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 511.69 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 511.69 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 516.69 Td (7. Human-System Interaction) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 489.69 Td (7.1 Interaction Overview) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 486.69 m 553.28 486.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 473.19 Td (The platform provides interaction through onboard and external interfaces.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 458.99 Td (The interaction concept aims to allow researchers and operators to configure, control, and monitor the robots without) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 447.79 Td (requiring direct access to internal hardware or software.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 428.09 Td (7.2 Onboard Interface) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 425.09 m 553.28 425.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 411.59 Td (Each robot is expected to provide basic onboard interaction capabilities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 397.39 Td (These may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 383.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 383.49 Td (Operational status indication.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 371.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 371.49 Td (Battery and power status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 359.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 359.49 Td (Communication status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 347.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 347.49 Td (Mode indication.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 335.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 335.49 Td (Basic configuration access.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 323.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 323.49 Td (Wireless pairing.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 311.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 311.49 Td (Data-recording control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 299.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 299.49 Td (Selected diagnostic functions.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 287.19 Td (Physical buttons and visual indicators may be used to support these functions.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 267.49 Td (7.3 Wireless Manual Control Interface) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 264.49 m 553.28 264.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 250.99 Td (The wireless control interface allows an operator to control an individual robot remotely.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 236.79 Td (It may be implemented through a handheld controller or computer-based application.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 222.59 Td (The interface should provide:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 208.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 208.69 Td (Robot selection or identification.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 196.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 196.69 Td (Movement commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 184.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 184.69 Td (Speed adjustment.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 172.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 172.69 Td (Selected function commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 160.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 160.69 Td (Connection-status feedback.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 148.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 148.69 Td (Operational feedback.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 130.89 Td (7.4 Fleet Monitoring Interface) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 127.89 m 553.28 127.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 114.39 Td (An external monitoring interface may provide an overview of the entire robot team.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 100.19 Td (The interface is intended to support:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 86.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 86.29 Td (Robot identification.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 74.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 74.29 Td (Fleet status monitoring.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 62.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 62.29 Td (Robot position visualization.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 8 of 15) Tj ET
+endstream
+endobj
+21 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 22 0 R >>
+endobj
+22 0 obj
+<< /Length 7969 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 781.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 781.69 Td (Communication status monitoring.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 769.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 769.69 Td (Battery monitoring.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 757.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 757.69 Td (Experiment progress monitoring.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 745.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 745.69 Td (Operator commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 733.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 733.69 Td (Fault and warning notifications.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 721.39 Td (The monitoring interface is not required to participate in every autonomous decision.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 701.69 Td (7.5 Experiment Configuration Interface) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 698.69 m 553.28 698.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 685.19 Td (Researchers may use external software to configure experimental parameters.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 670.99 Td (Configuration activities may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 657.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 657.09 Td (Selecting robot identities.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 645.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 645.09 Td (Defining task objectives.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 633.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 633.09 Td (Assigning robot roles.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 621.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 621.09 Td (Configuring algorithms.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 609.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 609.09 Td (Setting communication parameters.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 597.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 597.09 Td (Defining initial conditions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 585.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 585.09 Td (Configuring data recording.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 572.79 Td (The exact configuration interface depends on the software architecture.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 553.09 Td (7.6 Control Authority) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 550.09 m 553.28 550.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 536.59 Td (The platform should maintain a clear distinction between:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 522.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 522.69 Td (Human movement commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 510.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 510.69 Td (Autonomous algorithm commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 498.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 498.69 Td (Fleet-management commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 486.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 486.69 Td (Emergency intervention.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 474.39 Td (The system should define how conflicting commands are handled and how control authority changes between manual and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 463.19 Td (autonomous operation.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 448.99 Td (Emergency intervention must remain independent of ordinary operational commands.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 417.29 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 417.29 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 422.29 Td (8. Communication and Information Exchange) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 395.29 Td (8.1 Communication Overview) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 392.29 m 553.28 392.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 378.79 Td (The platform supports communication between robotic agents and external systems.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 364.59 Td (Communication is required for manual control, robot coordination, monitoring, configuration, and experimental data) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 353.39 Td (exchange.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 333.69 Td (8.2 Robot-to-Robot Communication) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 330.69 m 553.28 330.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 317.19 Td (Robots may exchange information directly or through supporting communication infrastructure.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 302.99 Td (Information may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 289.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 289.09 Td (Robot identity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 277.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 277.09 Td (Position and motion information.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 265.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 265.09 Td (Operational state.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 253.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 253.09 Td (Task assignments.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 241.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 241.09 Td (Perception information.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 229.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 229.09 Td (Coordination messages.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 217.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 217.09 Td (Reconfiguration information.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 205.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 205.09 Td (Fault and status notifications.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 187.29 Td (8.3 Robot-to-Operator Communication) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 184.29 m 553.28 184.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 170.79 Td (Robots may exchange information with wireless controllers and external monitoring systems.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 156.59 Td (This communication supports:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 142.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 142.69 Td (Manual movement commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 130.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 130.69 Td (Mode selection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 118.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 118.69 Td (Operational configuration.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 106.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 106.69 Td (Status reporting.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 94.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 94.69 Td (Monitoring.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 82.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 82.69 Td (Operator intervention.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 64.89 Td (8.4 Communication Limitations) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 61.89 m 553.28 61.89 l S
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 9 of 15) Tj ET
+endstream
+endobj
+23 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 24 0 R >>
+endobj
+24 0 obj
+<< /Length 7735 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 781.39 Td (Communication conditions may vary according to the experimental environment.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 767.19 Td (The platform is intended to support research into:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 753.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 753.29 Td (Limited communication range.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 741.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 741.29 Td (Intermittent connectivity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 729.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 729.29 Td (Communication delay.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 717.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 717.29 Td (Packet loss.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 705.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 705.29 Td (Network partitioning.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 693.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 693.29 Td (Changes in network topology.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 680.99 Td (The behavior of robots during communication interruption should be defined according to their current operational mode.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 661.29 Td (8.5 Communication Independence) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 658.29 m 553.28 658.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 644.79 Td (The loss of an external monitoring connection should not automatically terminate all autonomous activities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 630.59 Td (Where appropriate, robots should retain the ability to perform local operations and continue decentralized coordination.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 616.39 Td (However, loss of manual control communication must result in a defined response that prevents unintended behavior.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 584.69 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 584.69 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 589.69 Td (9. Operational Faults and Recovery) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 562.69 Td (9.1 General Concept) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 559.69 m 553.28 559.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 546.19 Td (The platform should provide defined responses to operational abnormalities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 531.99 Td (The response depends on the affected subsystem, current operating mode, and experimental context.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 512.29 Td (9.2 Communication Failure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 509.29 m 553.28 509.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 495.79 Td (Potential conditions include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 481.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 481.89 Td (Loss of operator wireless control.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 469.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 469.89 Td (Loss of robot-to-robot communication.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 457.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 457.89 Td (Loss of external monitoring connectivity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 445.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 445.89 Td (Temporary network partitioning.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 433.59 Td (The system should distinguish between loss of operator control and loss of inter-robot communication.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 419.39 Td (These conditions may require different responses.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 399.69 Td (9.3 Battery Depletion) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 396.69 m 553.28 396.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 383.19 Td (When battery capacity becomes insufficient for continued operation, the robot should provide an appropriate warning or) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 371.99 Td (status indication.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 357.79 Td (Depending on the operational context, the robot may:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 343.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 343.89 Td (Complete a controlled stop.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 331.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 331.89 Td (Terminate its assigned task.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 319.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 319.89 Td (Return to a designated location.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 307.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 307.89 Td (Request operator intervention.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 295.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 295.89 Td (Enter a recovery condition.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 278.09 Td (9.4 Robot Failure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 275.09 m 553.28 275.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 261.59 Td (A robot may experience hardware, software, sensing, or communication failure.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 247.39 Td (The remaining robots may continue operating depending on the experiment and the nature of the failure.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 233.19 Td (Researchers should be able to identify the affected robot and evaluate the impact on the overall team.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 213.49 Td (9.5 Sensor Failure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 210.49 m 553.28 210.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 196.99 Td (If required sensor information becomes unavailable or unreliable, the robot should follow a defined response appropriate to) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 185.79 Td (its assigned task.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 171.59 Td (This may involve stopping, switching to an alternative operating strategy, or requesting operator intervention.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 151.89 Td (9.6 Physical Connection Failure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 148.89 m 553.28 148.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 135.39 Td (Potential conditions include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 121.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 121.49 Td (Failed docking.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 109.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 109.49 Td (Incomplete physical connection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 97.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 97.49 Td (Unexpected disconnection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 85.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 85.49 Td (Mechanical damage.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 73.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 73.49 Td (Incorrect composite configuration.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 10 of 15) Tj ET
+endstream
+endobj
+25 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 26 0 R >>
+endobj
+26 0 obj
+<< /Length 8051 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 781.39 Td (The system should not assume that a physical connection is valid until its required connection conditions have been) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 770.19 Td (established.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 750.49 Td (9.7 Recovery Principles) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 747.49 m 553.28 747.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 733.99 Td (Recovery activities should follow these general principles:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 720.09 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 720.09 Td (Identify the affected robot or subsystem.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 708.09 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 708.09 Td (Determine the operational condition.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 696.09 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 696.09 Td (Prevent further unintended movement or interaction.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 684.09 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 684.09 Td (Notify the operator when intervention is required.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 672.09 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 672.09 Td (Restore normal operation only when appropriate.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 660.09 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 660.09 Td (Record relevant failure information for subsequent analysis.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 630.29 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 630.29 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 635.29 Td (10. Safety and Risk Considerations) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 608.29 Td (10.1 Safety Philosophy) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 605.29 m 553.28 605.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 591.79 Td (The MARS platform is intended to be a lightweight research robotic system with relatively low mechanical energy) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 580.59 Td (compared with larger industrial mobile robots.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 566.39 Td (However, lightweight construction and low operating speed do not automatically establish that the system is safe.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 552.19 Td (Potential hazards must be evaluated according to the complete robot configuration and intended operating conditions.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 537.99 Td (ISO 12100 is proposed as the primary reference for machinery risk assessment and risk reduction, subject to) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 526.79 Td (applicability.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 512.59 Td (Other relevant safety standards may be considered according to the final system scope.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 492.89 Td (10.2 Individual Robot Hazards) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 489.89 m 553.28 489.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 476.39 Td (Potential hazards include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 462.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 462.49 Td (Collision with people or objects.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 450.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 450.49 Td (Pinching by moving components.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 438.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 438.49 Td (Sharp edges or protruding components.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 426.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 426.49 Td (Unexpected movement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 414.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 414.49 Td (Electrical faults.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 402.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 402.49 Td (Battery overheating or failure.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 384.69 Td (10.3 Manipulator Hazards) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 381.69 m 553.28 381.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 368.19 Td (The optional small servo-actuated gripper introduces additional mechanical hazards.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 353.99 Td (Potential hazards include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 340.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 340.09 Td (Finger pinching.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 328.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 328.09 Td (Localized crushing.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 316.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 316.09 Td (Unexpected gripper actuation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 304.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 304.09 Td (Mechanical trapping.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 292.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 292.09 Td (Contact with exposed moving linkages.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 279.79 Td (The manipulator should be evaluated separately and as part of the complete robotic system.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 260.09 Td (10.4 Multi-Robot Hazards) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 257.09 m 553.28 257.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 243.59 Td (Multi-robot operation introduces hazards associated with interactions between multiple moving agents.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 229.39 Td (These include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 215.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 215.49 Td (Robot-to-robot collisions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 203.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 203.49 Td (Unexpected cooperative movement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 191.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 191.49 Td (Interference during transportation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 179.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 179.49 Td (Mechanical trapping between robots.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 167.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 167.49 Td (Unexpected movement during coordination failure.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 149.69 Td (10.5 Composite Robot Hazards) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 146.69 m 553.28 146.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 133.19 Td (A composite robot may have a greater total mass and different mechanical characteristics than an individual robot.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 118.99 Td (The composite configuration should therefore be assessed using its actual total moving mass, speed, geometry, actuation,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 107.79 Td (and potential contact conditions.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 93.59 Td (The individual robot mass limit should not automatically be treated as the composite system mass limit.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 73.89 Td (10.6 Manual Control Safety) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 70.89 m 553.28 70.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 57.39 Td (Manual wireless control should consider:) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 11 of 15) Tj ET
+endstream
+endobj
+27 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 28 0 R >>
+endobj
+28 0 obj
+<< /Length 7340 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 781.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 781.69 Td (Unintended movement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 769.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 769.69 Td (Wireless connection interruption.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 757.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 757.69 Td (Incorrect operator commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 745.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 745.69 Td (Unexpected mode transitions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 733.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 733.69 Td (Simultaneous conflicting commands.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 715.89 Td (10.7 Emergency Intervention) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 712.89 m 553.28 712.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 699.39 Td (Emergency intervention should remain available independently of normal autonomous and manual control functions.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 685.19 Td (A software pause, wireless stop command, or ordinary power switch should not automatically be considered a) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 673.99 Td (safety-rated emergency-stop function.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 659.79 Td (Detailed safety requirements will be established through risk assessment and subsequent system requirements) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 648.59 Td (engineering.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 616.89 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 616.89 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 621.89 Td (11. Power and Charging Operations) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 594.89 Td (11.1 Power Operation) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 591.89 m 553.28 591.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 578.39 Td (Each robot operates using an onboard electrical power source.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 564.19 Td (The power system supplies the energy required by computation, sensing, communication, mobility, and optional) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 552.99 Td (manipulation.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 533.29 Td (11.2 Battery Management) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 530.29 m 553.28 530.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 516.79 Td (The platform is expected to provide appropriate battery-status information.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 502.59 Td (This may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 488.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 488.69 Td (Remaining battery capacity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 476.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 476.69 Td (Battery voltage.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 464.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 464.69 Td (Charging status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 452.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 452.69 Td (Battery fault conditions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 440.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 440.69 Td (Low-battery warnings.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 422.89 Td (11.3 Battery Replacement) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 419.89 m 553.28 419.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 406.39 Td (Where exchangeable batteries or power modules are provided, the operator should be able to replace them through a) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 395.19 Td (defined procedure.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 380.99 Td (Battery replacement should not require unnecessary disassembly of the robot.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 361.29 Td (11.4 Charging Infrastructure) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 358.29 m 553.28 358.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 344.79 Td (Robots are charged between experiments using the designated charging arrangement.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 330.59 Td (The charging process should provide appropriate protection and status indication.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 310.89 Td (11.5 Power-On and Power-Off) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 307.89 m 553.28 307.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 294.39 Td (The operator should be able to switch the robot on and off through an accessible physical control.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 280.19 Td (The normal power switch and emergency intervention functions are separate operational concepts.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 248.49 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 248.49 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 253.49 Td (12. Maintenance and Lifecycle Operations) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 226.49 Td (12.1 Preparation) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 223.49 m 553.28 223.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 209.99 Td (Before deployment, the operator performs appropriate inspection and preparation activities.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 195.79 Td (These include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 181.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 181.89 Td (Mechanical inspection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 169.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 169.89 Td (Battery inspection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 157.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 157.89 Td (Sensor inspection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 145.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 145.89 Td (Communication checks.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 133.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 133.89 Td (Software and configuration checks.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 121.89 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 121.89 Td (Verification of optional attachments.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 104.09 Td (12.2 Routine Maintenance) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 101.09 m 553.28 101.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 87.59 Td (Routine maintenance may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 73.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 73.69 Td (Cleaning.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 61.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 61.69 Td (Mechanical inspection.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 12 of 15) Tj ET
+endstream
+endobj
+29 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 30 0 R >>
+endobj
+30 0 obj
+<< /Length 7656 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 781.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 781.69 Td (Wheel and drivetrain inspection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 769.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 769.69 Td (Sensor calibration.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 757.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 757.69 Td (Battery replacement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 745.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 745.69 Td (Gripper inspection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 733.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 733.69 Td (Docking-interface inspection.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 721.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 721.69 Td (Firmware and software updates.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 703.89 Td (12.3 Software Maintenance) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 700.89 m 553.28 700.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 687.39 Td (The platform should support the development and updating of experimental software.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 673.19 Td (Researchers may update algorithms and application software while maintaining the integrity of the underlying platform) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 661.99 Td (functions.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 642.29 Td (12.4 Hardware Modification) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 639.29 m 553.28 639.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 625.79 Td (The platform may be modified through the integration of additional sensors, modules, and experimental attachments.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 611.59 Td (Hardware modifications should be evaluated for their effects on:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 597.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 597.69 Td (Robot mass.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 585.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 585.69 Td (Mobility.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 573.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 573.69 Td (Power consumption.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 561.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 561.69 Td (Stability.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 549.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 549.69 Td (Communication.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 537.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 537.69 Td (Mechanical safety.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 525.69 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 525.69 Td (Operational behavior.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 507.89 Td (12.5 Storage and Transportation) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 504.89 m 553.28 504.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 491.39 Td (Robots may be stored and transported between experiments.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 477.19 Td (The storage and transportation arrangement should protect the robot, battery, sensors, and mechanical connection) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 465.99 Td (interfaces.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 446.29 Td (12.6 Retirement and Replacement) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 443.29 m 553.28 443.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 429.79 Td (When a robot or subsystem becomes unsuitable for further use, it may be repaired, replaced, or retired.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 415.59 Td (Retired components should be handled according to applicable laboratory procedures and electrical or battery safety) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 404.39 Td (practices.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 372.69 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 372.69 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 377.69 Td (13. Operational Data and Experiment Management) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 350.69 Td (13.1 Experiment Data) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 347.69 m 553.28 347.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 334.19 Td (The platform is intended to support the collection of information required for research evaluation.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 319.99 Td (Potential data include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 306.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 306.09 Td (Robot position and movement.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 294.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 294.09 Td (Robot operational state.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 282.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 282.09 Td (Sensor measurements.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 270.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 270.09 Td (Communication information.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 258.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 258.09 Td (Battery status.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 246.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 246.09 Td (Task execution progress.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 234.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 234.09 Td (Coordination information.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 222.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 222.09 Td (Manipulation or docking events.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 210.09 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 210.09 Td (Fault and recovery events.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 192.29 Td (13.2 Data Recording) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 189.29 m 553.28 189.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 175.79 Td (Data may be recorded onboard individual robots or through external monitoring systems.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 161.59 Td (The recording arrangement may vary according to the research experiment.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 141.89 Td (13.3 Data Retrieval) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 138.89 m 553.28 138.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 125.39 Td (Researchers should be able to retrieve experiment data for subsequent analysis.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 111.19 Td (The data-management approach should support the association of recorded information with the relevant robot,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 99.99 Td (experiment, and configuration.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 80.29 Td (13.4 Experimental Reproducibility) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 77.29 m 553.28 77.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 63.79 Td (The platform should support recording relevant experimental parameters and configurations.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 13 of 15) Tj ET
+endstream
+endobj
+31 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 32 0 R >>
+endobj
+32 0 obj
+<< /Length 10690 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 781.39 Td (This information may include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 767.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 767.49 Td (Robot identities.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 755.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 755.49 Td (Software versions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 743.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 743.49 Td (Algorithm configurations.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 731.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 731.49 Td (Initial conditions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 719.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 719.49 Td (Robot configurations.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 707.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 707.49 Td (Communication settings.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 695.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 695.49 Td (Experimental environment.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 683.49 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 683.49 Td (Operating parameters.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 671.19 Td (The objective is to support repeatable experiments and meaningful comparison of results.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 639.49 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 639.49 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 644.49 Td (14. Operational Scenarios and System Responsibilities) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 622.99 Td (The following matrix maps the intended research applications to the main system functions involved.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 601.29 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 605.79 Td (Research Application) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 213.00 605.79 Td (Main System Functions) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 413.00 605.79 Td (Operational Configuration) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 574.89 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 591.29 Td (Self-Reconfigurable Multi-Robot) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 581.09 Td (Systems) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 574.89 m 207.00 601.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 591.29 Td (Mobility, communication, docking, coordination) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 574.89 m 407.00 601.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 591.29 Td (Independent, composite, mixed) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 548.49 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 564.89 Td (Multi-Robot Object Transportation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 548.49 m 207.00 574.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 564.89 Td (Mobility, manipulation, communication,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 554.69 Td (coordination) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 548.49 m 407.00 574.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 564.89 Td (Cooperative, composite) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 532.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 538.49 Td (Multi-Robot Navigation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 532.29 m 207.00 548.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 538.49 Td (Mobility, sensing, localization, communication) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 532.29 m 407.00 548.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 538.49 Td (Independent, cooperative) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 505.89 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 522.29 Td (Search and Rescue) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 505.89 m 207.00 532.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 522.29 Td (Perception, localization, navigation,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 512.09 Td (communication, exploration) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 505.89 m 407.00 532.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 522.29 Td (Cooperative) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 479.49 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 495.89 Td (Region Sweeping) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 479.49 m 207.00 505.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 495.89 Td (Navigation, localization, task allocation,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 485.69 Td (communication) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 479.49 m 407.00 505.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 495.89 Td (Cooperative) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 463.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 469.49 Td (Manual Robot Operation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 463.29 m 207.00 479.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 469.49 Td (Wireless control, mobility, status feedback) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 463.29 m 407.00 479.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 469.49 Td (Independent) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 436.89 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 453.29 Td (Mixed Manual-Autonomous) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 443.09 Td (Experiments) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 207.00 436.89 m 207.00 463.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 453.29 Td (Wireless control, autonomous operation,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 213.00 443.09 Td (monitoring) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 407.00 436.89 m 407.00 463.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 413.00 453.29 Td (Mixed) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 402.89 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 402.89 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 407.89 Td (15. Operational Constraints and Assumptions) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 380.89 Td (15.1 Operational Assumptions) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 377.89 m 553.28 377.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 364.39 Td (The following assumptions are used to establish this operational concept.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 350.49 Td (1.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 350.49 Td (Each individual robot is capable of independent operation.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 338.49 Td (2.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 338.49 Td (Multiple robots can participate in the same experiment.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 326.49 Td (3.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 326.49 Td (Robots may communicate with one another.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 314.49 Td (4.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 314.49 Td (Selected robots can physically connect to form composite configurations.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 302.49 Td (5.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 302.49 Td (A small servo-actuated gripper may be integrated as an optional manipulation mechanism.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 290.49 Td (6.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 290.49 Td (Researchers can develop and execute different algorithms.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 278.49 Td (7.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 278.49 Td (Manual wireless control is available for selected operations.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 266.49 Td (8.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 266.49 Td (Autonomous operation may occur without continuous human movement commands.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 254.49 Td (9.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 254.49 Td (Centralized monitoring may coexist with decentralized decision-making.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 242.49 Td (10.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 242.49 Td (Experimental configurations may vary between research applications.) Tj ET
+0.216 0.616 0.753 rg
+BT /F2 9.80 Tf 42.00 224.69 Td (15.2 Operational Constraints) Tj ET
+0.840 0.900 0.940 RG
+0.60 w 42.00 221.69 m 553.28 221.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 208.19 Td (Potential constraints include:) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 194.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 194.29 Td (Individual robot mass and physical dimensions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 182.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 182.29 Td (Available battery capacity.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 170.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 170.29 Td (Maximum operating speed.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 158.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 158.29 Td (Computational resources.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 146.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 146.29 Td (Communication range and reliability.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 134.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 134.29 Td (Sensor performance.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 122.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 122.29 Td (Mechanical connection limitations.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 110.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 110.29 Td (Manipulator force and movement characteristics.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 98.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 98.29 Td (Environmental conditions.) Tj ET
+0.914 0.498 0.114 rg
+BT /F2 8.40 Tf 47.00 86.29 Td (Х) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.60 Tf 62.00 86.29 Td (Laboratory safety requirements.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 73.99 Td (The specific limits must be established during subsequent system requirements engineering.) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 14 of 15) Tj ET
+endstream
+endobj
+33 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 34 0 R >>
+endobj
+34 0 obj
+<< /Length 15085 >>
+stream
+0.161 0.224 0.322 rg
+BT /F2 7.80 Tf 42.00 807.89 Td (MARS-OPS-002  |  System Operational Concept \(OpsCon\)  |  MARS RCLMR Platform) Tj ET
+0.400 0.460 0.540 rg
+BT /F1 7.80 Tf 495.28 807.89 Td (Version v1.0) Tj ET
+0.216 0.616 0.753 RG
+1.20 w 42.00 802.89 m 553.28 802.89 l S
+0.161 0.224 0.322 rg
+1.00 w
+42.00 763.89 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 763.89 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 768.89 Td (16. Open Issues and Decisions) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 747.39 Td (The following items require further definition before the OpsCon can be baselined.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 725.69 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 730.19 Td (ID) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 92.00 730.19 Td (Topic) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 212.00 730.19 Td (Open Question) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 699.29 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 715.69 Td (OI-01) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 699.29 m 86.00 725.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 715.69 Td (Robot Mass) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 699.29 m 206.00 725.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 715.69 Td (Is the <1 kg limit applicable to the complete individual robot, including battery and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 705.49 Td (attachments?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 672.89 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 689.29 Td (OI-02) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 672.89 m 86.00 699.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 689.29 Td (Operating Speed) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 672.89 m 206.00 699.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 689.29 Td (Is 0.5 m/s the enforced normal maximum, with 1.0 m/s available as an experimental) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 679.09 Td (limit?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 656.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 662.89 Td (OI-03) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 656.69 m 86.00 672.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 662.89 Td (Composite Mass) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 656.69 m 206.00 672.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 662.89 Td (Is there a maximum permitted mass for a physically connected composite system?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 640.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 646.69 Td (OI-04) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 640.49 m 86.00 656.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 646.69 Td (Docking) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 640.49 m 206.00 656.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 646.69 Td (What physical configurations and connection arrangements are intended?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 614.09 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 630.49 Td (OI-05) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 614.09 m 86.00 640.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 630.49 Td (Composite Control) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 614.09 m 206.00 640.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 630.49 Td (Do connected robots retain independent control processes, or can they use a shared) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 620.29 Td (control arrangement?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 597.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 604.09 Td (OI-06) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 597.89 m 86.00 614.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 604.09 Td (Gripper) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 597.89 m 206.00 614.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 604.09 Td (What gripping force, torque, and closing speed are intended?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 581.69 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 587.89 Td (OI-07) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 581.69 m 86.00 597.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 587.89 Td (Manual Control) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 581.69 m 206.00 597.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 587.89 Td (Can one operator control multiple robots simultaneously?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 555.29 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 571.69 Td (OI-08) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 555.29 m 86.00 581.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 571.69 Td (Control Transition) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 555.29 m 206.00 581.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 571.69 Td (What conditions are required when switching between manual and autonomous) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 561.49 Td (operation?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 539.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 545.29 Td (OI-09) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 539.09 m 86.00 555.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 545.29 Td (Communication Loss) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 539.09 m 206.00 555.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 545.29 Td (What should each robot do when operator or robot-to-robot communication is lost?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 522.89 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 529.09 Td (OI-10) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 522.89 m 86.00 539.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 529.09 Td (Fleet Management) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 522.89 m 206.00 539.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 529.09 Td (Is external fleet monitoring required for every experiment?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 496.49 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 512.89 Td (OI-11) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 496.49 m 86.00 522.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 512.89 Td (Charging) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 496.49 m 206.00 522.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 512.89 Td (Will robots use exchangeable batteries, individual charging ports, or a shared charging) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 502.69 Td (station?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 480.29 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 486.49 Td (OI-12) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 480.29 m 86.00 496.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 486.49 Td (Data Management) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 480.29 m 206.00 496.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 486.49 Td (Which data must be recorded by default?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 464.09 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 470.29 Td (OI-13) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 464.09 m 86.00 480.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 470.29 Td (Operating Environment) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 464.09 m 206.00 480.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 470.29 Td (Is outdoor operation within the initial platform scope?) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 437.69 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 454.09 Td (OI-14) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 437.69 m 86.00 464.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 454.09 Td (Safety) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 437.69 m 206.00 464.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 454.09 Td (What risk-reduction measures are required for human interaction and composite) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 443.89 Td (operation?) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 421.49 511.28 16.20 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 427.69 Td (OI-15) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 86.00 421.49 m 86.00 437.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 92.00 427.69 Td (Simulation) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 206.00 421.49 m 206.00 437.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 212.00 427.69 Td (Is simulation-to-real experimentation part of the initial platform scope?) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 387.49 511.28 18.00 re f
+0.914 0.498 0.114 rg
+1.00 w
+42.00 387.49 4.00 18.00 re f
+1.000 1.000 1.000 rg
+BT /F2 10.50 Tf 52.00 392.49 Td (17. Relationship to Other Engineering Documents) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 370.99 Td (This OpsCon provides system-level operational information for subsequent engineering activities.) Tj ET
+0.161 0.224 0.322 rg
+1.00 w
+42.00 349.29 511.28 16.00 re f
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 48.00 353.79 Td (Document) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 193.00 353.79 Td (Purpose) Tj ET
+1.000 1.000 1.000 rg
+BT /F2 8.00 Tf 368.00 353.79 Td (Relationship) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 322.89 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 339.29 Td (Research Needs) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 322.89 m 187.00 349.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 339.29 Td (Identifies research problems and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 329.09 Td (motivations.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 322.89 m 362.00 349.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 339.29 Td (Establishes the need for the platform.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 296.49 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 312.89 Td (Concept of Operations \(ConOps\)) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 296.49 m 187.00 322.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 312.89 Td (Describes the broader research mission) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 302.69 Td (and intended operational context.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 296.49 m 362.00 322.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 312.89 Td (Provides the operational foundation.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 259.89 511.28 36.60 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 286.49 Td (System Operational Concept) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 276.29 Td (\(OpsCon\)) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 259.89 m 187.00 296.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 286.49 Td (Describes how the platform operates and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 276.29 Td (interacts with users and external) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 266.09 Td (systems.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 259.89 m 362.00 296.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 286.49 Td (Defines the system-level operational concept.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 233.49 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 249.89 Td (Stakeholder Requirements) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 239.69 Td (Specification \(StRS\)) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 233.49 m 187.00 259.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 249.89 Td (Defines stakeholder needs and) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 239.69 Td (expectations.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 233.49 m 362.00 259.89 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 249.89 Td (Formalizes stakeholder expectations derived) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 239.69 Td (from the operational concept.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 207.09 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 223.49 Td (Platform Requirements) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 213.29 Td (Description \(PRD\)) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 207.09 m 187.00 233.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 223.49 Td (Describes desired platform capabilities.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 207.09 m 362.00 233.49 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 223.49 Td (Organizes the capabilities needed to support) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 213.29 Td (research applications.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 180.69 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 197.09 Td (System Requirements) Tj ET
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 186.89 Td (Specification \(SyRS\)) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 180.69 m 187.00 207.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 197.09 Td (Defines measurable and verifiable system) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 186.89 Td (requirements.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 180.69 m 362.00 207.09 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 197.09 Td (Establishes the technical requirements for) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 186.89 Td (implementation.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 154.29 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 170.69 Td (System Architecture) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 154.29 m 187.00 180.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 170.69 Td (Defines system components, interfaces,) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 160.49 Td (and relationships.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 154.29 m 362.00 180.69 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 170.69 Td (Allocates system requirements to) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 160.49 Td (architectural elements.) Tj ET
+1.000 1.000 1.000 rg
+0.820 0.850 0.890 RG
+0.50 w
+42.00 127.89 511.28 26.40 re B
+0.161 0.224 0.322 rg
+BT /F2 8.00 Tf 48.00 144.29 Td (Verification Plan) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 187.00 127.89 m 187.00 154.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 144.29 Td (Defines requirement verification) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 193.00 134.09 Td (activities.) Tj ET
+0.820 0.850 0.890 RG
+0.50 w 362.00 127.89 m 362.00 154.29 l S
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 144.29 Td (Establishes how system compliance will be) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.00 Tf 368.00 134.09 Td (demonstrated.) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 111.39 Td (These documents should be developed iteratively, maintaining traceability between operational scenarios, stakeholder) Tj ET
+0.200 0.250 0.330 rg
+BT /F1 8.70 Tf 44.00 100.19 Td (needs, platform capabilities, and technical system requirements.) Tj ET
+0.965 0.965 0.961 rg
+0.820 0.850 0.890 RG
+0.60 w
+42.00 68.49 511.28 18.00 re B
+0.161 0.224 0.322 rg
+BT /F2 8.80 Tf 255.64 73.99 Td ( -  End of Document  - ) Tj ET
+0.820 0.850 0.890 RG
+0.70 w 42.00 34.00 m 553.28 34.00 l S
+0.400 0.460 0.540 rg
+BT /F1 7.60 Tf 42.00 24.00 Td (MARS-OPS-002 \(v1.0\)  |  System Operational Concept \(OpsCon\)) Tj ET
+BT /F1 7.60 Tf 363.28 24.00 Td (Author: Dhamdhawach Horsuwan  |  Page 15 of 15) Tj ET
+endstream
+endobj
+35 0 obj
+<< /Title (MARS-OPS-002: System Operational Concept v1.0) /Author (Dhamdhawach Horsuwan) /Subject (ISO/IEC/IEEE 29148:2018 OpsCon for MARS Research-Class Lightweight Mobile Robot Platform) >>
+endobj
+xref
+0 36
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000218 00000 n 
+0000000315 00000 n 
+0000000417 00000 n 
+0000000559 00000 n 
+0000011200 00000 n 
+0000011342 00000 n 
+0000021009 00000 n 
+0000021152 00000 n 
+0000032662 00000 n 
+0000032806 00000 n 
+0000042884 00000 n 
+0000043028 00000 n 
+0000052457 00000 n 
+0000052601 00000 n 
+0000060390 00000 n 
+0000060534 00000 n 
+0000068415 00000 n 
+0000068559 00000 n 
+0000077252 00000 n 
+0000077396 00000 n 
+0000085418 00000 n 
+0000085562 00000 n 
+0000093350 00000 n 
+0000093494 00000 n 
+0000101598 00000 n 
+0000101742 00000 n 
+0000109135 00000 n 
+0000109279 00000 n 
+0000116988 00000 n 
+0000117132 00000 n 
+0000127876 00000 n 
+0000128020 00000 n 
+0000143159 00000 n 
+trailer
+<< /Size 36 /Root 1 0 R /Info 35 0 R >>
+startxref
+143367
+%%EOF

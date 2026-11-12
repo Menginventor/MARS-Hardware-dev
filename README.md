@@ -26,6 +26,7 @@ When new specification or design documents are committed, the **GitHub Pages Lau
 | Document ID | Title | Latest Version | Author | Files |
 | :--- | :--- | :--- | :--- | :--- |
 | **`MARS-OPS-001`** | **Concept of Operations (ConOps) — General-Purpose Mobile Robot Platform for MARS Research** (`ISO/IEC/IEEE 29148:2018`) | `v1.0` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.0)](./docs/latest/MARS-OPS-001_v1.0.pdf) · [Markdown Source](./docs/source/MARS-OPS-001_ConOps.md) |
+| **`MARS-OPS-002`** | **System Operational Concept (OpsCon) — General-Purpose Research-Class Lightweight Mobile Robot Platform for Multi-Agent Robotic Systems** (`ISO/IEC/IEEE 29148:2018`) | `v1.0` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.0)](./docs/latest/MARS-OPS-002_v1.0.pdf) · [Markdown Source](./docs/source/MARS-OPS-002_OpsCon.md) |
 | **`MARS-REQ-001`** | **Stakeholder Needs and Requirements** | `v1.1` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.1)](./docs/latest/MARS-REQ-001_v1.1.pdf) · [v1.0 (Archived)](./docs/archive/MARS-REQ-001_v1.0.pdf) · [Markdown Source](./docs/source/MARS-REQ-001_Stakeholder-Needs-and-Requirements.md) |
 | **`MARS-REQ-002`** | **Platform Requirements Description (PRD): Requirements for a Mobile Robot Platform in MARS Research** | `v1.0` (Baseline) | Dhamdhawach Horsuwan | [PDF (v1.0)](./docs/latest/MARS-REQ-002_v1.0.pdf) · [Markdown Source](./docs/source/MARS-REQ-002_CONOPS.md) |
 
@@ -62,12 +63,14 @@ MARS-Hardware-dev/
 ├── docs/
 │   ├── latest/                                             # Latest active PDF specifications
 │   │   ├── MARS-OPS-001_v1.0.pdf                           # Concept of Operations - ConOps (v1.0 PDF, 14 pages)
+│   │   ├── MARS-OPS-002_v1.0.pdf                           # System Operational Concept - OpsCon (v1.0 PDF, 15 pages)
 │   │   ├── MARS-REQ-001_v1.1.pdf                           # Stakeholder Needs and Requirements (v1.1 PDF, 2 pages)
 │   │   └── MARS-REQ-002_v1.0.pdf                           # Platform Requirements Description (v1.0 PDF, 5 pages)
 │   ├── archive/                                            # Historical PDF versions kept for traceability
 │   │   └── MARS-REQ-001_v1.0.pdf                           # Archived Stakeholder Needs (v1.0 PDF)
 │   └── source/                                             # Editable Markdown source documents
 │       ├── MARS-OPS-001_ConOps.md
+│       ├── MARS-OPS-002_OpsCon.md
 │       ├── MARS-REQ-001_Stakeholder-Needs-and-Requirements.md
 │       └── MARS-REQ-002_CONOPS.md
 ├── index.html                                              # GitHub Pages Launch Page & Document Portal

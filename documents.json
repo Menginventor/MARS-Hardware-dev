@@ -36,6 +36,34 @@
       ]
     },
     {
+      "id": "MARS-OPS-002",
+      "title": "System Operational Concept (OpsCon) — General-Purpose Research-Class Lightweight Mobile Robot Platform for Multi-Agent Robotic Systems",
+      "category": "OPS",
+      "categoryName": "System Operational Concept (ISO/IEC/IEEE 29148:2018)",
+      "status": "Baseline",
+      "author": "Dhamdhawach Horsuwan",
+      "latestVersion": "v1.0",
+      "latestFile": "docs/latest/MARS-OPS-002_v1.0.pdf",
+      "sourceFile": "docs/source/MARS-OPS-002_OpsCon.md",
+      "summary": "System-level operational concept (17 sections, 15 pages) translating MARS-OPS-001 into concrete RCLMR (<1 kg) platform behavior: 6 functional elements, 4-dimensional configuration model (Physical, Hardware, Control, Network), 11 operational modes & transition logic, user interaction model, 9-phase experiment workflow, multi-robot connection/composite procedures, abnormal recovery, ISO 12100 inherent safety philosophy, and 15 open engineering items (OI-01 to OI-15).",
+      "versions": [
+        {
+          "version": "v1.0",
+          "date": "2026-11-12",
+          "author": "Dhamdhawach Horsuwan",
+          "file": "docs/latest/MARS-OPS-002_v1.0.pdf",
+          "isLatest": true,
+          "changes": [
+            "Initial baseline release of MARS-OPS-002 System Operational Concept (OpsCon) aligned with ISO/IEC/IEEE 29148:2018 and linked to MARS-OPS-001 (15-page PDF)",
+            "Defined System Boundary, 6 Functional Elements (Mobile Robot Unit, Modular Payload/Tool, Connection Interface, Wireless Comms, Fleet Monitoring, Charging/Support), and RCLMR (<1 kg) Platform Classification",
+            "Specified 4-Dimensional Operational Configuration Model (Physical: Single/Multi/Composite/Reconfigurable; Hardware: Base/Sensor/Manipulation/Mixed; Control: Manual/Autonomous/Centralized/Decentralized/Hybrid; Network: Infra/Peer-to-Peer/Hybrid/Disconnected)",
+            "Detailed 11 Operational Modes & Mode Transition Logic, User Roles & Control Authority Hierarchy, 4 Communication Patterns, and 9-Phase Experiment Execution Workflow",
+            "Documented Physical Connection/Disconnection & Composite Operation, Abnormal Event Recovery, ISO 12100 Inherent Low-Risk Safety Philosophy, Support/Maintenance, and 15 Open Issues (OI-01..OI-15)"
+          ]
+        }
+      ]
+    },
+    {
       "id": "MARS-REQ-001",
       "title": "Stakeholder Needs and Requirements",
       "category": "REQ",
