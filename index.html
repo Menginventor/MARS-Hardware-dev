@@ -1,0 +1,1289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MARS Hardware Platform — Documentation & Traceability Portal</title>
+  <meta name="description" content="Project tracking, PDF specification repository, and revision traceability portal for the Multi-Agent Robot System (MARS) hardware platform." />
+  <style>
+    :root {
+      --bg-primary: #0b0f17;
+      --bg-secondary: #111827;
+      --bg-card: #161f30;
+      --bg-card-hover: #1c273c;
+      --bg-elevated: #1f2937;
+      --text-primary: #f3f4f6;
+      --text-secondary: #9ca3af;
+      --text-muted: #6b7280;
+      --accent: #38bdf8;
+      --accent-hover: #0284c7;
+      --accent-soft: rgba(56, 189, 248, 0.12);
+      --amber: #f59e0b;
+      --amber-soft: rgba(245, 158, 11, 0.14);
+      --emerald: #10b981;
+      --emerald-soft: rgba(16, 185, 129, 0.14);
+      --purple: #a855f7;
+      --purple-soft: rgba(168, 85, 247, 0.14);
+      --border: #263248;
+      --border-light: #334155;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 14px;
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.45);
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+    }
+
+    [data-theme="light"] {
+      --bg-primary: #f8fafc;
+      --bg-secondary: #f1f5f9;
+      --bg-card: #ffffff;
+      --bg-card-hover: #f8fafc;
+      --bg-elevated: #e2e8f0;
+      --text-primary: #0f172a;
+      --text-secondary: #475569;
+      --text-muted: #64748b;
+      --accent: #0284c7;
+      --accent-hover: #0369a1;
+      --accent-soft: rgba(2, 132, 199, 0.1);
+      --border: #e2e8f0;
+      --border-light: #cbd5e1;
+      --shadow: 0 6px 20px -4px rgba(15, 23, 42, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Top Navigation */
+    header {
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      backdrop-filter: blur(10px);
+    }
+
+    .nav-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.9rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .brand-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, var(--accent), #2563eb);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 800;
+      font-family: var(--font-mono);
+      font-size: 1.05rem;
+      letter-spacing: -0.5px;
+      box-shadow: 0 2px 10px rgba(56, 189, 248, 0.3);
+    }
+
+    .brand-text h1 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .brand-text span {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      display: block;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .phase-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      background: var(--amber-soft);
+      color: var(--amber);
+      border: 1px solid rgba(245, 158, 11, 0.35);
+      padding: 0.32rem 0.75rem;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+
+    .phase-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--amber);
+      box-shadow: 0 0 8px var(--amber);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.48rem 0.9rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.84rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 1px solid var(--border-light);
+      background: var(--bg-card);
+      color: var(--text-primary);
+      transition: all 0.15s ease;
+      text-decoration: none !important;
+    }
+
+    .btn:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--accent);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #0b0f17;
+      border-color: var(--accent);
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+      color: #fff;
+    }
+
+    /* Main Container */
+    main {
+      max-width: 1200px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 4rem;
+      flex: 1;
+    }
+
+    /* Hero Banner */
+    .hero {
+      background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-secondary) 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: var(--shadow);
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    @media (max-width: 860px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .hero h2 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      line-height: 1.25;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.85rem;
+      background: var(--bg-primary);
+      padding: 1.15rem;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+
+    .stat-box {
+      text-align: center;
+      padding: 0.4rem;
+    }
+
+    .stat-value {
+      font-family: var(--font-mono);
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: var(--accent);
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+
+    /* Phase Stepper */
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .roadmap {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .phase-step {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 0.9rem 1rem;
+      position: relative;
+    }
+
+    .phase-step.active {
+      border-color: var(--amber);
+      background: linear-gradient(180deg, var(--amber-soft), var(--bg-card));
+    }
+
+    .phase-step-num {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.25rem;
+    }
+
+    .phase-step.active .phase-step-num {
+      color: var(--amber);
+      font-weight: 700;
+    }
+
+    .phase-step-title {
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .phase-step-sub {
+      font-size: 0.76rem;
+      color: var(--text-secondary);
+      margin-top: 0.15rem;
+    }
+
+    /* Controls Bar */
+    .controls-bar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+    }
+
+    .tab-btn {
+      padding: 0.42rem 0.85rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-primary);
+      border-color: var(--border-light);
+    }
+
+    .tab-btn.active {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    .search-box {
+      position: relative;
+      min-width: 260px;
+      flex: 1;
+      max-width: 360px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 0.5rem 0.85rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-primary);
+      font-size: 0.85rem;
+      outline: none;
+    }
+
+    .search-box input:focus {
+      border-color: var(--accent);
+    }
+
+    /* Document Cards */
+    .doc-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+
+    .doc-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      transition: border-color 0.15s ease;
+    }
+
+    .doc-card:hover {
+      border-color: var(--border-light);
+    }
+
+    .doc-main {
+      padding: 1.35rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .doc-info {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .doc-meta-top {
+      display: flex;
+      align-items: center;
+      gap: 0.55rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.5rem;
+    }
+
+    .doc-id {
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 0.18rem 0.55rem;
+      border-radius: 4px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+
+    .badge {
+      font-size: 0.74rem;
+      font-weight: 600;
+      padding: 0.16rem 0.55rem;
+      border-radius: 4px;
+    }
+
+    .badge-cat {
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+    }
+
+    .badge-status {
+      background: var(--emerald-soft);
+      color: var(--emerald);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+    }
+
+    .badge-status.review {
+      background: var(--amber-soft);
+      color: var(--amber);
+      border-color: rgba(245, 158, 11, 0.3);
+    }
+
+    .badge-status.planned {
+      background: var(--purple-soft);
+      color: var(--purple);
+      border-color: rgba(168, 85, 247, 0.3);
+    }
+
+    .doc-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+
+    .doc-summary {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.85rem;
+    }
+
+    .doc-latest-info {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .doc-actions {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.55rem;
+      min-width: 210px;
+    }
+
+    @media (max-width: 680px) {
+      .doc-actions {
+        align-items: stretch;
+        width: 100%;
+      }
+    }
+
+    .doc-action-row {
+      display: flex;
+      gap: 0.5rem;
+      width: 100%;
+      justify-content: flex-end;
+    }
+
+    /* Version History & Traceability Drawer */
+    .traceability-section {
+      background: var(--bg-secondary);
+      border-top: 1px solid var(--border);
+      padding: 1.1rem 1.5rem;
+    }
+
+    .trace-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .trace-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .trace-toggle {
+      font-size: 0.78rem;
+      color: var(--accent);
+      font-family: var(--font-mono);
+    }
+
+    .version-timeline {
+      margin-top: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+      border-left: 2px solid var(--border-light);
+      padding-left: 1.1rem;
+      margin-left: 0.4rem;
+    }
+
+    .version-item {
+      position: relative;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem;
+    }
+
+    .version-item::before {
+      content: '';
+      position: absolute;
+      left: -1.48rem;
+      top: 1.1rem;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--text-muted);
+      border: 2px solid var(--bg-secondary);
+    }
+
+    .version-item.latest::before {
+      background: var(--emerald);
+      box-shadow: 0 0 6px var(--emerald);
+    }
+
+    .version-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .version-tag {
+      font-family: var(--font-mono);
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+    }
+
+    .version-tag .latest-pill {
+      font-size: 0.7rem;
+      background: var(--emerald-soft);
+      color: var(--emerald);
+      padding: 0.1rem 0.45rem;
+      border-radius: 4px;
+      margin-left: 0.4rem;
+    }
+
+    .version-tag .archive-pill {
+      font-size: 0.7rem;
+      background: var(--bg-elevated);
+      color: var(--text-secondary);
+      padding: 0.1rem 0.45rem;
+      border-radius: 4px;
+      margin-left: 0.4rem;
+    }
+
+    .version-date {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
+    }
+
+    .change-list {
+      list-style: none;
+      margin-top: 0.35rem;
+    }
+
+    .change-list li {
+      font-size: 0.84rem;
+      color: var(--text-secondary);
+      position: relative;
+      padding-left: 1rem;
+      margin-bottom: 0.2rem;
+    }
+
+    .change-list li::before {
+      content: '•';
+      position: absolute;
+      left: 0.15rem;
+      color: var(--accent);
+    }
+
+    .version-links {
+      display: flex;
+      gap: 0.65rem;
+      margin-top: 0.55rem;
+      font-size: 0.78rem;
+      font-family: var(--font-mono);
+    }
+
+    /* Modal (PDF Viewer & Generator) */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+      padding: 1.25rem;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal-content {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      width: 100%;
+      max-width: 960px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+
+    .modal-header {
+      padding: 1rem 1.35rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header h3 {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .modal-body {
+      padding: 1.35rem;
+      overflow-y: auto;
+      flex: 1;
+    }
+
+    .pdf-frame {
+      width: 100%;
+      height: 70vh;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      background: #0f172a;
+    }
+
+    /* Form inside Modal */
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.3rem;
+    }
+
+    .form-group.full {
+      grid-column: 1 / -1;
+    }
+
+    .form-group label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      padding: 0.5rem 0.75rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.85rem;
+    }
+
+    pre.code-output {
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      padding: 0.9rem;
+      border-radius: var(--radius-sm);
+      font-family: var(--font-mono);
+      font-size: 0.78rem;
+      overflow-x: auto;
+      color: var(--accent);
+      margin-top: 0.75rem;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      background: var(--bg-secondary);
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="nav-container">
+      <div class="brand">
+        <div class="brand-icon">MARS</div>
+        <div class="brand-text">
+          <h1>MARS-Hardware-dev</h1>
+          <span>Multi-Agent Robot System · Hardware Platform</span>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <div class="phase-pill" title="Current Engineering Phase">
+          <span class="phase-dot"></span>
+          <span id="current-phase-label">Phase 01: Requirements Engineering</span>
+        </div>
+        <button class="btn" id="open-helper-btn" type="button">+ New Revision Entry</button>
+        <button class="btn" id="theme-toggle-btn" type="button" title="Toggle Dark/Light Theme">Theme</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Overview -->
+    <section class="hero">
+      <div>
+        <div class="hero-eyebrow">Hardware Engineering &amp; Document Traceability</div>
+        <h2>Multi-Agent Robot System Hardware Portal</h2>
+        <p>
+          Centralized PDF specification index and revision control for the MARS hardware platform.
+          Every committed release updates the active baseline while preserving historical PDF versions and change lists for full requirement-to-hardware traceability.
+        </p>
+        <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
+          <a href="#document-registry" class="btn btn-primary">Browse PDF Specifications</a>
+          <a href="./README.md" class="btn">Repository README</a>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-box">
+          <span class="stat-value" id="stat-total-docs">3</span>
+          <span class="stat-label">Tracked Documents</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value" id="stat-total-versions">4</span>
+          <span class="stat-label">Total Revisions</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value">PDF</span>
+          <span class="stat-label">Primary Format</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engineering Phase Roadmap -->
+    <section class="roadmap" aria-label="Engineering Lifecycle Phases">
+      <div class="phase-step active">
+        <div class="phase-step-num">
+          <span>Phase 01</span>
+          <span>ACTIVE</span>
+        </div>
+        <div class="phase-step-title">Requirements Engineering</div>
+        <div class="phase-step-sub">System, sensing &amp; hardware specs (SRS/HRS)</div>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-num">
+          <span>Phase 02</span>
+          <span>UPCOMING</span>
+        </div>
+        <div class="phase-step-title">Architecture &amp; ICD</div>
+        <div class="phase-step-sub">Subsystem interfaces &amp; trade studies</div>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-num">
+          <span>Phase 03</span>
+          <span>PLANNED</span>
+        </div>
+        <div class="phase-step-title">Detailed Hardware Design</div>
+        <div class="phase-step-sub">Mechanical CAD, PCB layout &amp; BOM</div>
+      </div>
+      <div class="phase-step">
+        <div class="phase-step-num">
+          <span>Phase 04</span>
+          <span>PLANNED</span>
+        </div>
+        <div class="phase-step-title">Integration &amp; Verification</div>
+        <div class="phase-step-sub">Prototype bring-up &amp; test validation</div>
+      </div>
+    </section>
+
+    <!-- Filter & Search Controls -->
+    <section id="document-registry">
+      <div class="controls-bar">
+        <div class="filter-tabs" id="category-tabs">
+          <button class="tab-btn active" data-cat="ALL" type="button">All Documents</button>
+          <button class="tab-btn" data-cat="REQ" type="button">REQ · Requirements</button>
+          <button class="tab-btn" data-cat="SEN" type="button">SEN · Sensors &amp; Compute</button>
+          <button class="tab-btn" data-cat="ARC" type="button">ARC · Architecture</button>
+          <button class="tab-btn" data-cat="MEC" type="button">MEC · Mechanical</button>
+          <button class="tab-btn" data-cat="ELE" type="button">ELE · Electrical</button>
+        </div>
+
+        <div class="search-box">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="Search ID, title, or changelog..."
+            aria-label="Search documents and changelogs"
+          />
+        </div>
+      </div>
+
+      <!-- Document Cards Container -->
+      <div class="doc-list" id="doc-list-container"></div>
+    </section>
+  </main>
+
+  <!-- PDF Preview Modal -->
+  <div class="modal-backdrop" id="pdf-modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="pdf-modal-title">Document Preview</h3>
+        <div style="display: flex; gap: 0.5rem;">
+          <a id="pdf-modal-download" href="#" class="btn btn-primary" target="_blank" rel="noopener">Open / Download PDF</a>
+          <button class="btn" id="close-pdf-modal" type="button">Close</button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <iframe id="pdf-iframe" class="pdf-frame" title="PDF Preview"></iframe>
+        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.65rem;">
+          Tip: Place the corresponding PDF file in <code>docs/latest/</code> or <code>docs/archive/</code> and commit to view it inline.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Revision Entry Generator Modal -->
+  <div class="modal-backdrop" id="helper-modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Generate Revision Entry for <code>documents.json</code></h3>
+        <button class="btn" id="close-helper-modal" type="button">Close</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.86rem; color: var(--text-secondary); margin-bottom: 1rem;">
+          When committing a new PDF version, place the active PDF in <code>docs/latest/</code>, move the older version to <code>docs/archive/</code>, and add the generated revision block to <code>documents.json</code>.
+        </p>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="gen-id">Document ID</label>
+            <input id="gen-id" type="text" value="MARS-REQ-001" />
+          </div>
+          <div class="form-group">
+            <label for="gen-ver">New Version</label>
+            <input id="gen-ver" type="text" value="v1.1" />
+          </div>
+          <div class="form-group">
+            <label for="gen-author">Author / Team</label>
+            <input id="gen-author" type="text" value="MARS Hardware Team" />
+          </div>
+          <div class="form-group">
+            <label for="gen-date">Release Date</label>
+            <input id="gen-date" type="date" id="gen-date" value="2026-11-12" />
+          </div>
+          <div class="form-group full">
+            <label for="gen-changes">Change List (one item per line for traceability)</label>
+            <textarea id="gen-changes" rows="4">Added thermal interface requirement REQ-MEC-012
+Updated actuator peak current budget from 15A to 18A</textarea>
+          </div>
+        </div>
+        <button class="btn btn-primary" id="copy-json-btn" type="button">Copy JSON Snippet</button>
+        <pre class="code-output" id="json-preview"></pre>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      <strong>MARS-Hardware-dev</strong> · Multi-Agent Robot System Hardware Development · Built for GitHub Pages with full PDF version traceability.
+    </p>
+  </footer>
+
+  <script>
+    // Embedded fallback registry (automatically overridden by documents.json when served over HTTP/GitHub Pages)
+    const FALLBACK_REGISTRY = {
+      project: {
+        name: "MARS Hardware Platform",
+        fullName: "Multi-Agent Robot System — Hardware Development",
+        currentPhase: "Phase 01: Requirements Engineering",
+        lastUpdated: "2026-11-12"
+      },
+      documents: [
+        {
+          id: "MARS-REQ-001",
+          title: "System & Hardware Requirements Specification (HRS)",
+          category: "REQ",
+          categoryName: "Requirements Engineering",
+          status: "Active Draft",
+          latestVersion: "v1.0",
+          latestFile: "docs/latest/MARS-REQ-001_v1.0.pdf",
+          summary: "Master requirements document defining functional, physical, power, locomotion, and multi-agent communication requirements for the MARS robot unit.",
+          versions: [
+            {
+              version: "v1.0",
+              date: "2026-11-12",
+              author: "MARS Hardware Team",
+              file: "docs/latest/MARS-REQ-001_v1.0.pdf",
+              isLatest: true,
+              changes: [
+                "Initial baseline structure for Requirements Engineering phase",
+                "Defined system-level operational envelope and target payload capacity",
+                "Added preliminary power budget and battery endurance requirements",
+                "Established traceability IDs (REQ-SYS-001 through REQ-SYS-045)"
+              ]
+            }
+          ]
+        },
+        {
+          id: "MARS-REQ-002",
+          title: "Multi-Agent Sensing & Localization Requirements",
+          category: "SEN",
+          categoryName: "Sensors & Compute",
+          status: "In Review",
+          latestVersion: "v1.1",
+          latestFile: "docs/latest/MARS-REQ-002_v1.1.pdf",
+          summary: "Specification of onboard perception, relative localization, UWB/wireless ranging, and compute latency requirements for cooperative multi-robot navigation.",
+          versions: [
+            {
+              version: "v1.1",
+              date: "2026-11-12",
+              author: "MARS Hardware Team",
+              file: "docs/latest/MARS-REQ-002_v1.1.pdf",
+              isLatest: true,
+              changes: [
+                "Updated field-of-view (FoV) overlap requirements for peer-to-peer robot detection",
+                "Added UWB inter-agent ranging accuracy requirement (+/- 10 cm at 15 m)",
+                "Refined thermal dissipation limits for onboard edge compute module"
+              ]
+            },
+            {
+              version: "v1.0",
+              date: "2026-11-05",
+              author: "MARS Hardware Team",
+              file: "docs/archive/MARS-REQ-002_v1.0.pdf",
+              isLatest: false,
+              changes: [
+                "Initial draft of sensor suite and compute hardware requirements",
+                "Defined baseline camera, IMU, and wheel odometry interface requirements"
+              ]
+            }
+          ]
+        },
+        {
+          id: "MARS-ARC-001",
+          title: "Hardware Architecture & Subsystem Interface Control (ICD)",
+          category: "ARC",
+          categoryName: "Architecture & ICD",
+          status: "Planned",
+          latestVersion: "v0.1",
+          latestFile: "docs/latest/MARS-ARC-001_v0.1.pdf",
+          summary: "High-level hardware block diagram, power distribution tree, and internal bus allocation (CAN-FD, Ethernet, UART, SPI) across subsystems.",
+          versions: [
+            {
+              version: "v0.1",
+              date: "2026-11-12",
+              author: "MARS Hardware Team",
+              file: "docs/latest/MARS-ARC-001_v0.1.pdf",
+              isLatest: true,
+              changes: [
+                "Created initial interface matrix linking requirements from MARS-REQ-001",
+                "Drafted preliminary 24V/12V/5V power rail allocation"
+              ]
+            }
+          ]
+        }
+      ]
+    };
+
+    let registryData = FALLBACK_REGISTRY;
+    let activeCategory = "ALL";
+    let searchQuery = "";
+
+    function statusBadgeClass(status) {
+      const s = (status || "").toLowerCase();
+      if (s.includes("review")) return "badge-status review";
+      if (s.includes("plan")) return "badge-status planned";
+      return "badge-status";
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function renderDocuments() {
+      const container = document.getElementById("doc-list-container");
+      const docs = registryData.documents || [];
+
+      // Update stats
+      document.getElementById("stat-total-docs").textContent = docs.length;
+      const totalRevs = docs.reduce((sum, d) => sum + (d.versions ? d.versions.length : 0), 0);
+      document.getElementById("stat-total-versions").textContent = totalRevs;
+      if (registryData.project && registryData.project.currentPhase) {
+        document.getElementById("current-phase-label").textContent = registryData.project.currentPhase;
+      }
+
+      const filtered = docs.filter((doc) => {
+        const matchesCat = activeCategory === "ALL" || doc.category === activeCategory;
+        if (!matchesCat) return false;
+        if (!searchQuery) return true;
+
+        const q = searchQuery.toLowerCase();
+        const inHeader =
+          doc.id.toLowerCase().includes(q) ||
+          doc.title.toLowerCase().includes(q) ||
+          (doc.summary && doc.summary.toLowerCase().includes(q));
+        const inChanges =
+          doc.versions &&
+          doc.versions.some(
+            (v) =>
+              v.version.toLowerCase().includes(q) ||
+              (v.changes && v.changes.some((c) => c.toLowerCase().includes(q)))
+          );
+        return inHeader || inChanges;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div class="doc-card" style="padding: 2rem; text-align: center; color: var(--text-secondary);">
+            No matching documents found for this filter.
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = filtered
+        .map((doc) => {
+          const latestVerObj = (doc.versions && doc.versions[0]) || {};
+          const versionsHtml = (doc.versions || [])
+            .map((v, idx) => {
+              const isLatest = v.isLatest || idx === 0;
+              const pill = isLatest
+                ? `<span class="latest-pill">LATEST</span>`
+                : `<span class="archive-pill">ARCHIVED</span>`;
+              const changesList = (v.changes || [])
+                .map((c) => `<li>${escapeHtml(c)}</li>`)
+                .join("");
+              return `
+                <div class="version-item ${isLatest ? "latest" : ""}">
+                  <div class="version-top">
+                    <span class="version-tag">${escapeHtml(v.version)} ${pill}</span>
+                    <span class="version-date">${escapeHtml(v.date || "")} · ${escapeHtml(v.author || "MARS Team")}</span>
+                  </div>
+                  <ul class="change-list">${changesList}</ul>
+                  <div class="version-links">
+                    <a href="#" onclick="openPdfModal('${escapeHtml(doc.id)} (${escapeHtml(v.version)})', '${escapeHtml(v.file)}'); return false;">Preview PDF</a>
+                    <span>·</span>
+                    <a href="${escapeHtml(v.file)}" target="_blank" rel="noopener">Download (${escapeHtml(v.file.split('/').pop())})</a>
+                  </div>
+                </div>
+              `;
+            })
+            .join("");
+
+          return `
+            <article class="doc-card">
+              <div class="doc-main">
+                <div class="doc-info">
+                  <div class="doc-meta-top">
+                    <span class="doc-id">${escapeHtml(doc.id)}</span>
+                    <span class="badge badge-cat">${escapeHtml(doc.categoryName || doc.category)}</span>
+                    <span class="badge ${statusBadgeClass(doc.status)}">${escapeHtml(doc.status)}</span>
+                  </div>
+                  <h3 class="doc-title">${escapeHtml(doc.title)}</h3>
+                  <p class="doc-summary">${escapeHtml(doc.summary)}</p>
+                  <div class="doc-latest-info">
+                    Current Release: <strong>${escapeHtml(doc.latestVersion)}</strong>
+                    ${latestVerObj.date ? ` · Updated ${escapeHtml(latestVerObj.date)}` : ""}
+                    · ${doc.versions ? doc.versions.length : 1} version(s) tracked
+                  </div>
+                </div>
+
+                <div class="doc-actions">
+                  <div class="doc-action-row">
+                    <button class="btn" type="button" onclick="openPdfModal('${escapeHtml(doc.id)} (${escapeHtml(doc.latestVersion)})', '${escapeHtml(doc.latestFile)}')">
+                      Preview Latest
+                    </button>
+                    <a class="btn btn-primary" href="${escapeHtml(doc.latestFile)}" target="_blank" rel="noopener">
+                      Download ${escapeHtml(doc.latestVersion)}
+                    </a>
+                  </div>
+                  <span style="font-size: 0.74rem; color: var(--text-muted); font-family: var(--font-mono);">
+                    ${escapeHtml(doc.latestFile)}
+                  </span>
+                </div>
+              </div>
+
+              <div class="traceability-section">
+                <div class="trace-header" onclick="toggleTimeline('${escapeHtml(doc.id)}')">
+                  <span class="trace-title">
+                    Version History &amp; Change List Traceability (${doc.versions ? doc.versions.length : 0})
+                  </span>
+                  <span class="trace-toggle" id="toggle-label-${escapeHtml(doc.id)}">Hide History ▲</span>
+                </div>
+                <div class="version-timeline" id="timeline-${escapeHtml(doc.id)}">
+                  ${versionsHtml}
+                </div>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    }
+
+    window.toggleTimeline = function (docId) {
+      const el = document.getElementById("timeline-" + docId);
+      const label = document.getElementById("toggle-label-" + docId);
+      if (!el) return;
+      const isHidden = el.style.display === "none";
+      el.style.display = isHidden ? "flex" : "none";
+      if (label) {
+        label.textContent = isHidden ? "Hide History ▲" : "Show History ▼";
+      }
+    };
+
+    window.openPdfModal = function (title, fileUrl) {
+      const modal = document.getElementById("pdf-modal");
+      document.getElementById("pdf-modal-title").textContent = title + " — " + fileUrl;
+      document.getElementById("pdf-modal-download").href = fileUrl;
+      document.getElementById("pdf-iframe").src = fileUrl;
+      modal.classList.add("open");
+    };
+
+    document.getElementById("close-pdf-modal").addEventListener("click", () => {
+      const modal = document.getElementById("pdf-modal");
+      document.getElementById("pdf-iframe").src = "about:blank";
+      modal.classList.remove("open");
+    });
+
+    // Category Filter Tabs
+    document.getElementById("category-tabs").addEventListener("click", (e) => {
+      const btn = e.target.closest(".tab-btn");
+      if (!btn) return;
+      document.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      activeCategory = btn.getAttribute("data-cat");
+      renderDocuments();
+    });
+
+    // Live Search
+    document.getElementById("search-input").addEventListener("input", (e) => {
+      searchQuery = e.target.value.trim();
+      renderDocuments();
+    });
+
+    // Theme Toggle
+    document.getElementById("theme-toggle-btn").addEventListener("click", () => {
+      const root = document.documentElement;
+      const current = root.getAttribute("data-theme");
+      root.setAttribute("data-theme", current === "light" ? "dark" : "light");
+    });
+
+    // Helper Modal for generating JSON entries
+    const helperModal = document.getElementById("helper-modal");
+    function updateJsonSnippet() {
+      const id = document.getElementById("gen-id").value.trim() || "MARS-REQ-001";
+      const ver = document.getElementById("gen-ver").value.trim() || "v1.1";
+      const author = document.getElementById("gen-author").value.trim() || "MARS Hardware Team";
+      const date = document.getElementById("gen-date").value || "2026-11-12";
+      const changes = document
+        .getElementById("gen-changes")
+        .value.split("\n")
+        .map((s) => s.trim())
+        .filter(Boolean);
+
+      const snippet = {
+        version: ver,
+        date: date,
+        author: author,
+        file: `docs/latest/${id}_${ver}.pdf`,
+        isLatest: true,
+        changes: changes
+      };
+      document.getElementById("json-preview").textContent = JSON.stringify(snippet, null, 2);
+    }
+
+    document.getElementById("open-helper-btn").addEventListener("click", () => {
+      updateJsonSnippet();
+      helperModal.classList.add("open");
+    });
+
+    document.getElementById("close-helper-modal").addEventListener("click", () => {
+      helperModal.classList.remove("open");
+    });
+
+    ["gen-id", "gen-ver", "gen-author", "gen-date", "gen-changes"].forEach((id) => {
+      document.getElementById(id).addEventListener("input", updateJsonSnippet);
+    });
+
+    document.getElementById("copy-json-btn").addEventListener("click", () => {
+      const text = document.getElementById("json-preview").textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const btn = document.getElementById("copy-json-btn");
+        const old = btn.textContent;
+        btn.textContent = "Copied to Clipboard!";
+        setTimeout(() => (btn.textContent = old), 1800);
+      });
+    });
+
+    // Load external documents.json if hosted over HTTP(S)
+    fetch("./documents.json")
+      .then((res) => (res.ok ? res.json() : Promise.reject()))
+      .then((data) => {
+        registryData = data;
+        renderDocuments();
+      })
+      .catch(() => {
+        renderDocuments();
+      });
+  </script>
+</body>
+</html>
+
