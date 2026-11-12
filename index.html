@@ -970,8 +970,8 @@
           <strong>Dhamdhawach Horsuwan</strong>
         </div>
         <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
-          <a href="docs/latest/MARS-REQ-002_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
-            Open CONOPS PDF (MARS-REQ-002 v1.0)
+          <a href="docs/latest/MARS-OPS-001_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+            Open ConOps PDF (MARS-OPS-001 v1.0)
           </a>
           <a href="docs/latest/MARS-REQ-001_v1.1.pdf" target="_blank" rel="noopener" class="btn btn-safety">
             Open Stakeholder Needs PDF (MARS-REQ-001 v1.1)
@@ -982,12 +982,12 @@
 
       <div class="hero-stats">
         <div class="stat-box">
-          <span class="stat-value" id="stat-total-docs">2</span>
+          <span class="stat-value" id="stat-total-docs">3</span>
           <span class="stat-label">Active Specifications</span>
         </div>
         <div class="stat-box">
-          <span class="stat-value">7</span>
-          <span class="stat-label">CONOPS Areas</span>
+          <span class="stat-value">15</span>
+          <span class="stat-label">ConOps Sections</span>
         </div>
         <div class="stat-box">
           <span class="stat-value">PDF</span>
@@ -1069,7 +1069,8 @@
       <div class="controls-bar">
         <div class="filter-tabs" id="category-tabs">
           <button class="tab-btn active" data-cat="ALL" type="button">All Documents</button>
-          <button class="tab-btn" data-cat="REQ" type="button">REQ · Requirements &amp; CONOPS</button>
+          <button class="tab-btn" data-cat="OPS" type="button">OPS · Concept of Operations</button>
+          <button class="tab-btn" data-cat="REQ" type="button">REQ · Requirements</button>
           <button class="tab-btn" data-cat="ARC" type="button">ARC · Architecture</button>
           <button class="tab-btn" data-cat="MEC" type="button">MEC · Mechanical</button>
           <button class="tab-btn" data-cat="ELE" type="button">ELE · Electrical</button>
@@ -1090,7 +1091,59 @@
       <div class="doc-list" id="doc-list-container"></div>
     </section>
 
-    <!-- Active Specification Overview 1: Concept of Operations (CONOPS - MARS-REQ-002) -->
+    <!-- Active Specification Overview 0: Concept of Operations (MARS-OPS-001) -->
+    <section class="spec-preview-card" aria-label="MARS-OPS-001 Concept of Operations Summary">
+      <div class="spec-preview-header">
+        <div>
+          <div class="doc-meta-top">
+            <span class="doc-id">MARS-OPS-001</span>
+            <span class="badge badge-cat">Version v1.0 (14 Pages)</span>
+            <span class="badge badge-status">ISO/IEC/IEEE 29148:2018</span>
+            <span class="badge badge-cat">Author: Dhamdhawach Horsuwan</span>
+          </div>
+          <h3 style="font-size: 1.32rem; font-weight: 800; margin-top: 0.35rem;">
+            Concept of Operations (ConOps): General-Purpose Mobile Robot Platform for MARS Research
+          </h3>
+        </div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn" type="button" onclick="openPdfModal('MARS-OPS-001: Concept of Operations (v1.0)', 'docs/latest/MARS-OPS-001_v1.0.pdf')">
+            Preview PDF (14 Pages)
+          </button>
+          <a class="btn btn-primary" href="docs/latest/MARS-OPS-001_v1.0.pdf" target="_blank" rel="noopener">
+            Download PDF (v1.0)
+          </a>
+        </div>
+      </div>
+
+      <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 0.65rem;">
+        Establishes the operational context, mission objectives (<code>O-01</code> to <code>O-09</code>), user classes, operational configurations, 11 operational modes, 7 representative scenarios (<code>Scenario A</code> – <code>Scenario G</code>), safety/maintenance concepts, and 16 open engineering items (<code>OI-01</code> – <code>OI-16</code>) for the general-purpose MARS mobile robot platform.
+      </p>
+
+      <div class="needs-grid">
+        <div class="need-box">
+          <h4><span class="need-code">SEC 1–3</span> Mission, Objectives &amp; Stakeholders</h4>
+          <p>Defines 9 operational objectives (<code>O-01</code> Research Flexibility to <code>O-09</code> Operational Reliability) across Principal Investigators, Researchers, Developers, Operators, Students, and Technicians.</p>
+          <span class="usecase-tag">Standard: ISO/IEC/IEEE 29148:2018</span>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">SEC 4–5</span> System Overview &amp; 5 Configurations</h4>
+          <p>Supports (A) Independent, (B) Cooperative Multi-Robot, (C) Composite (physically docked), (D) Reconfigurable, and (E) Mixed operational configurations across indoor/outdoor and constrained comms environments.</p>
+          <span class="usecase-tag">Configs: Independent · Cooperative · Composite · Reconfigurable · Mixed</span>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">SEC 6–7</span> Applications, 8 Workflow Phases &amp; 11 Modes</h4>
+          <p>Covers Self-Reconfigurable Systems, Cooperative Transport, Navigation, SAR, and Region Sweeping across 8 experimental phases and 11 operational modes (including Manual Wireless Control).</p>
+          <span class="usecase-tag">Control: Manual · Centralized · Decentralized · Hybrid</span>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">SEC 8–15</span> 7 Scenarios (A–G), Safety &amp; 16 Open Issues</h4>
+          <p>Details step-by-step operational sequences for Scenarios A–G, Human-System Interaction, Safety &amp; Risk Considerations, Maintenance/Recovery, and 16 Open Issues (<code>OI-01</code> to <code>OI-16</code>).</p>
+          <span class="usecase-tag">Traceability: Links StRS, OpsCon, PRD &amp; SyRS</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Active Specification Overview 1: Platform Requirements Description (MARS-REQ-002) -->
     <section class="spec-preview-card" aria-label="Concept of Operations Summary">
       <div class="spec-preview-header">
         <div>
@@ -1262,29 +1315,29 @@
       },
       documents: [
         {
-          id: "MARS-REQ-002",
-          title: "Concept of Operations (CONOPS): Requirements for a Mobile Robot Platform in MARS Research",
-          category: "REQ",
-          categoryName: "Requirements Engineering",
+          id: "MARS-OPS-001",
+          title: "Concept of Operations (ConOps) — General-Purpose Mobile Robot Platform for MARS Research",
+          category: "OPS",
+          categoryName: "Concept of Operations (ISO/IEC/IEEE 29148:2018)",
           status: "Baseline",
           author: "Dhamdhawach Horsuwan",
           latestVersion: "v1.0",
-          latestFile: "docs/latest/MARS-REQ-002_v1.0.pdf",
-          sourceFile: "docs/source/MARS-REQ-002_CONOPS.md",
-          summary: "Defines the Concept of Operations (CONOPS) and operational use-case scenarios across 7 key platform areas: (1) Modularity and Extensibility, (2) Power Management, (3) Mobility and Manipulation, (4) Perception and Sensing, (5) Localization and State Estimation, (6) Multi-Agent Coordination and Communication, and (7) User Interface and Fleet Management.",
+          latestFile: "docs/latest/MARS-OPS-001_v1.0.pdf",
+          sourceFile: "docs/source/MARS-OPS-001_ConOps.md",
+          summary: "Comprehensive ISO/IEC/IEEE 29148:2018 Concept of Operations (15 sections, 14 pages) defining mission objectives (O-01 to O-09), stakeholder classes, operational environments, 5 conceptual configurations (Independent, Cooperative, Composite, Reconfigurable, Mixed), 6 research application domains, 8 workflow phases, 11 operational modes, 7 representative scenarios (Scenarios A–G), safety/maintenance concepts, and 16 open engineering items (OI-01 to OI-16).",
           versions: [
             {
               version: "v1.0",
               date: "2026-11-12",
               author: "Dhamdhawach Horsuwan",
-              file: "docs/latest/MARS-REQ-002_v1.0.pdf",
+              file: "docs/latest/MARS-OPS-001_v1.0.pdf",
               isLatest: true,
               changes: [
-                "Initial baseline release of Concept of Operations (CONOPS) specification (5-page PDF)",
-                "Established operational context and commercial-grade usability/accessibility objectives for MARS fleets",
-                "Defined Section 1 (Modularity & Extensibility) and Section 2 (Power Regulation, BMS Protection, Exchangeable Battery Module, Fleet Charging, Power On/Off Control)",
-                "Defined Section 3 (Holonomic/Closed-Loop Locomotion & Collaborative Manipulation), Section 4 (Environmental Perception & Reciprocal Collision Avoidance), and Section 5 (Pose Estimation)",
-                "Defined Section 6 (Peer-to-Peer Inter-Robot Communication & Decentralized Network Topology) and Section 7 (Fleet Monitoring, Onboard Display/Button UI, Status LEDs, Telemetry Logging)"
+                "Initial baseline release of MARS-OPS-001 Concept of Operations (ConOps) aligned with ISO/IEC/IEEE 29148:2018 (14-page PDF)",
+                "Defined Mission Statement & 9 Operational Objectives (O-01 Research Flexibility through O-09 Operational Reliability)",
+                "Established 5 System Configurations (Independent, Cooperative, Composite, Reconfigurable, Mixed) & 6 Research Application Domains (Self-Reconfigurable, Object Transport, Navigation, SAR, Region Sweeping, Cross-Application)",
+                "Specified 8 Experiment Workflow Phases, 11 Operational Modes (including Manual Wireless Control & Composite Operation), and 7 Representative Operational Scenarios (Scenarios A–G)",
+                "Documented Human-System Interaction, Constraints/Assumptions, Safety & Risk Considerations, Support/Maintenance, 16 Open Issues (OI-01..OI-16), and Engineering Document Relationships"
               ]
             }
           ]
@@ -1325,6 +1378,34 @@
                 "RN-03 & RN-04: Established locomotion/sensing consistency and modular hardware/software extensibility needs",
                 "RN-05 & RN-06: Specified fleet-level power/charging operations, obstacle avoidance, and cooperative transport needs",
                 "RN-07 & RN-08: Defined centralized experimental monitoring/telemetry and cross-disciplinary reproducibility needs"
+              ]
+            }
+          ]
+        },
+        {
+          id: "MARS-REQ-002",
+          title: "Platform Requirements Description (PRD): Requirements for a Mobile Robot Platform in MARS Research",
+          category: "REQ",
+          categoryName: "Requirements Engineering",
+          status: "Baseline",
+          author: "Dhamdhawach Horsuwan",
+          latestVersion: "v1.0",
+          latestFile: "docs/latest/MARS-REQ-002_v1.0.pdf",
+          sourceFile: "docs/source/MARS-REQ-002_CONOPS.md",
+          summary: "Defines platform capability requirements and operational use-case scenarios across 7 key subsystem areas: (1) Modularity and Extensibility, (2) Power Management, (3) Mobility and Manipulation, (4) Perception and Sensing, (5) Localization and State Estimation, (6) Multi-Agent Coordination and Communication, and (7) User Interface and Fleet Management.",
+          versions: [
+            {
+              version: "v1.0",
+              date: "2026-11-12",
+              author: "Dhamdhawach Horsuwan",
+              file: "docs/latest/MARS-REQ-002_v1.0.pdf",
+              isLatest: true,
+              changes: [
+                "Initial baseline release of Platform Requirements & Use-Case Scenarios specification (5-page PDF)",
+                "Established operational context and commercial-grade usability/accessibility objectives for MARS fleets",
+                "Defined Section 1 (Modularity & Extensibility) and Section 2 (Power Regulation, BMS Protection, Exchangeable Battery Module, Fleet Charging, Power On/Off Control)",
+                "Defined Section 3 (Holonomic/Closed-Loop Locomotion & Collaborative Manipulation), Section 4 (Environmental Perception & Reciprocal Collision Avoidance), and Section 5 (Pose Estimation)",
+                "Defined Section 6 (Peer-to-Peer Inter-Robot Communication & Decentralized Network Topology) and Section 7 (Fleet Monitoring, Onboard Display/Button UI, Status LEDs, Telemetry Logging)"
               ]
             }
           ]
