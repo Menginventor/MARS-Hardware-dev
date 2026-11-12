@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MARS Hardware Platform — Documentation & Traceability Portal</title>
-  <meta name="description" content="Project tracking, PDF specification repository, and revision traceability portal for the Multi-Agent Robot System (MARS) hardware platform." />
+  <title>MARS Hardware Platform — Documentation &amp; Traceability Portal</title>
+  <meta name="author" content="Dhamdhawach Horsuwan" />
+  <meta name="description" content="Project tracking, PDF specification repository, and revision traceability portal for the Multi-Agent Robotic Systems (MARS) hardware platform." />
   <style>
     :root {
       --bg-primary: #0b0f17;
@@ -14,7 +15,7 @@
       --bg-elevated: #1f2937;
       --text-primary: #f3f4f6;
       --text-secondary: #9ca3af;
-      --text-muted: #6b7280;
+      --text-muted: #6b7485;
       --accent: #38bdf8;
       --accent-hover: #0284c7;
       --accent-soft: rgba(56, 189, 248, 0.12);
@@ -135,6 +136,7 @@
       display: flex;
       align-items: center;
       gap: 0.65rem;
+      flex-wrap: wrap;
     }
 
     .phase-pill {
@@ -209,7 +211,7 @@
       margin-bottom: 2rem;
       box-shadow: var(--shadow);
       display: grid;
-      grid-template-columns: 1.5fr 1fr;
+      grid-template-columns: 1.55fr 1fr;
       gap: 2rem;
       align-items: center;
     }
@@ -233,13 +235,26 @@
       font-size: 1.75rem;
       font-weight: 800;
       line-height: 1.25;
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.65rem;
     }
 
     .hero p {
       color: var(--text-secondary);
       font-size: 0.95rem;
-      margin-bottom: 1.25rem;
+      margin-bottom: 1rem;
+    }
+
+    .author-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.84rem;
+      color: var(--text-primary);
+      background: var(--bg-primary);
+      border: 1px solid var(--border);
+      padding: 0.35rem 0.75rem;
+      border-radius: var(--radius-sm);
+      margin-bottom: 1.2rem;
     }
 
     .hero-stats {
@@ -322,6 +337,71 @@
       font-size: 0.76rem;
       color: var(--text-secondary);
       margin-top: 0.15rem;
+    }
+
+    /* Featured Specification Preview (Research Needs) */
+    .spec-preview-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 1.75rem;
+      margin-bottom: 2.25rem;
+      box-shadow: var(--shadow);
+    }
+
+    .spec-preview-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding-bottom: 1.15rem;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.25rem;
+    }
+
+    .needs-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+      margin-top: 1.15rem;
+    }
+
+    @media (max-width: 820px) {
+      .needs-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .need-box {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 1rem 1.15rem;
+    }
+
+    .need-box h4 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .need-code {
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      padding: 0.12rem 0.45rem;
+      border-radius: 4px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.28);
+    }
+
+    .need-box p {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
     }
 
     /* Controls Bar */
@@ -694,7 +774,7 @@
 
     .pdf-frame {
       width: 100%;
-      height: 70vh;
+      height: 72vh;
       border: 1px solid var(--border);
       border-radius: var(--radius-sm);
       background: #0f172a;
@@ -767,7 +847,7 @@
         <div class="brand-icon">MARS</div>
         <div class="brand-text">
           <h1>MARS-Hardware-dev</h1>
-          <span>Multi-Agent Robot System · Hardware Platform</span>
+          <span>Multi-Agent Robotic Systems · Hardware Platform</span>
         </div>
       </div>
 
@@ -788,25 +868,34 @@
     <section class="hero">
       <div>
         <div class="hero-eyebrow">Hardware Engineering &amp; Document Traceability</div>
-        <h2>Multi-Agent Robot System Hardware Portal</h2>
+        <h2>Multi-Agent Robotic Systems (MARS) Hardware Portal</h2>
         <p>
-          Centralized PDF specification index and revision control for the MARS hardware platform.
-          Every committed release updates the active baseline while preserving historical PDF versions and change lists for full requirement-to-hardware traceability.
+          Centralized PDF specification index and revision tracking for the MARS hardware platform.
+          When new documents are committed, this portal surfaces the latest release while preserving older PDF versions and change lists for end-to-end traceability.
         </p>
+        <div class="author-tag">
+          <span>Author:</span>
+          <strong>Dhamdhawach Horsuwan</strong>
+        </div>
         <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
-          <a href="#document-registry" class="btn btn-primary">Browse PDF Specifications</a>
-          <a href="./README.md" class="btn">Repository README</a>
+          <a href="docs/latest/MARS-REQ-001_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+            Open Latest PDF (MARS-REQ-001 v1.0)
+          </a>
+          <button class="btn" type="button" onclick="openPdfModal('MARS-REQ-001: Research Needs (v1.0)', 'docs/latest/MARS-REQ-001_v1.0.pdf')">
+            Preview PDF Inline
+          </button>
+          <a href="#document-registry" class="btn">Version History &amp; Registry</a>
         </div>
       </div>
 
       <div class="hero-stats">
         <div class="stat-box">
-          <span class="stat-value" id="stat-total-docs">3</span>
-          <span class="stat-label">Tracked Documents</span>
+          <span class="stat-value" id="stat-total-docs">1</span>
+          <span class="stat-label">Active Specifications</span>
         </div>
         <div class="stat-box">
-          <span class="stat-value" id="stat-total-versions">4</span>
-          <span class="stat-label">Total Revisions</span>
+          <span class="stat-value">8</span>
+          <span class="stat-label">Research Needs (RN)</span>
         </div>
         <div class="stat-box">
           <span class="stat-value">PDF</span>
@@ -823,7 +912,7 @@
           <span>ACTIVE</span>
         </div>
         <div class="phase-step-title">Requirements Engineering</div>
-        <div class="phase-step-sub">System, sensing &amp; hardware specs (SRS/HRS)</div>
+        <div class="phase-step-sub">Research Needs &amp; System Requirements</div>
       </div>
       <div class="phase-step">
         <div class="phase-step-num">
@@ -847,7 +936,72 @@
           <span>PLANNED</span>
         </div>
         <div class="phase-step-title">Integration &amp; Verification</div>
-        <div class="phase-step-sub">Prototype bring-up &amp; test validation</div>
+        <div class="phase-step-sub">Prototype bring-up &amp; fleet validation</div>
+      </div>
+    </section>
+
+    <!-- Active Baseline Document Content: Research Needs (MARS-REQ-001) -->
+    <section class="spec-preview-card" aria-label="Research Needs Summary">
+      <div class="spec-preview-header">
+        <div>
+          <div class="doc-meta-top">
+            <span class="doc-id">MARS-REQ-001</span>
+            <span class="badge badge-cat">Version v1.0</span>
+            <span class="badge badge-status">Baseline Release</span>
+            <span class="badge badge-cat">Author: Dhamdhawach Horsuwan</span>
+          </div>
+          <h3 style="font-size: 1.35rem; font-weight: 800; margin-top: 0.35rem;">Research Needs</h3>
+        </div>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn" type="button" onclick="openPdfModal('MARS-REQ-001: Research Needs (v1.0)', 'docs/latest/MARS-REQ-001_v1.0.pdf')">
+            Preview PDF
+          </button>
+          <a class="btn btn-primary" href="docs/latest/MARS-REQ-001_v1.0.pdf" target="_blank" rel="noopener">
+            Download PDF (v1.0)
+          </a>
+        </div>
+      </div>
+
+      <p style="color: var(--text-secondary); font-size: 0.92rem; margin-bottom: 0.7rem;">
+        Multi-Agent Robotic Systems (MARS) research requires a mobile robot platform capable of supporting experiments involving multiple autonomous agents operating and interacting within a shared environment. Unlike single-robot research, multi-agent experiments introduce additional challenges related to fleet scalability, inter-robot communication, distributed coordination, hardware consistency, and fleet-level operation.
+      </p>
+      <p style="color: var(--text-primary); font-size: 0.92rem; font-weight: 600;">
+        Based on practical experience operating a four-robot team, the following research needs have been identified:
+      </p>
+
+      <div class="needs-grid">
+        <div class="need-box">
+          <h4><span class="need-code">RN-01</span> 1. Scalability of Multi-Agent Experiments</h4>
+          <p>The platform should support experiments involving different fleet sizes, allowing researchers to investigate how the number of agents affects coordination performance, communication, task allocation, and overall system behavior. The platform should also be cost-effective enough to enable the deployment of larger robot teams.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-02</span> 2. Decentralized Coordination and Communication</h4>
+          <p>The platform should support research into decentralized multi-agent architectures in which robots exchange information and make decisions autonomously. It should accommodate direct inter-robot communication and dynamic network topologies without requiring a centralized decision-making server.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-03</span> 3. Consistent and Predictable Robot Behavior</h4>
+          <p>Robots operating as a team should exhibit sufficiently consistent locomotion, sensing, and state estimation characteristics. Differences in motor response, localization accuracy, or sensor performance can affect coordination and experimental results. Therefore, the platform should provide reliable and repeatable individual robot behavior.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-04</span> 4. Adaptability to Different Research Problems</h4>
+          <p>MARS research involves diverse algorithms, sensors, actuators, and experimental configurations. The platform should allow researchers to modify or extend hardware and software components without redesigning the entire robot, supporting interdisciplinary collaboration and reuse across research projects.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-05</span> 5. Reliable Long-Term and Fleet-Level Operation</h4>
+          <p>Multi-agent experiments require multiple robots to operate concurrently, often over extended periods. The platform should minimize downtime through reliable power management, battery protection, convenient battery replacement, and efficient fleet charging. It should also simplify maintenance and troubleshooting as the fleet grows.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-06</span> 6. Environmental Awareness and Physical Interaction</h4>
+          <p>The platform should support research involving navigation, obstacle avoidance, collision avoidance, and physical interaction with the environment. Depending on the research objective, robots may also need to transport objects cooperatively or use interchangeable manipulation attachments.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-07</span> 7. Experimental Monitoring and Data Collection</h4>
+          <p>Researchers need to observe and evaluate the behavior of individual robots and the entire fleet. The platform should support centralized monitoring, telemetry collection, experimental logging, and data visualization while allowing the robots' internal decision-making processes to remain decentralized.</p>
+        </div>
+        <div class="need-box">
+          <h4><span class="need-code">RN-08</span> 8. Usability, Reproducibility, and Technology Transfer</h4>
+          <p>The platform should be accessible to researchers with different engineering and software backgrounds. Intuitive interfaces, straightforward configuration, accessible diagnostics, and simplified maintenance procedures can reduce the learning curve. These characteristics also support reproducibility, collaboration, and the transfer of the platform to other research groups.</p>
+        </div>
       </div>
     </section>
 
@@ -857,17 +1011,17 @@
         <div class="filter-tabs" id="category-tabs">
           <button class="tab-btn active" data-cat="ALL" type="button">All Documents</button>
           <button class="tab-btn" data-cat="REQ" type="button">REQ · Requirements</button>
-          <button class="tab-btn" data-cat="SEN" type="button">SEN · Sensors &amp; Compute</button>
           <button class="tab-btn" data-cat="ARC" type="button">ARC · Architecture</button>
           <button class="tab-btn" data-cat="MEC" type="button">MEC · Mechanical</button>
           <button class="tab-btn" data-cat="ELE" type="button">ELE · Electrical</button>
+          <button class="tab-btn" data-cat="SEN" type="button">SEN · Sensors &amp; Compute</button>
         </div>
 
         <div class="search-box">
           <input
             type="search"
             id="search-input"
-            placeholder="Search ID, title, or changelog..."
+            placeholder="Search ID, title, author, or changelog..."
             aria-label="Search documents and changelogs"
           />
         </div>
@@ -890,9 +1044,6 @@
       </div>
       <div class="modal-body">
         <iframe id="pdf-iframe" class="pdf-frame" title="PDF Preview"></iframe>
-        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 0.65rem;">
-          Tip: Place the corresponding PDF file in <code>docs/latest/</code> or <code>docs/archive/</code> and commit to view it inline.
-        </p>
       </div>
     </div>
   </div>
@@ -918,17 +1069,17 @@
             <input id="gen-ver" type="text" value="v1.1" />
           </div>
           <div class="form-group">
-            <label for="gen-author">Author / Team</label>
-            <input id="gen-author" type="text" value="MARS Hardware Team" />
+            <label for="gen-author">Author</label>
+            <input id="gen-author" type="text" value="Dhamdhawach Horsuwan" />
           </div>
           <div class="form-group">
             <label for="gen-date">Release Date</label>
-            <input id="gen-date" type="date" id="gen-date" value="2026-11-12" />
+            <input id="gen-date" type="date" value="2026-11-12" />
           </div>
           <div class="form-group full">
             <label for="gen-changes">Change List (one item per line for traceability)</label>
-            <textarea id="gen-changes" rows="4">Added thermal interface requirement REQ-MEC-012
-Updated actuator peak current budget from 15A to 18A</textarea>
+            <textarea id="gen-changes" rows="4">Refined quantitative metrics for RN-01 fleet scalability
+Added quantitative latency bounds for RN-02 decentralized coordination</textarea>
           </div>
         </div>
         <button class="btn btn-primary" id="copy-json-btn" type="button">Copy JSON Snippet</button>
@@ -939,7 +1090,7 @@ Updated actuator peak current budget from 15A to 18A</textarea>
 
   <footer>
     <p>
-      <strong>MARS-Hardware-dev</strong> · Multi-Agent Robot System Hardware Development · Built for GitHub Pages with full PDF version traceability.
+      <strong>MARS-Hardware-dev</strong> · Author: <strong>Dhamdhawach Horsuwan</strong> · Multi-Agent Robotic Systems Hardware Platform Development.
     </p>
   </footer>
 
@@ -948,90 +1099,36 @@ Updated actuator peak current budget from 15A to 18A</textarea>
     const FALLBACK_REGISTRY = {
       project: {
         name: "MARS Hardware Platform",
-        fullName: "Multi-Agent Robot System — Hardware Development",
+        fullName: "Multi-Agent Robotic Systems (MARS) — Hardware Platform Development",
+        author: "Dhamdhawach Horsuwan",
         currentPhase: "Phase 01: Requirements Engineering",
         lastUpdated: "2026-11-12"
       },
       documents: [
         {
           id: "MARS-REQ-001",
-          title: "System & Hardware Requirements Specification (HRS)",
+          title: "Research Needs — Multi-Agent Robotic Systems (MARS) Platform",
           category: "REQ",
           categoryName: "Requirements Engineering",
-          status: "Active Draft",
+          status: "Baseline",
+          author: "Dhamdhawach Horsuwan",
           latestVersion: "v1.0",
           latestFile: "docs/latest/MARS-REQ-001_v1.0.pdf",
-          summary: "Master requirements document defining functional, physical, power, locomotion, and multi-agent communication requirements for the MARS robot unit.",
+          sourceFile: "docs/source/MARS-REQ-001_Research-Needs.md",
+          summary: "Identifies the 8 core research needs (RN-01 to RN-08) for a mobile robot platform supporting multi-agent experiments based on practical experience operating a four-robot team: fleet scalability, decentralized coordination, behavioral consistency, hardware/software adaptability, fleet-level endurance, environmental interaction, centralized telemetry/logging, and usability/reproducibility.",
           versions: [
             {
               version: "v1.0",
               date: "2026-11-12",
-              author: "MARS Hardware Team",
+              author: "Dhamdhawach Horsuwan",
               file: "docs/latest/MARS-REQ-001_v1.0.pdf",
               isLatest: true,
               changes: [
-                "Initial baseline structure for Requirements Engineering phase",
-                "Defined system-level operational envelope and target payload capacity",
-                "Added preliminary power budget and battery endurance requirements",
-                "Established traceability IDs (REQ-SYS-001 through REQ-SYS-045)"
-              ]
-            }
-          ]
-        },
-        {
-          id: "MARS-REQ-002",
-          title: "Multi-Agent Sensing & Localization Requirements",
-          category: "SEN",
-          categoryName: "Sensors & Compute",
-          status: "In Review",
-          latestVersion: "v1.1",
-          latestFile: "docs/latest/MARS-REQ-002_v1.1.pdf",
-          summary: "Specification of onboard perception, relative localization, UWB/wireless ranging, and compute latency requirements for cooperative multi-robot navigation.",
-          versions: [
-            {
-              version: "v1.1",
-              date: "2026-11-12",
-              author: "MARS Hardware Team",
-              file: "docs/latest/MARS-REQ-002_v1.1.pdf",
-              isLatest: true,
-              changes: [
-                "Updated field-of-view (FoV) overlap requirements for peer-to-peer robot detection",
-                "Added UWB inter-agent ranging accuracy requirement (+/- 10 cm at 15 m)",
-                "Refined thermal dissipation limits for onboard edge compute module"
-              ]
-            },
-            {
-              version: "v1.0",
-              date: "2026-11-05",
-              author: "MARS Hardware Team",
-              file: "docs/archive/MARS-REQ-002_v1.0.pdf",
-              isLatest: false,
-              changes: [
-                "Initial draft of sensor suite and compute hardware requirements",
-                "Defined baseline camera, IMU, and wheel odometry interface requirements"
-              ]
-            }
-          ]
-        },
-        {
-          id: "MARS-ARC-001",
-          title: "Hardware Architecture & Subsystem Interface Control (ICD)",
-          category: "ARC",
-          categoryName: "Architecture & ICD",
-          status: "Planned",
-          latestVersion: "v0.1",
-          latestFile: "docs/latest/MARS-ARC-001_v0.1.pdf",
-          summary: "High-level hardware block diagram, power distribution tree, and internal bus allocation (CAN-FD, Ethernet, UART, SPI) across subsystems.",
-          versions: [
-            {
-              version: "v0.1",
-              date: "2026-11-12",
-              author: "MARS Hardware Team",
-              file: "docs/latest/MARS-ARC-001_v0.1.pdf",
-              isLatest: true,
-              changes: [
-                "Created initial interface matrix linking requirements from MARS-REQ-001",
-                "Drafted preliminary 24V/12V/5V power rail allocation"
+                "Initial baseline release of MARS Research Needs specification (RN-01 through RN-08)",
+                "RN-01 & RN-02: Defined fleet scalability, cost-effectiveness, and decentralized inter-robot communication needs",
+                "RN-03 & RN-04: Established locomotion/sensing consistency and modular hardware/software extensibility needs",
+                "RN-05 & RN-06: Specified fleet-level power/charging operations, obstacle avoidance, and cooperative transport needs",
+                "RN-07 & RN-08: Defined centralized experimental monitoring/telemetry and cross-disciplinary reproducibility needs"
               ]
             }
           ]
@@ -1062,10 +1159,7 @@ Updated actuator peak current budget from 15A to 18A</textarea>
       const container = document.getElementById("doc-list-container");
       const docs = registryData.documents || [];
 
-      // Update stats
       document.getElementById("stat-total-docs").textContent = docs.length;
-      const totalRevs = docs.reduce((sum, d) => sum + (d.versions ? d.versions.length : 0), 0);
-      document.getElementById("stat-total-versions").textContent = totalRevs;
       if (registryData.project && registryData.project.currentPhase) {
         document.getElementById("current-phase-label").textContent = registryData.project.currentPhase;
       }
@@ -1079,12 +1173,14 @@ Updated actuator peak current budget from 15A to 18A</textarea>
         const inHeader =
           doc.id.toLowerCase().includes(q) ||
           doc.title.toLowerCase().includes(q) ||
+          (doc.author && doc.author.toLowerCase().includes(q)) ||
           (doc.summary && doc.summary.toLowerCase().includes(q));
         const inChanges =
           doc.versions &&
           doc.versions.some(
             (v) =>
               v.version.toLowerCase().includes(q) ||
+              (v.author && v.author.toLowerCase().includes(q)) ||
               (v.changes && v.changes.some((c) => c.toLowerCase().includes(q)))
           );
         return inHeader || inChanges;
@@ -1115,13 +1211,14 @@ Updated actuator peak current budget from 15A to 18A</textarea>
                 <div class="version-item ${isLatest ? "latest" : ""}">
                   <div class="version-top">
                     <span class="version-tag">${escapeHtml(v.version)} ${pill}</span>
-                    <span class="version-date">${escapeHtml(v.date || "")} · ${escapeHtml(v.author || "MARS Team")}</span>
+                    <span class="version-date">${escapeHtml(v.date || "")} · Author: ${escapeHtml(v.author || doc.author || "Dhamdhawach Horsuwan")}</span>
                   </div>
                   <ul class="change-list">${changesList}</ul>
                   <div class="version-links">
                     <a href="#" onclick="openPdfModal('${escapeHtml(doc.id)} (${escapeHtml(v.version)})', '${escapeHtml(v.file)}'); return false;">Preview PDF</a>
                     <span>·</span>
-                    <a href="${escapeHtml(v.file)}" target="_blank" rel="noopener">Download (${escapeHtml(v.file.split('/').pop())})</a>
+                    <a href="${escapeHtml(v.file)}" target="_blank" rel="noopener">Download PDF (${escapeHtml(v.file.split('/').pop())})</a>
+                    ${doc.sourceFile ? `<span>·</span><a href="${escapeHtml(doc.sourceFile)}" target="_blank" rel="noopener">Markdown Source</a>` : ""}
                   </div>
                 </div>
               `;
@@ -1136,6 +1233,7 @@ Updated actuator peak current budget from 15A to 18A</textarea>
                     <span class="doc-id">${escapeHtml(doc.id)}</span>
                     <span class="badge badge-cat">${escapeHtml(doc.categoryName || doc.category)}</span>
                     <span class="badge ${statusBadgeClass(doc.status)}">${escapeHtml(doc.status)}</span>
+                    <span class="badge badge-cat">Author: ${escapeHtml(doc.author || "Dhamdhawach Horsuwan")}</span>
                   </div>
                   <h3 class="doc-title">${escapeHtml(doc.title)}</h3>
                   <p class="doc-summary">${escapeHtml(doc.summary)}</p>
@@ -1231,7 +1329,7 @@ Updated actuator peak current budget from 15A to 18A</textarea>
     function updateJsonSnippet() {
       const id = document.getElementById("gen-id").value.trim() || "MARS-REQ-001";
       const ver = document.getElementById("gen-ver").value.trim() || "v1.1";
-      const author = document.getElementById("gen-author").value.trim() || "MARS Hardware Team";
+      const author = document.getElementById("gen-author").value.trim() || "Dhamdhawach Horsuwan";
       const date = document.getElementById("gen-date").value || "2026-11-12";
       const changes = document
         .getElementById("gen-changes")
@@ -1286,4 +1384,3 @@ Updated actuator peak current budget from 15A to 18A</textarea>
   </script>
 </body>
 </html>
-

@@ -1,94 +1,39 @@
 {
   "project": {
     "name": "MARS Hardware Platform",
-    "fullName": "Multi-Agent Robot System — Hardware Development",
+    "fullName": "Multi-Agent Robotic Systems (MARS) — Hardware Platform Development",
+    "author": "Dhamdhawach Horsuwan",
     "currentPhase": "Phase 01: Requirements Engineering",
     "lastUpdated": "2026-11-12"
   },
   "documents": [
     {
       "id": "MARS-REQ-001",
-      "title": "System & Hardware Requirements Specification (HRS)",
+      "title": "Research Needs — Multi-Agent Robotic Systems (MARS) Platform",
       "category": "REQ",
       "categoryName": "Requirements Engineering",
-      "status": "Active Draft",
+      "status": "Baseline",
+      "author": "Dhamdhawach Horsuwan",
       "latestVersion": "v1.0",
       "latestFile": "docs/latest/MARS-REQ-001_v1.0.pdf",
-      "summary": "Master requirements document defining functional, physical, power, locomotion, and multi-agent communication requirements for the MARS robot unit.",
+      "sourceFile": "docs/source/MARS-REQ-001_Research-Needs.md",
+      "summary": "Identifies the 8 core research needs (RN-01 to RN-08) for a mobile robot platform supporting multi-agent experiments based on practical experience operating a four-robot team: fleet scalability, decentralized coordination, behavioral consistency, hardware/software adaptability, fleet-level endurance, environmental interaction, centralized telemetry/logging, and usability/reproducibility.",
       "versions": [
         {
           "version": "v1.0",
           "date": "2026-11-12",
-          "author": "MARS Hardware Team",
+          "author": "Dhamdhawach Horsuwan",
           "file": "docs/latest/MARS-REQ-001_v1.0.pdf",
           "isLatest": true,
           "changes": [
-            "Initial baseline structure for Requirements Engineering phase",
-            "Defined system-level operational envelope and target payload capacity",
-            "Added preliminary power budget and battery endurance requirements",
-            "Established traceability IDs (REQ-SYS-001 through REQ-SYS-045)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "MARS-REQ-002",
-      "title": "Multi-Agent Sensing & Localization Requirements",
-      "category": "SEN",
-      "categoryName": "Sensors & Compute",
-      "status": "In Review",
-      "latestVersion": "v1.1",
-      "latestFile": "docs/latest/MARS-REQ-002_v1.1.pdf",
-      "summary": "Specification of onboard perception, relative localization, UWB/wireless ranging, and compute latency requirements for cooperative multi-robot navigation.",
-      "versions": [
-        {
-          "version": "v1.1",
-          "date": "2026-11-12",
-          "author": "MARS Hardware Team",
-          "file": "docs/latest/MARS-REQ-002_v1.1.pdf",
-          "isLatest": true,
-          "changes": [
-            "Updated field-of-view (FoV) overlap requirements for peer-to-peer robot detection",
-            "Added UWB inter-agent ranging accuracy requirement (+/- 10 cm at 15 m)",
-            "Refined thermal dissipation limits for onboard edge compute module"
-          ]
-        },
-        {
-          "version": "v1.0",
-          "date": "2026-11-05",
-          "author": "MARS Hardware Team",
-          "file": "docs/archive/MARS-REQ-002_v1.0.pdf",
-          "isLatest": false,
-          "changes": [
-            "Initial draft of sensor suite and compute hardware requirements",
-            "Defined baseline camera, IMU, and wheel odometry interface requirements"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "MARS-ARC-001",
-      "title": "Hardware Architecture & Subsystem Interface Control (ICD)",
-      "category": "ARC",
-      "categoryName": "Architecture & ICD",
-      "status": "Planned",
-      "latestVersion": "v0.1",
-      "latestFile": "docs/latest/MARS-ARC-001_v0.1.pdf",
-      "summary": "High-level hardware block diagram, power distribution tree, and internal bus allocation (CAN-FD, Ethernet, UART, SPI) across subsystems.",
-      "versions": [
-        {
-          "version": "v0.1",
-          "date": "2026-11-12",
-          "author": "MARS Hardware Team",
-          "file": "docs/latest/MARS-ARC-001_v0.1.pdf",
-          "isLatest": true,
-          "changes": [
-            "Created initial interface matrix linking requirements from MARS-REQ-001",
-            "Drafted preliminary 24V/12V/5V power rail allocation"
+            "Initial baseline release of MARS Research Needs specification (RN-01 through RN-08)",
+            "RN-01 & RN-02: Defined fleet scalability, cost-effectiveness, and decentralized inter-robot communication needs",
+            "RN-03 & RN-04: Established locomotion/sensing consistency and modular hardware/software extensibility needs",
+            "RN-05 & RN-06: Specified fleet-level power/charging operations, obstacle avoidance, and cooperative transport needs",
+            "RN-07 & RN-08: Defined centralized experimental monitoring/telemetry and cross-disciplinary reproducibility needs"
           ]
         }
       ]
     }
   ]
 }
-
