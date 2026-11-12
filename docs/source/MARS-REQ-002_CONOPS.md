@@ -219,3 +219,4 @@ The software should collect relevant telemetry from individual agents, maintain 
 
 > **Use Case Scenario: Multi-Agent Performance Evaluation**
 > During scalability experiments, monitoring software collects information such as robot trajectories, communication statistics, task completion times, and individual agent states. Researchers can subsequently analyze these datasets to evaluate the performance and scalability of different multi-agent coordination algorithms.
+

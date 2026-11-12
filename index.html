@@ -878,24 +878,24 @@
           <strong>Dhamdhawach Horsuwan</strong>
         </div>
         <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
-          <a href="docs/latest/MARS-REQ-001_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
-            Open Latest PDF (MARS-REQ-001 v1.0)
+          <a href="docs/latest/MARS-REQ-002_v1.0.pdf" target="_blank" rel="noopener" class="btn btn-primary">
+            Open CONOPS PDF (MARS-REQ-002 v1.0)
           </a>
-          <button class="btn" type="button" onclick="openPdfModal('MARS-REQ-001: Stakeholder Needs and Requirements (v1.0)', 'docs/latest/MARS-REQ-001_v1.0.pdf')">
-            Preview PDF Inline
-          </button>
+          <a href="docs/latest/MARS-REQ-001_v1.0.pdf" target="_blank" rel="noopener" class="btn">
+            Open Stakeholder Needs PDF (MARS-REQ-001 v1.0)
+          </a>
           <a href="#document-registry" class="btn">Version History &amp; Registry</a>
         </div>
       </div>
 
       <div class="hero-stats">
         <div class="stat-box">
-          <span class="stat-value" id="stat-total-docs">1</span>
+          <span class="stat-value" id="stat-total-docs">2</span>
           <span class="stat-label">Active Specifications</span>
         </div>
         <div class="stat-box">
-          <span class="stat-value">8</span>
-          <span class="stat-label">Stakeholder Needs</span>
+          <span class="stat-value">7</span>
+          <span class="stat-label">CONOPS Areas</span>
         </div>
         <div class="stat-box">
           <span class="stat-value">PDF</span>
@@ -912,7 +912,7 @@
           <span>ACTIVE</span>
         </div>
         <div class="phase-step-title">Requirements Engineering</div>
-        <div class="phase-step-sub">Stakeholder Needs &amp; System Requirements</div>
+        <div class="phase-step-sub">Stakeholder Needs, CONOPS &amp; SRS</div>
       </div>
       <div class="phase-step">
         <div class="phase-step-num">
@@ -1105,6 +1105,34 @@ Added quantitative latency bounds for RN-02 decentralized coordination</textarea
         lastUpdated: "2026-11-12"
       },
       documents: [
+        {
+          id: "MARS-REQ-002",
+          title: "Concept of Operations (CONOPS): Requirements for a Mobile Robot Platform in MARS Research",
+          category: "REQ",
+          categoryName: "Requirements Engineering",
+          status: "Baseline",
+          author: "Dhamdhawach Horsuwan",
+          latestVersion: "v1.0",
+          latestFile: "docs/latest/MARS-REQ-002_v1.0.pdf",
+          sourceFile: "docs/source/MARS-REQ-002_CONOPS.md",
+          summary: "Defines the Concept of Operations (CONOPS) and operational use-case scenarios across 7 key platform areas: (1) Modularity and Extensibility, (2) Power Management, (3) Mobility and Manipulation, (4) Perception and Sensing, (5) Localization and State Estimation, (6) Multi-Agent Coordination and Communication, and (7) User Interface and Fleet Management.",
+          versions: [
+            {
+              version: "v1.0",
+              date: "2026-11-12",
+              author: "Dhamdhawach Horsuwan",
+              file: "docs/latest/MARS-REQ-002_v1.0.pdf",
+              isLatest: true,
+              changes: [
+                "Initial baseline release of Concept of Operations (CONOPS) specification (5-page PDF)",
+                "Established operational context and commercial-grade usability/accessibility objectives for MARS fleets",
+                "Defined Section 1 (Modularity & Extensibility) and Section 2 (Power Regulation, BMS Protection, Exchangeable Battery Module, Fleet Charging, Power On/Off Control)",
+                "Defined Section 3 (Holonomic/Closed-Loop Locomotion & Collaborative Manipulation), Section 4 (Environmental Perception & Reciprocal Collision Avoidance), and Section 5 (Pose Estimation)",
+                "Defined Section 6 (Peer-to-Peer Inter-Robot Communication & Decentralized Network Topology) and Section 7 (Fleet Monitoring, Onboard Display/Button UI, Status LEDs, Telemetry Logging)"
+              ]
+            }
+          ]
+        },
         {
           id: "MARS-REQ-001",
           title: "Stakeholder Needs and Requirements",

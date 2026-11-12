@@ -44,3 +44,4 @@ Researchers need to observe and evaluate the behavior of individual robots and t
 ## 8. Usability, Reproducibility, and Technology Transfer
 
 The platform should be accessible to researchers with different engineering and software backgrounds. Intuitive interfaces, straightforward configuration, accessible diagnostics, and simplified maintenance procedures can reduce the learning curve. These characteristics also support reproducibility, collaboration, and the transfer of the platform to other research groups.
+
