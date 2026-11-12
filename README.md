@@ -6,10 +6,10 @@
 - **Current Phase:** `Phase 01: Requirements Engineering`
 - **Primary Document Format:** `PDF` (with version history & change-list traceability)
 
-[![Current Phase](https://img.shields.io/badge/Phase-Requirements%20Engineering-blue?style=flat-square)](#project-status)
-[![Author](https://img.shields.io/badge/Author-Dhamdhawach%20Horsuwan-0284c7?style=flat-square)](#overview)
-[![Document Format](https://img.shields.io/badge/Format-PDF-red?style=flat-square)](#active-specifications)
-[![GitHub Pages](https://img.shields.io/badge/Portal-Launch%20Page-success?style=flat-square)](./index.html)
+[![Current Phase](https://img.shields.io/badge/Phase-Requirements%20Engineering-E97F1D?style=flat-square)](#project-status)
+[![Author](https://img.shields.io/badge/Author-Dhamdhawach%20Horsuwan-293952?style=flat-square)](#overview)
+[![Document Format](https://img.shields.io/badge/Format-PDF-379DC0?style=flat-square)](#active-specifications)
+[![GitHub Pages](https://img.shields.io/badge/Portal-Launch%20Page-293952?style=flat-square)](./index.html)
 
 ---
 
@@ -38,6 +38,19 @@ When new specification or design documents are committed, the **GitHub Pages Lau
 | **02** | Conceptual & Architecture Design | Planned | System Architecture & Interface Control (ICD) |
 | **03** | Detailed Hardware Design | Planned | Mechanical CAD, Schematics, PCB Layout, BOM |
 | **04** | Integration & Verification | Planned | Prototype Bring-up & Fleet Verification Reports |
+
+---
+
+## Platform Color Scheme
+
+The MARS hardware platform, documentation deliverables, and web portal follow a standardized industrial color palette:
+
+| Color | HEX | Application |
+| :--- | :--- | :--- |
+| **Arctic White** | `#F6F6F5` | Primary armor |
+| **Deep Navy** | `#293952` | Secondary armor |
+| **Research Blue** | `#379DC0` | Technical accents |
+| **Engineering Orange** | `#E97F1D` | Safety markings |
 
 ---
 
@@ -73,7 +86,7 @@ MARS-<CATEGORY>-<DOC_ID>_v<MAJOR>.<MINOR>.pdf
 ```
 
 - **`<CATEGORY>`**:
-  - `REQ` — Requirements Engineering (Research Needs, System & Hardware Requirements)
+  - `REQ` — Requirements Engineering (Stakeholder Needs, CONOPS, System & Hardware Requirements)
   - `ARC` — System Architecture & Interface Control (ICD)
   - `MEC` — Mechanical & Chassis Design
   - `ELE` — Electrical, Power & PCB Design
@@ -82,12 +95,12 @@ MARS-<CATEGORY>-<DOC_ID>_v<MAJOR>.<MINOR>.pdf
   - `MAJOR`: Approved baseline release
   - `MINOR`: Iterative review draft or incremental update
 
-### Traceability Workflow (Adding or Updating a Document)
+### Traceability Workflow (Adding or Updating a Document via Git)
 
 1. **Place the new PDF** in `docs/latest/` (and move superseded versions to `docs/archive/`).
-2. **Record the revision** in `documents.json` (or use the **+ New Revision Entry** button on `index.html`) with:
+2. **Record the revision** in `documents.json` with:
    - Version number and release date
    - Author (`Dhamdhawach Horsuwan`)
    - Detailed **Change List** summarizing added, modified, or refined requirements
    - Links to both the **latest PDF** and **archived versions**
-3. **Commit and push** to the main branch. The GitHub Pages Launch Portal will automatically reflect the new release while maintaining full historical links.
+3. **Commit and push** via Git to the `main` branch. The GitHub Pages Launch Portal will automatically reflect the new release while maintaining full historical links.

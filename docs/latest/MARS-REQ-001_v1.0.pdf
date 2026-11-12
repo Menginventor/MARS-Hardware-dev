@@ -16,67 +16,73 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
 endobj
 6 0 obj
-<< /Length 9164 >>
+<< /Length 9672 >>
 stream
-0.010 0.520 0.780 rg
+0.216 0.616 0.753 rg
 BT /F2 8.00 Tf 42.00 801.89 Td (MULTI-AGENT ROBOTIC SYSTEMS \(MARS\)  |  HARDWARE PLATFORM DEVELOPMENT) Tj ET
-0.200 0.250 0.330 rg
+0.161 0.224 0.322 rg
 BT /F2 8.50 Tf 448.28 801.89 Td (DOC ID: MARS-REQ-001) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 18.00 Tf 42.00 781.89 Td (Stakeholder Needs and Requirements) Tj ET
-0.280 0.330 0.410 rg
+0.161 0.224 0.322 rg
 BT /F1 8.50 Tf 448.28 783.89 Td (VERSION: v1.0 \(Baseline\)) Tj ET
-0.010 0.520 0.780 RG
-1.80 w 42.00 772.89 m 553.28 772.89 l S
-0.960 0.970 0.990 rg
-0.790 0.840 0.880 RG
+0.216 0.616 0.753 RG
+2.00 w 42.00 772.89 m 553.28 772.89 l S
+0.914 0.498 0.114 rg
+1.00 w
+42.00 772.09 70.00 2.40 re f
+0.965 0.965 0.961 rg
+0.800 0.830 0.870 RG
 0.70 w
 42.00 730.89 511.28 34.00 re B
 0.60 w 42.00 747.89 m 553.28 747.89 l S
 0.60 w 297.64 730.89 m 297.64 764.89 l S
-0.200 0.250 0.330 rg
+0.161 0.224 0.322 rg
 BT /F2 8.50 Tf 50.00 751.89 Td (Author:) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 8.80 Tf 94.00 751.89 Td (Dhamdhawach Horsuwan) Tj ET
-0.200 0.250 0.330 rg
+0.161 0.224 0.322 rg
 BT /F2 8.50 Tf 305.64 751.89 Td (Document ID:) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F1 8.50 Tf 369.64 751.89 Td (MARS-REQ-001 \(v1.0\)) Tj ET
-0.200 0.250 0.330 rg
+0.161 0.224 0.322 rg
 BT /F2 8.50 Tf 50.00 735.89 Td (Phase:) Tj ET
-0.060 0.090 0.160 rg
-BT /F1 8.50 Tf 94.00 735.89 Td (Requirements Engineering) Tj ET
-0.200 0.250 0.330 rg
+0.914 0.498 0.114 rg
+BT /F2 8.50 Tf 94.00 735.89 Td (Requirements Engineering) Tj ET
+0.161 0.224 0.322 rg
 BT /F2 8.50 Tf 305.64 735.89 Td (Release Date:) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F1 8.50 Tf 369.64 735.89 Td (2026-11-12) Tj ET
-0.970 0.980 1.000 rg
-0.850 0.900 0.950 RG
+0.965 0.965 0.961 rg
+0.216 0.616 0.753 RG
 0.60 w
 42.00 648.09 511.28 72.80 re B
-0.010 0.520 0.780 rg
+0.161 0.224 0.322 rg
 1.00 w
-42.00 648.09 3.00 72.80 re f
-0.120 0.160 0.230 rg
+42.00 648.09 3.50 72.80 re f
+0.160 0.220 0.320 rg
 BT /F1 9.20 Tf 53.00 707.89 Td (Multi-Agent Robotic Systems \(MARS\) research requires a mobile robot platform capable of supporting) Tj ET
-0.120 0.160 0.230 rg
+0.160 0.220 0.320 rg
 BT /F1 9.20 Tf 53.00 695.69 Td (experiments involving multiple autonomous agents operating and interacting within a shared environment. Unlike) Tj ET
-0.120 0.160 0.230 rg
+0.160 0.220 0.320 rg
 BT /F1 9.20 Tf 53.00 683.49 Td (single-robot research, multi-agent experiments introduce additional challenges related to fleet scalability,) Tj ET
-0.120 0.160 0.230 rg
+0.160 0.220 0.320 rg
 BT /F1 9.20 Tf 53.00 671.29 Td (inter-robot communication, distributed coordination, hardware consistency, and fleet-level operation.) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 9.20 Tf 53.00 657.09 Td (Based on practical experience operating a four-robot team, the following research needs have been identified:) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 579.29 511.28 60.80 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 579.29 2.50 60.80 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 622.59 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 625.09 Td (RN-01) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 625.09 Td (1. Scalability of Multi-Agent Experiments) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 611.59 Td (The platform should support experiments involving different fleet sizes, allowing researchers to investigate how) Tj ET
@@ -85,15 +91,18 @@ BT /F1 9.00 Tf 52.00 599.99 Td (the number of agents affects coordination perfor
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 588.39 Td (behavior. The platform should also be cost-effective enough to enable the deployment of larger robot teams.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 512.99 511.28 60.80 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 512.99 2.50 60.80 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 556.29 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 558.79 Td (RN-02) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 558.79 Td (2. Decentralized Coordination and Communication) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 545.29 Td (The platform should support research into decentralized multi-agent architectures in which robots exchange) Tj ET
@@ -102,15 +111,18 @@ BT /F1 9.00 Tf 52.00 533.69 Td (information and make decisions autonomously. It 
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 522.09 Td (dynamic network topologies without requiring a centralized decision-making server.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 435.09 511.28 72.40 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 435.09 2.50 72.40 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 489.99 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 492.49 Td (RN-03) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 492.49 Td (3. Consistent and Predictable Robot Behavior) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 478.99 Td (Robots operating as a team should exhibit sufficiently consistent locomotion, sensing, and state estimation) Tj ET
@@ -121,15 +133,18 @@ BT /F1 9.00 Tf 52.00 455.79 Td (coordination and experimental results. Therefore
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 444.19 Td (robot behavior.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 368.79 511.28 60.80 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 368.79 2.50 60.80 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 412.09 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 414.59 Td (RN-04) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 414.59 Td (4. Adaptability to Different Research Problems) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 401.09 Td (MARS research involves diverse algorithms, sensors, actuators, and experimental configurations. The platform) Tj ET
@@ -138,15 +153,18 @@ BT /F1 9.00 Tf 52.00 389.49 Td (should allow researchers to modify or extend har
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 377.89 Td (robot, supporting interdisciplinary collaboration and reuse across research projects.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 290.89 511.28 72.40 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 290.89 2.50 72.40 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 345.79 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 348.29 Td (RN-05) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 348.29 Td (5. Reliable Long-Term and Fleet-Level Operation) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 334.79 Td (Multi-agent experiments require multiple robots to operate concurrently, often over extended periods. The) Tj ET
@@ -157,15 +175,18 @@ BT /F1 9.00 Tf 52.00 311.59 Td (replacement, and efficient fleet charging. It sh
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 299.99 Td (grows.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 224.59 511.28 60.80 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 224.59 2.50 60.80 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 267.89 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 270.39 Td (RN-06) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 270.39 Td (6. Environmental Awareness and Physical Interaction) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 256.89 Td (The platform should support research involving navigation, obstacle avoidance, collision avoidance, and physical) Tj ET
@@ -174,15 +195,18 @@ BT /F1 9.00 Tf 52.00 245.29 Td (interaction with the environment. Depending on t
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 233.69 Td (cooperatively or use interchangeable manipulation attachments.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 158.29 511.28 60.80 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 158.29 2.50 60.80 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 201.59 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 204.09 Td (RN-07) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 204.09 Td (7. Experimental Monitoring and Data Collection) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 190.59 Td (Researchers need to observe and evaluate the behavior of individual robots and the entire fleet. The platform) Tj ET
@@ -191,15 +215,18 @@ BT /F1 9.00 Tf 52.00 178.99 Td (should support centralized monitoring, telemetry
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 167.39 Td (allowing the robots' internal decision-making processes to remain decentralized.) Tj ET
 1.000 1.000 1.000 rg
-0.860 0.890 0.930 RG
+0.840 0.870 0.900 RG
 0.60 w
 42.00 80.39 511.28 72.40 re B
-0.880 0.950 0.990 rg
+0.216 0.616 0.753 rg
+1.00 w
+42.00 80.39 2.50 72.40 re f
+0.161 0.224 0.322 rg
 1.00 w
 51.00 135.29 34.00 12.00 re f
-0.010 0.410 0.630 rg
+0.965 0.965 0.961 rg
 BT /F2 7.80 Tf 55.00 137.79 Td (RN-08) Tj ET
-0.060 0.090 0.160 rg
+0.161 0.224 0.322 rg
 BT /F2 10.00 Tf 91.00 137.79 Td (8. Usability, Reproducibility, and Technology Transfer) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 124.29 Td (The platform should be accessible to researchers with different engineering and software backgrounds. Intuitive) Tj ET
@@ -209,11 +236,11 @@ BT /F1 9.00 Tf 52.00 112.69 Td (interfaces, straightforward configuration, acces
 BT /F1 9.00 Tf 52.00 101.09 Td (reduce the learning curve. These characteristics also support reproducibility, collaboration, and the transfer of) Tj ET
 0.200 0.250 0.330 rg
 BT /F1 9.00 Tf 52.00 89.49 Td (the platform to other research groups.) Tj ET
-0.790 0.840 0.880 RG
-0.70 w 42.00 36.00 m 553.28 36.00 l S
-0.390 0.450 0.550 rg
-BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Requirements Engineering Specification) Tj ET
-0.390 0.450 0.550 rg
+0.216 0.616 0.753 RG
+0.80 w 42.00 36.00 m 553.28 36.00 l S
+0.161 0.224 0.322 rg
+BT /F1 8.00 Tf 42.00 26.00 Td (MARS-Hardware-dev  |  Stakeholder Needs and Requirements) Tj ET
+0.161 0.224 0.322 rg
 BT /F1 8.00 Tf 343.28 26.00 Td (Author: Dhamdhawach Horsuwan  |  Page 1 of 1) Tj ET
 endstream
 endobj
@@ -229,9 +256,9 @@ xref
 0000000263 00000 n 
 0000000360 00000 n 
 0000000462 00000 n 
-0000009678 00000 n 
+0000010186 00000 n 
 trailer
 << /Size 8 /Root 1 0 R /Info 7 0 R >>
 startxref
-9852
+10360
 %%EOF
